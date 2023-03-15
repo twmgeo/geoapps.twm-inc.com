@@ -818,7 +818,7 @@
       },
       "id": "widget_40",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/bookmark/icon.svg",
+        "svg": "widgets/arcgis/bookmark/icon.svg",
         "properties": {
           "filename": "Bookmark",
           "originalName": null,
