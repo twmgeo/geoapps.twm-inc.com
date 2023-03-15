@@ -618,7 +618,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/search/icon.svg",
+        "svg": "widgets/common/search/icon.svg",
         "properties": {
           "filename": "search.svg",
           "originalName": "default/search.svg",
@@ -836,7 +836,7 @@
       "uri": "widgets/arcgis/map-layers/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/map-layers/icon.svg",
+        "svg": "widgets/arcgis/map-layers/icon.svg",
         "properties": {
           "filename": "Map Layers",
           "originalName": null,
@@ -861,7 +861,7 @@
       "uri": "widgets/common/table/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/table/icon.svg",
+        "svg": "widgets/common/table/icon.svg",
         "properties": {
           "filename": "table.svg",
           "originalName": "default/table.svg",
@@ -4003,7 +4003,7 @@
       "uri": "widgets/arcgis/legend/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/legend/icon.svg",
+        "svg": "widgets/arcgis/legend/icon.svg",
         "properties": {
           "filename": "Legend",
           "originalName": null,
@@ -4148,7 +4148,7 @@
       "uri": "widgets/common/print/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/print/icon.svg",
+        "svg": "widgets/common/print/icon.svg",
         "properties": {
           "filename": "Print",
           "originalName": null,
@@ -4980,7 +4980,7 @@
       "uri": "widgets/arcgis/draw/",
       "version": "1.6.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/draw/icon.svg",
+        "svg": "widgets/arcgis/draw/icon.svg",
         "properties": {
           "filename": "Draw",
           "originalName": null,
@@ -5114,7 +5114,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/controller/icon.svg",
+        "svg": "widgets/common/controller/icon.svg",
         "properties": {
           "filename": "Widget Controller",
           "originalName": null,
@@ -5135,7 +5135,7 @@
       "uri": "widgets/common/edit/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/edit/icon.svg",
+        "svg": "widgets/common/edit/icon.svg",
         "properties": {
           "filename": "Edit",
           "originalName": null,
