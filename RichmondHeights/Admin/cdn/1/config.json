@@ -105,22 +105,22 @@
           "type": "WIDGET",
           "bbox": {
             "left": "50%",
-            "right": "35.0%",
+            "right": "60.00px",
             "top": "50%",
             "bottom": "21.7%",
-            "width": "31.3%",
+            "width": "25.00%",
             "height": "34px"
           },
           "widgetId": "widget_6",
           "setting": {
             "autoProps": {
-              "left": false,
-              "right": true,
+              "left": true,
+              "right": false,
               "top": false,
               "bottom": true
             },
             "vCenter": true,
-            "hCenter": true
+            "hCenter": false
           }
         }
       }
@@ -296,7 +296,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_43",
+          "widgetId": "widget_41",
           "bbox": {
             "left": 0,
             "top": 0,
@@ -838,9 +838,9 @@
       "icon": {
         "svg": "widgets/arcgis/map-layers/icon.svg",
         "properties": {
-          "filename": "Map Layers",
-          "originalName": null,
-          "path": null,
+          "filename": "map-layers.svg",
+          "originalName": "default/map-layers.svg",
+          "path": "default/map-layers.svg",
           "color": "var(--dark-800)",
           "size": 16,
           "inlineSvg": true
@@ -20324,6 +20324,36 @@
           "useDataSources": []
         }
       ]
+    },
+    "messageConfig_6": {
+      "id": "messageConfig_6",
+      "widgetId": "widget_6",
+      "messageType": "DATA_RECORD_SET_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_37-zoomToFeature-1678908276616",
+          "widgetId": "widget_37",
+          "messageWidgetId": "widget_6",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "widget_6_output_config_0",
+              "mainDataSourceId": "widget_6_output_config_0",
+              "rootDataSourceId": null
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "widget_6_output_config_0",
+                "mainDataSourceId": "widget_6_output_config_0",
+                "rootDataSourceId": null
+              }
+            ]
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
     }
   },
   "attributes": {
@@ -20506,5 +20536,5 @@
       }
     }
   },
-  "timestamp": 1678898286451
+  "timestamp": 1678908300140
 }
