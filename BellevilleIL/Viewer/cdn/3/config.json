@@ -518,7 +518,6 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><a href=\"https://belleville.net/\" target=\"_blank\" data-uniqueid=\"45a16bc7_46dd_f0cc_9e51_d6ab51a5ac9b\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fbelleville.net%2F%22%2C%22expression%22%3Anull%7D\" style=\"color: var(--light); font-size: 20px;\">Belleville, IL</a><span style=\"color: var(--light); font-size: 20px;\"> GIS | Viewer</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -651,7 +650,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/search/icon.svg",
+        "svg": "widgets/common/search/icon.svg",
         "properties": {
           "filename": "search.svg",
           "originalName": "default/search.svg",
@@ -878,7 +877,7 @@
       },
       "id": "widget_40",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/bookmark/icon.svg",
+        "svg": "widgets/arcgis/bookmark/icon.svg",
         "properties": {
           "filename": "Bookmark",
           "originalName": null,
@@ -896,7 +895,7 @@
       "uri": "widgets/arcgis/map-layers/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/arcgis/map-layers/icon.svg",
+        "svg": "widgets/arcgis/map-layers/icon.svg",
         "properties": {
           "filename": "map-layers.svg",
           "originalName": "default/map-layers.svg",
@@ -921,7 +920,7 @@
       "uri": "widgets/common/table/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/table/icon.svg",
+        "svg": "widgets/common/table/icon.svg",
         "properties": {
           "filename": "table.svg",
           "originalName": "default/table.svg",
@@ -3898,7 +3897,7 @@
       "uri": "widgets/arcgis/legend/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/legend/icon.svg",
+        "svg": "widgets/arcgis/legend/icon.svg",
         "properties": {
           "filename": "Legend",
           "originalName": null,
@@ -4043,7 +4042,7 @@
       "uri": "widgets/common/print/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/print/icon.svg",
+        "svg": "widgets/common/print/icon.svg",
         "properties": {
           "filename": "Print",
           "originalName": null,
@@ -4875,7 +4874,7 @@
       "uri": "widgets/arcgis/draw/",
       "version": "1.6.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/draw/icon.svg",
+        "svg": "widgets/arcgis/draw/icon.svg",
         "properties": {
           "filename": "Draw",
           "originalName": null,
@@ -4958,7 +4957,6 @@
       "label": "Text",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿Disclaimer</strong></p>",
-        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -4972,7 +4970,6 @@
       "label": "Text 2",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800);\">The information contained herein is for reference purposes only, and must not be relied upon as a substitute for a professional land survey or title search. The City of Belleville and TWM, Inc. assume no responsibility for any use of the information contained herein or any loss resulting therefrom. Users of the City of Belleville GIS site assume all risk and liability when accessing any third party site linked to this site.</span></p><p><br></p><p>All data is subject to change.</p>",
-        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5016,7 +5013,7 @@
         "LARGE": "layout_30"
       },
       "index": 0,
-      "isSplash": false,
+      "isSplash": true,
       "label": "Window"
     }
   },
@@ -5171,7 +5168,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Belleville IL (City) Viewer",
+    "description": "Viewer app for the City of Belleville, IL - 220435",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1680810309207.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -5344,5 +5347,5 @@
       }
     }
   },
-  "timestamp": 1680879522054
+  "timestamp": 1680893531562
 }
