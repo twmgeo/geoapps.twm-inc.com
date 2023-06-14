@@ -1,0 +1,5348 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page",
+      "header": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0px",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_37",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "2"
+      ]
+    },
+    "layout_5": {
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "30.00px",
+            "right": "89.2%",
+            "top": "50%",
+            "bottom": "20.0%",
+            "width": "112px",
+            "height": "48px"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "160px",
+            "right": "62.8%",
+            "top": "50%",
+            "bottom": "14.8%",
+            "width": "316px",
+            "height": "36.00px"
+          },
+          "widgetId": "widget_5",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "60.00px",
+            "top": "50%",
+            "bottom": "21.7%",
+            "width": "25.00%",
+            "height": "34px"
+          },
+          "widgetId": "widget_6",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_20": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "content": {
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "67px",
+            "width": "230px",
+            "height": "5.7%",
+            "top": "6px",
+            "right": "560px",
+            "bottom": "689px"
+          },
+          "widgetId": "widget_39",
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "8": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20.00px",
+            "right": "6.00px",
+            "top": "250.00px",
+            "bottom": "196.00px",
+            "width": "50px",
+            "height": "51px"
+          },
+          "widgetId": "widget_47",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "9": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "49px",
+            "height": "136px",
+            "top": "374px",
+            "right": "7.00px",
+            "left": "93.6%",
+            "bottom": "227px"
+          },
+          "widgetId": "widget_55",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "5",
+        "8",
+        "9"
+      ]
+    },
+    "layout_21": {
+      "label": "Controller layout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "400px",
+            "top": "0px",
+            "bottom": "54px",
+            "width": "400px",
+            "height": "54px"
+          },
+          "widgetId": "widget_40"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "8px",
+            "right": "52px",
+            "top": "0px",
+            "bottom": "44px",
+            "width": "50px",
+            "height": "172px"
+          },
+          "widgetId": "widget_41",
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "68px",
+            "right": "112px",
+            "top": "1px",
+            "bottom": "45px",
+            "width": "50px",
+            "height": "174px"
+          },
+          "widgetId": "widget_43",
+          "isPending": false
+        },
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "64px",
+            "right": "108px",
+            "top": "3px",
+            "bottom": "47px",
+            "width": "317px",
+            "height": "50px"
+          },
+          "widgetId": "widget_45",
+          "isPending": false
+        }
+      },
+      "order": [
+        "1",
+        "5",
+        "0",
+        "3"
+      ]
+    },
+    "layout_22": {
+      "label": "Open widget layout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_41",
+          "bbox": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_23": {
+      "type": "FIXED",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "33.7%",
+            "top": "0.0%",
+            "bottom": "63.5%",
+            "width": "100.00%",
+            "height": "100.00%"
+          },
+          "widgetId": "widget_48",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_28": {
+      "label": "Controller layout",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "50px",
+            "top": "0px",
+            "bottom": "172px",
+            "width": "50px",
+            "height": "172px"
+          },
+          "widgetId": "widget_58"
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "50px",
+            "top": "0px",
+            "bottom": "217px",
+            "width": "50px",
+            "height": "217px"
+          },
+          "widgetId": "widget_60",
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        }
+      },
+      "order": [
+        "2",
+        "4"
+      ]
+    },
+    "layout_29": {
+      "label": "Open widget layout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_58",
+          "bbox": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true
+            },
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_30": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "lockParent": false,
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "20px",
+            "top": "16px",
+            "width": "94.4%",
+            "height": "55.5%",
+            "right": "20px",
+            "bottom": "40.8%"
+          },
+          "widgetId": "widget_61",
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "bottom": false,
+              "top": true,
+              "width": "AUTO"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": false
+          },
+          "bbox": {
+            "left": "20px",
+            "top": "61.5%",
+            "width": "82px",
+            "height": "30px",
+            "right": "607px",
+            "bottom": "31.5%"
+          },
+          "widgetId": "widget_62",
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "bottom": false,
+              "top": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false
+          },
+          "bbox": {
+            "left": "20px",
+            "top": "71.1%",
+            "width": "94.4%",
+            "height": "28.9%",
+            "right": "20px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_63",
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    }
+  },
+  "exbVersion": "1.10.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/ink/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_4": {
+      "uri": "widgets/common/image/",
+      "version": "1.10.0",
+      "label": "TWM Logo (image)",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_4/1678112002687.png",
+            "originalUrl": "${appResourceUrl}/images/widget_4/1678112002687.png",
+            "fileName": "1678112002687.png",
+            "originalName": "TWM_CMYK_white_buffer_xs.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1678112002687",
+            "isUseCompress": false,
+            "originalWidth": 150,
+            "originalHeight": 63
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_4"
+    },
+    "widget_5": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Title of App (text)",
+      "config": {
+        "text": "<p><a href=\"https://belleville.net/\" target=\"_blank\" data-uniqueid=\"45a16bc7_46dd_f0cc_9e51_d6ab51a5ac9b\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fbelleville.net%2F%22%2C%22expression%22%3Anull%7D\" style=\"color: var(--light); font-size: 20px;\">Belleville, IL</a><span style=\"color: var(--light); font-size: 20px;\"> GIS | Viewer</span></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_5"
+    },
+    "widget_6": {
+      "uri": "widgets/common/search/",
+      "version": "1.10.0",
+      "label": "Search",
+      "config": {
+        "searchResultView": "Other_Widgets",
+        "arrangementStyle": "Style1",
+        "maxSuggestions": 8,
+        "recentSearchesMaxNumber": 4,
+        "resultMaxNumber": 6,
+        "datasourceConfig": [
+          {
+            "configId": "config_0",
+            "icon": null,
+            "label": "ArcGIS World Geocoding Service",
+            "hint": "",
+            "useUtility": {
+              "utilityId": "utility_1"
+            },
+            "searchServiceType": "GeocodeService",
+            "singleLineFieldName": "SingleLine",
+            "isSupportSuggest": true,
+            "outputDataSourceId": "widget_6_output_config_0",
+            "addressFields": [
+              {
+                "jimuName": "Default Address",
+                "alias": "Default Address",
+                "type": "STRING",
+                "name": "Default Address"
+              },
+              {
+                "jimuName": "Address or Place",
+                "alias": "Address or Place",
+                "type": "STRING",
+                "name": "Address or Place"
+              },
+              {
+                "jimuName": "Address2",
+                "alias": "Address2",
+                "type": "STRING",
+                "name": "Address2"
+              },
+              {
+                "jimuName": "Address3",
+                "alias": "Address3",
+                "type": "STRING",
+                "name": "Address3"
+              },
+              {
+                "jimuName": "Neighborhood",
+                "alias": "Neighborhood",
+                "type": "STRING",
+                "name": "Neighborhood"
+              },
+              {
+                "jimuName": "City",
+                "alias": "City",
+                "type": "STRING",
+                "name": "City"
+              },
+              {
+                "jimuName": "County",
+                "alias": "County",
+                "type": "STRING",
+                "name": "County"
+              },
+              {
+                "jimuName": "State",
+                "alias": "State",
+                "type": "STRING",
+                "name": "State"
+              },
+              {
+                "jimuName": "ZIP",
+                "alias": "ZIP",
+                "type": "STRING",
+                "name": "ZIP"
+              },
+              {
+                "jimuName": "ZIP4",
+                "alias": "ZIP4",
+                "type": "STRING",
+                "name": "ZIP4"
+              },
+              {
+                "jimuName": "Country",
+                "alias": "Country",
+                "type": "STRING",
+                "name": "Country"
+              }
+            ],
+            "displayFields": [
+              {
+                "jimuName": "Default Address",
+                "alias": "Default Address",
+                "type": "STRING",
+                "name": "Default Address"
+              }
+            ],
+            "defaultAddressFieldName": "Default Address"
+          }
+        ],
+        "isUseCurrentLoation": true,
+        "isShowRecentSearches": true
+      },
+      "id": "widget_6",
+      "useDataSources": [],
+      "outputDataSources": [
+        "widget_6_output_config_0"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_1"
+        }
+      ],
+      "style": {
+        "background": {
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          },
+          "color": ""
+        }
+      },
+      "icon": {
+        "svg": "https://localhost:3001/builder/../widgets/common/search/icon.svg",
+        "properties": {
+          "filename": "search.svg",
+          "originalName": "default/search.svg",
+          "path": "default/search.svg",
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": true
+        }
+      }
+    },
+    "widget_37": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.10.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": true,
+          "canBaseMap": true,
+          "canLayers": false,
+          "canScaleBar": true,
+          "canSelect": false,
+          "canSelectState": false,
+          "canMeasure": true,
+          "canCompass": false,
+          "canLocate": true
+        },
+        "isUseCustomMapState": true,
+        "layoutIndex": 1,
+        "initialMapDataSourceID": "dataSource_3",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 144447.638572,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -10019920.462010618,
+              "y": 4653579.933433289
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -10040214.493020305,
+            "ymin": 4641770.412563245,
+            "xmax": -9999626.431000931,
+            "ymax": 4665389.454303333
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        }
+      },
+      "id": "widget_37",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_20"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_3",
+          "mainDataSourceId": "dataSource_3"
+        }
+      ]
+    },
+    "widget_39": {
+      "uri": "widgets/common/controller/",
+      "version": "1.10.0",
+      "label": "Widget Controller (top left)",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [
+            "widget_41"
+          ],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {
+            "widget_26": {
+              "width": 319,
+              "height": 584
+            },
+            "widget_29": {
+              "width": 360,
+              "height": 657
+            },
+            "widget_30": {
+              "width": 380,
+              "height": 556
+            },
+            "widget_33": {
+              "width": 1259,
+              "height": 603
+            },
+            "widget_34": {
+              "width": 450,
+              "height": 150
+            },
+            "widget_41": {
+              "width": 295,
+              "height": 497
+            },
+            "widget_45": {
+              "width": 320,
+              "height": 665
+            },
+            "widget_40": {
+              "width": 300,
+              "height": 347
+            },
+            "widget_43": {
+              "width": 1091,
+              "height": 565
+            }
+          }
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "rectangle"
+            },
+            "variant": {
+              "default": {
+                "color": "",
+                "bg": "var(--light-100)",
+                "border": {
+                  "color": "#98012e",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--info-100)",
+                "color": ""
+              },
+              "active": {
+                "bg": "var(--info-200)",
+                "color": "#080808",
+                "bold": false
+              },
+              "disabled": {
+                "color": "#8b8b8b",
+                "bg": "#e3e3e3",
+                "border": {
+                  "color": "#e3e3e3"
+                }
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_39",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_21"
+        },
+        "_openwidget": {
+          "LARGE": "layout_22"
+        }
+      },
+      "style": {
+        "background": {
+          "color": null,
+          "fillType": "fill"
+        },
+        "borderRadius": null
+      }
+    },
+    "widget_40": {
+      "uri": "widgets/arcgis/bookmark/",
+      "version": "1.10.0",
+      "label": "Bookmarks",
+      "config": {
+        "templateType": "LIST",
+        "isTemplateConfirm": true,
+        "isInitialed": true,
+        "bookmarks": [],
+        "initBookmark": false,
+        "runtimeAddAllow": true,
+        "autoPlayAllow": false,
+        "autoInterval": 3,
+        "autoLoopAllow": true,
+        "style": {
+          "id": "default"
+        },
+        "direction": "HORIZON",
+        "pageStyle": "PAGING",
+        "space": 10,
+        "scrollBarOpen": true,
+        "navigatorOpen": false,
+        "transition": "None",
+        "transitionDirection": "H",
+        "displayType": "SELECTED",
+        "itemHeight": 240,
+        "itemWidth": 240,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "effect": {
+            "type": "None",
+            "option": {
+              "direction": "TOP",
+              "configType": "DEFAULT"
+            }
+          },
+          "oneByOneEffect": null,
+          "previewId": null
+        },
+        "displayFromWeb": true
+      },
+      "id": "widget_40",
+      "icon": {
+        "svg": "https://localhost:3001/experience/../widgets/arcgis/bookmark/icon.svg",
+        "properties": {
+          "filename": "Bookmark",
+          "originalName": null,
+          "path": null,
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "useMapWidgetIds": [
+        "widget_37"
+      ]
+    },
+    "widget_41": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.10.0",
+      "icon": {
+        "svg": "https://localhost:3001/builder/../widgets/arcgis/map-layers/icon.svg",
+        "properties": {
+          "filename": "map-layers.svg",
+          "originalName": "default/map-layers.svg",
+          "path": "default/map-layers.svg",
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Map Layers",
+      "config": {
+        "useMapWidget": true,
+        "label": true,
+        "setVisibility": true
+      },
+      "id": "widget_41",
+      "useMapWidgetIds": [
+        "widget_37"
+      ]
+    },
+    "widget_43": {
+      "uri": "widgets/common/table/",
+      "version": "1.10.0",
+      "icon": {
+        "svg": "https://localhost:3001/builder/../widgets/common/table/icon.svg",
+        "properties": {
+          "filename": "table.svg",
+          "originalName": "default/table.svg",
+          "path": "default/table.svg",
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Table",
+      "config": {
+        "layersConfig": [
+          {
+            "id": "dataSource_2-186e601cf9e-layer-124-186a8539be1-layer-72-1",
+            "name": "Internal Projects - 2023",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-186e601cf9e-layer-124-186a8539be1-layer-72",
+              "mainDataSourceId": "dataSource_2-186e601cf9e-layer-124-186a8539be1-layer-72",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "Type",
+                "StartDate",
+                "FinishDate",
+                "Notes",
+                "created_user",
+                "created_date",
+                "last_edited_user",
+                "last_edited_date"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null
+              },
+              {
+                "jimuName": "StartDate",
+                "name": "StartDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "StartDate",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "FinishDate",
+                "name": "FinishDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "FinishDate",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "created_user",
+                "format": null
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "created_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "last_edited_user",
+                "format": null
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "last_edited_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "GlobalID",
+                "name": "GlobalID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGlobalID",
+                "alias": "GlobalID",
+                "format": null
+              },
+              {
+                "jimuName": "Shape__Area",
+                "name": "Shape__Area",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STArea()",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Shape__Length",
+                "name": "Shape__Length",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STLength()",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "StartDate",
+                "name": "StartDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "StartDate",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "FinishDate",
+                "name": "FinishDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "FinishDate",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "created_user",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "created_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "last_edited_user",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "last_edited_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachements": false,
+            "enableEdit": true,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": "",
+            "enableRefresh": true,
+            "enableSelect": true,
+            "selectMode": "SINGLE"
+          },
+          {
+            "id": "dataSource_2-186e602fc0d-layer-125-186a8539bdb-layer-48-3",
+            "name": "Contractor Projects - 2023",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-186e602fc0d-layer-125-186a8539bdb-layer-48",
+              "mainDataSourceId": "dataSource_2-186e602fc0d-layer-125-186a8539bdb-layer-48",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "Type",
+                "Contractor",
+                "StartDate",
+                "FinishDate",
+                "Cost",
+                "Notes",
+                "created_user",
+                "created_date",
+                "last_edited_user",
+                "last_edited_date"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null
+              },
+              {
+                "jimuName": "Contractor",
+                "name": "Contractor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contractor",
+                "format": null
+              },
+              {
+                "jimuName": "StartDate",
+                "name": "StartDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Start Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "FinishDate",
+                "name": "FinishDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Finish Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Cost",
+                "name": "Cost",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Cost",
+                "format": null
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "created_user",
+                "format": null
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "created_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "last_edited_user",
+                "format": null
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "last_edited_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "GlobalID",
+                "name": "GlobalID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGlobalID",
+                "alias": "GlobalID",
+                "format": null
+              },
+              {
+                "jimuName": "Shape__Area",
+                "name": "Shape__Area",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STArea()",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Shape__Length",
+                "name": "Shape__Length",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STLength()",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Contractor",
+                "name": "Contractor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contractor",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "StartDate",
+                "name": "StartDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Start Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "FinishDate",
+                "name": "FinishDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Finish Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Cost",
+                "name": "Cost",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Cost",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "created_user",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "created_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "last_edited_user",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "last_edited_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachements": false,
+            "enableEdit": true,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": "",
+            "enableRefresh": true,
+            "enableSelect": true,
+            "selectMode": "SINGLE"
+          },
+          {
+            "id": "dataSource_2-186e60488af-layer-126-186a8539bdb-layer-47-5",
+            "name": "Special Use Permit - 2023",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-186e60488af-layer-126-186a8539bdb-layer-47",
+              "mainDataSourceId": "dataSource_2-186e60488af-layer-126-186a8539bdb-layer-47",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "PermitNo",
+                "Completed",
+                "NameContractor",
+                "ContactName",
+                "PhoneNo",
+                "Email",
+                "SiteAddress",
+                "DescriptionWork",
+                "IssueDate",
+                "ExpirationDate",
+                "SiteVisitDate",
+                "InspectionDate",
+                "FinalInspectionDate",
+                "PermitFee",
+                "EscrowFee",
+                "PaymentType",
+                "ReturnedEscrowAmt",
+                "DateEscrowRet",
+                "PermitComments",
+                "created_user",
+                "created_date",
+                "last_edited_user",
+                "last_edited_date"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "PermitNo",
+                "name": "PermitNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Number",
+                "format": null
+              },
+              {
+                "jimuName": "Completed",
+                "name": "Completed",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Completed?",
+                "format": null
+              },
+              {
+                "jimuName": "NameContractor",
+                "name": "NameContractor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name/Contractor",
+                "format": null
+              },
+              {
+                "jimuName": "ContactName",
+                "name": "ContactName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null
+              },
+              {
+                "jimuName": "PhoneNo",
+                "name": "PhoneNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone Number",
+                "format": null
+              },
+              {
+                "jimuName": "Email",
+                "name": "Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Email",
+                "format": null
+              },
+              {
+                "jimuName": "SiteAddress",
+                "name": "SiteAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Site Address",
+                "format": null
+              },
+              {
+                "jimuName": "DescriptionWork",
+                "name": "DescriptionWork",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description of Work",
+                "format": null
+              },
+              {
+                "jimuName": "IssueDate",
+                "name": "IssueDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Issue Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "ExpirationDate",
+                "name": "ExpirationDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Expiration Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "SiteVisitDate",
+                "name": "SiteVisitDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Site Visit Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "InspectionDate",
+                "name": "InspectionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Inspection Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "FinalInspectionDate",
+                "name": "FinalInspectionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Final Inspection Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "PermitFee",
+                "name": "PermitFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Fee",
+                "format": null
+              },
+              {
+                "jimuName": "EscrowFee",
+                "name": "EscrowFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Escrow Fee",
+                "format": null
+              },
+              {
+                "jimuName": "PaymentType",
+                "name": "PaymentType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Payment Type",
+                "format": null
+              },
+              {
+                "jimuName": "ReturnedEscrowAmt",
+                "name": "ReturnedEscrowAmt",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Returned Escrow Amount",
+                "format": null
+              },
+              {
+                "jimuName": "DateEscrowRet",
+                "name": "DateEscrowRet",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Date Escrow Returned",
+                "format": null
+              },
+              {
+                "jimuName": "PermitComments",
+                "name": "PermitComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Comments",
+                "format": null
+              },
+              {
+                "jimuName": "GlobalID",
+                "name": "GlobalID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGlobalID",
+                "alias": "GlobalID",
+                "format": null
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Created By",
+                "format": null
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Created On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Last Edited By",
+                "format": null
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Last Edited On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "PermitNo",
+                "name": "PermitNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Number",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Completed",
+                "name": "Completed",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Completed?",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "NameContractor",
+                "name": "NameContractor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name/Contractor",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ContactName",
+                "name": "ContactName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PhoneNo",
+                "name": "PhoneNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone Number",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Email",
+                "name": "Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Email",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "SiteAddress",
+                "name": "SiteAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Site Address",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "DescriptionWork",
+                "name": "DescriptionWork",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description of Work",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "IssueDate",
+                "name": "IssueDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Issue Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ExpirationDate",
+                "name": "ExpirationDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Expiration Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "SiteVisitDate",
+                "name": "SiteVisitDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Site Visit Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "InspectionDate",
+                "name": "InspectionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Inspection Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "FinalInspectionDate",
+                "name": "FinalInspectionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Final Inspection Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PermitFee",
+                "name": "PermitFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Fee",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "EscrowFee",
+                "name": "EscrowFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Escrow Fee",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PaymentType",
+                "name": "PaymentType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Payment Type",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ReturnedEscrowAmt",
+                "name": "ReturnedEscrowAmt",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Returned Escrow Amount",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "DateEscrowRet",
+                "name": "DateEscrowRet",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Date Escrow Returned",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PermitComments",
+                "name": "PermitComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Comments",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Created By",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Created On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Last Edited By",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Last Edited On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachements": false,
+            "enableEdit": true,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": "",
+            "enableRefresh": true,
+            "enableSelect": true,
+            "selectMode": "SINGLE"
+          },
+          {
+            "id": "dataSource_2-186e60488af-layer-126-186a8539bdb-layer-46-6",
+            "name": "Special Use Permit - 2022",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-186e60488af-layer-126-186a8539bdb-layer-46",
+              "mainDataSourceId": "dataSource_2-186e60488af-layer-126-186a8539bdb-layer-46",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "PermitNo",
+                "Completed",
+                "NameContractor",
+                "ContactName",
+                "PhoneNo",
+                "Email",
+                "SiteAddress",
+                "DescriptionWork",
+                "IssueDate",
+                "ExpirationDate",
+                "SiteVisitDate",
+                "InspectionDate",
+                "FinalInspectionDate",
+                "PermitFee",
+                "EscrowFee",
+                "PaymentType",
+                "ReturnedEscrowAmt",
+                "DateEscrowRet",
+                "PermitComments"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "PermitNo",
+                "name": "PermitNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Number",
+                "format": null
+              },
+              {
+                "jimuName": "Completed",
+                "name": "Completed",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Completed?",
+                "format": null
+              },
+              {
+                "jimuName": "NameContractor",
+                "name": "NameContractor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name/Contractor",
+                "format": null
+              },
+              {
+                "jimuName": "ContactName",
+                "name": "ContactName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null
+              },
+              {
+                "jimuName": "PhoneNo",
+                "name": "PhoneNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone Number",
+                "format": null
+              },
+              {
+                "jimuName": "Email",
+                "name": "Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Email",
+                "format": null
+              },
+              {
+                "jimuName": "SiteAddress",
+                "name": "SiteAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Site Address",
+                "format": null
+              },
+              {
+                "jimuName": "DescriptionWork",
+                "name": "DescriptionWork",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description of Work",
+                "format": null
+              },
+              {
+                "jimuName": "IssueDate",
+                "name": "IssueDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Issue Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "ExpirationDate",
+                "name": "ExpirationDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Expiration Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "SiteVisitDate",
+                "name": "SiteVisitDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Site Visit Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "InspectionDate",
+                "name": "InspectionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Inspection Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "FinalInspectionDate",
+                "name": "FinalInspectionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Final Inspection Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "PermitFee",
+                "name": "PermitFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Fee",
+                "format": null
+              },
+              {
+                "jimuName": "EscrowFee",
+                "name": "EscrowFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Escrow Fee",
+                "format": null
+              },
+              {
+                "jimuName": "PaymentType",
+                "name": "PaymentType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Payment Type",
+                "format": null
+              },
+              {
+                "jimuName": "ReturnedEscrowAmt",
+                "name": "ReturnedEscrowAmt",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Returned Escrow Amount",
+                "format": null
+              },
+              {
+                "jimuName": "DateEscrowRet",
+                "name": "DateEscrowRet",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Date Escrow Returned",
+                "format": null
+              },
+              {
+                "jimuName": "PermitComments",
+                "name": "PermitComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Comments",
+                "format": null
+              },
+              {
+                "jimuName": "GlobalID",
+                "name": "GlobalID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGlobalID",
+                "alias": "GlobalID",
+                "format": null
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Created By",
+                "format": null
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Created On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Last Edited By",
+                "format": null
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Last Edited On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "PermitNo",
+                "name": "PermitNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Number",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Completed",
+                "name": "Completed",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Completed?",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "NameContractor",
+                "name": "NameContractor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name/Contractor",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ContactName",
+                "name": "ContactName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PhoneNo",
+                "name": "PhoneNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone Number",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Email",
+                "name": "Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Email",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "SiteAddress",
+                "name": "SiteAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Site Address",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "DescriptionWork",
+                "name": "DescriptionWork",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description of Work",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "IssueDate",
+                "name": "IssueDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Issue Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ExpirationDate",
+                "name": "ExpirationDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Expiration Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "SiteVisitDate",
+                "name": "SiteVisitDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Site Visit Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "InspectionDate",
+                "name": "InspectionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Inspection Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "FinalInspectionDate",
+                "name": "FinalInspectionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Final Inspection Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PermitFee",
+                "name": "PermitFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Fee",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "EscrowFee",
+                "name": "EscrowFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Escrow Fee",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PaymentType",
+                "name": "PaymentType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Payment Type",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ReturnedEscrowAmt",
+                "name": "ReturnedEscrowAmt",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Returned Escrow Amount",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "DateEscrowRet",
+                "name": "DateEscrowRet",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Date Escrow Returned",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PermitComments",
+                "name": "PermitComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Comments",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachements": false,
+            "enableEdit": true,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": "",
+            "enableRefresh": true,
+            "enableSelect": true,
+            "selectMode": "SINGLE"
+          },
+          {
+            "id": "dataSource_2-186e6057165-layer-127-186a8539bd8-layer-38-7",
+            "name": "Land Disturbance Permit - 2023",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-186e6057165-layer-127-186a8539bd8-layer-38",
+              "mainDataSourceId": "dataSource_2-186e6057165-layer-127-186a8539bd8-layer-38",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "PermitNum",
+                "Issued",
+                "Name",
+                "ContactName",
+                "Phone",
+                "Email",
+                "Address",
+                "WorkDesc",
+                "PermitFee",
+                "EscrowFee",
+                "RetEscrow",
+                "PaymentType",
+                "Comments",
+                "created_user",
+                "created_date",
+                "last_edited_user",
+                "last_edited_date"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "PermitNum",
+                "name": "PermitNum",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Number",
+                "format": null
+              },
+              {
+                "jimuName": "Issued",
+                "name": "Issued",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Issue Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name/Contractor",
+                "format": null
+              },
+              {
+                "jimuName": "ContactName",
+                "name": "ContactName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null
+              },
+              {
+                "jimuName": "Phone",
+                "name": "Phone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone Number",
+                "format": null
+              },
+              {
+                "jimuName": "Email",
+                "name": "Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Email Address",
+                "format": null
+              },
+              {
+                "jimuName": "Address",
+                "name": "Address",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Site Address",
+                "format": null
+              },
+              {
+                "jimuName": "WorkDesc",
+                "name": "WorkDesc",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description of Work",
+                "format": null
+              },
+              {
+                "jimuName": "PermitFee",
+                "name": "PermitFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PermitFee",
+                "format": null
+              },
+              {
+                "jimuName": "EscrowFee",
+                "name": "EscrowFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "EscrowFee",
+                "format": null
+              },
+              {
+                "jimuName": "RetEscrow",
+                "name": "RetEscrow",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Returned Escrow Fee",
+                "format": null
+              },
+              {
+                "jimuName": "PaymentType",
+                "name": "PaymentType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Payment Type",
+                "format": null
+              },
+              {
+                "jimuName": "Comments",
+                "name": "Comments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Comments",
+                "format": null
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "created_user",
+                "format": null
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "created_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "last_edited_user",
+                "format": null
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "last_edited_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "GlobalID",
+                "name": "GlobalID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGlobalID",
+                "alias": "GlobalID",
+                "format": null
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "PermitNum",
+                "name": "PermitNum",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Number",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Issued",
+                "name": "Issued",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Issue Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name/Contractor",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ContactName",
+                "name": "ContactName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Phone",
+                "name": "Phone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone Number",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Email",
+                "name": "Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Email Address",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Address",
+                "name": "Address",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Site Address",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "WorkDesc",
+                "name": "WorkDesc",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description of Work",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PermitFee",
+                "name": "PermitFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PermitFee",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "EscrowFee",
+                "name": "EscrowFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "EscrowFee",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "RetEscrow",
+                "name": "RetEscrow",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Returned Escrow Fee",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PaymentType",
+                "name": "PaymentType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Payment Type",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Comments",
+                "name": "Comments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Comments",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "created_user",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "created_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "last_edited_user",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "last_edited_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachements": false,
+            "enableEdit": true,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": "",
+            "enableRefresh": true,
+            "enableSelect": true,
+            "selectMode": "SINGLE"
+          },
+          {
+            "id": "dataSource_2-186e606b34b-layer-128-186a8539bd6-layer-30-9",
+            "name": "Sewer Lateral Replacement - 2023",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-186e606b34b-layer-128-186a8539bd6-layer-30",
+              "mainDataSourceId": "dataSource_2-186e606b34b-layer-128-186a8539bd6-layer-30",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "PermitNo",
+                "InitialDate",
+                "CompletionDate",
+                "Name",
+                "PhoneNo",
+                "Email",
+                "SiteAddress",
+                "InvestigationComments",
+                "DescriptionOfWork",
+                "Contractor",
+                "ContactName",
+                "ContractorPhone",
+                "PermitFee",
+                "ConstructionCost",
+                "TaxesPaid",
+                "TempEasement",
+                "PermitComments",
+                "created_user",
+                "created_date",
+                "last_edited_user",
+                "last_edited_date"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "ObjectID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "PermitNo",
+                "name": "PermitNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Number",
+                "format": null
+              },
+              {
+                "jimuName": "InitialDate",
+                "name": "InitialDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Initial Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "CompletionDate",
+                "name": "CompletionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Completion Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null
+              },
+              {
+                "jimuName": "PhoneNo",
+                "name": "PhoneNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone Number",
+                "format": null
+              },
+              {
+                "jimuName": "Email",
+                "name": "Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Email",
+                "format": null
+              },
+              {
+                "jimuName": "SiteAddress",
+                "name": "SiteAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Site Address",
+                "format": null
+              },
+              {
+                "jimuName": "InvestigationComments",
+                "name": "InvestigationComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Investigation Comments",
+                "format": null
+              },
+              {
+                "jimuName": "DescriptionOfWork",
+                "name": "DescriptionOfWork",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description of Work",
+                "format": null
+              },
+              {
+                "jimuName": "Contractor",
+                "name": "Contractor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contractor",
+                "format": null
+              },
+              {
+                "jimuName": "ContactName",
+                "name": "ContactName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null
+              },
+              {
+                "jimuName": "ContractorPhone",
+                "name": "ContractorPhone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contractor Phone",
+                "format": null
+              },
+              {
+                "jimuName": "PermitFee",
+                "name": "PermitFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Fee",
+                "format": null
+              },
+              {
+                "jimuName": "ConstructionCost",
+                "name": "ConstructionCost",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Construction Cost",
+                "format": null
+              },
+              {
+                "jimuName": "TaxesPaid",
+                "name": "TaxesPaid",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Taxes Paid to Date?",
+                "format": null
+              },
+              {
+                "jimuName": "TempEasement",
+                "name": "TempEasement",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Temporary Easement?",
+                "format": null
+              },
+              {
+                "jimuName": "PermitComments",
+                "name": "PermitComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Comments",
+                "format": null
+              },
+              {
+                "jimuName": "GlobalID",
+                "name": "GlobalID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGlobalID",
+                "alias": "GlobalID",
+                "format": null
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Created By",
+                "format": null
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Created On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Last Edited By",
+                "format": null
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Last Edited On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "PermitNo",
+                "name": "PermitNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Number",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "InitialDate",
+                "name": "InitialDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Initial Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "CompletionDate",
+                "name": "CompletionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Completion Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PhoneNo",
+                "name": "PhoneNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone Number",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Email",
+                "name": "Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Email",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "SiteAddress",
+                "name": "SiteAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Site Address",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "InvestigationComments",
+                "name": "InvestigationComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Investigation Comments",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "DescriptionOfWork",
+                "name": "DescriptionOfWork",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description of Work",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Contractor",
+                "name": "Contractor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contractor",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ContactName",
+                "name": "ContactName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ContractorPhone",
+                "name": "ContractorPhone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contractor Phone",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PermitFee",
+                "name": "PermitFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Fee",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ConstructionCost",
+                "name": "ConstructionCost",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Construction Cost",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "TaxesPaid",
+                "name": "TaxesPaid",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Taxes Paid to Date?",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "TempEasement",
+                "name": "TempEasement",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Temporary Easement?",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PermitComments",
+                "name": "PermitComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Comments",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Created By",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Created On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Last Edited By",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Last Edited On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachements": false,
+            "enableEdit": true,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": "",
+            "enableRefresh": true,
+            "enableSelect": true,
+            "selectMode": "SINGLE"
+          },
+          {
+            "id": "dataSource_2-186e606b34b-layer-128-186a8539bd6-layer-29-10",
+            "name": "Sewer Lateral Replacement - 2022",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-186e606b34b-layer-128-186a8539bd6-layer-29",
+              "mainDataSourceId": "dataSource_2-186e606b34b-layer-128-186a8539bd6-layer-29",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "PermitNo",
+                "InitialDate",
+                "CompletionDate",
+                "Name",
+                "PhoneNo",
+                "Email",
+                "SiteAddress",
+                "InvestigationComments",
+                "DescriptionOfWork",
+                "Contractor",
+                "ContactName",
+                "ContractorPhone",
+                "PermitFee",
+                "ConstructionCost",
+                "TaxesPaid",
+                "TempEasement",
+                "PermitComments"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "GlobalID",
+                "name": "GlobalID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGlobalID",
+                "alias": "GlobalID",
+                "format": null
+              },
+              {
+                "jimuName": "PermitNo",
+                "name": "PermitNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Number",
+                "format": null
+              },
+              {
+                "jimuName": "InitialDate",
+                "name": "InitialDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Initial Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "CompletionDate",
+                "name": "CompletionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Completion Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null
+              },
+              {
+                "jimuName": "PhoneNo",
+                "name": "PhoneNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone Number",
+                "format": null
+              },
+              {
+                "jimuName": "Email",
+                "name": "Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Email",
+                "format": null
+              },
+              {
+                "jimuName": "SiteAddress",
+                "name": "SiteAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Site Address",
+                "format": null
+              },
+              {
+                "jimuName": "InvestigationComments",
+                "name": "InvestigationComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Investigation Comments",
+                "format": null
+              },
+              {
+                "jimuName": "DescriptionOfWork",
+                "name": "DescriptionOfWork",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description of Work",
+                "format": null
+              },
+              {
+                "jimuName": "Contractor",
+                "name": "Contractor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contractor",
+                "format": null
+              },
+              {
+                "jimuName": "ContactName",
+                "name": "ContactName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null
+              },
+              {
+                "jimuName": "ContractorPhone",
+                "name": "ContractorPhone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contractor Phone",
+                "format": null
+              },
+              {
+                "jimuName": "PermitFee",
+                "name": "PermitFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Fee",
+                "format": null
+              },
+              {
+                "jimuName": "ConstructionCost",
+                "name": "ConstructionCost",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Construction Cost",
+                "format": null
+              },
+              {
+                "jimuName": "TaxesPaid",
+                "name": "TaxesPaid",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Taxes Paid to Date?",
+                "format": null
+              },
+              {
+                "jimuName": "TempEasement",
+                "name": "TempEasement",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Temporary Easement?",
+                "format": null
+              },
+              {
+                "jimuName": "PermitComments",
+                "name": "PermitComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Comments",
+                "format": null
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Created By",
+                "format": null
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Created On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Last Edited By",
+                "format": null
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Last Edited On",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "PermitNo",
+                "name": "PermitNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Number",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "InitialDate",
+                "name": "InitialDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Initial Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "CompletionDate",
+                "name": "CompletionDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Completion Date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PhoneNo",
+                "name": "PhoneNo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone Number",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Email",
+                "name": "Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Email",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "SiteAddress",
+                "name": "SiteAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Site Address",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "InvestigationComments",
+                "name": "InvestigationComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Investigation Comments",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "DescriptionOfWork",
+                "name": "DescriptionOfWork",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description of Work",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Contractor",
+                "name": "Contractor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contractor",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ContactName",
+                "name": "ContactName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ContractorPhone",
+                "name": "ContractorPhone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contractor Phone",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PermitFee",
+                "name": "PermitFee",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Fee",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "ConstructionCost",
+                "name": "ConstructionCost",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Construction Cost",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "TaxesPaid",
+                "name": "TaxesPaid",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Taxes Paid to Date?",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "TempEasement",
+                "name": "TempEasement",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Temporary Easement?",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PermitComments",
+                "name": "PermitComments",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Permit Comments",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachements": false,
+            "enableEdit": true,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": "",
+            "enableRefresh": true,
+            "enableSelect": true,
+            "selectMode": "SINGLE"
+          }
+        ],
+        "arrangeType": "DROPDOWN"
+      },
+      "id": "widget_43",
+      "useDataSources": [],
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      }
+    },
+    "widget_45": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.10.0",
+      "icon": {
+        "svg": "https://localhost:3001/experience/../widgets/arcgis/legend/icon.svg",
+        "properties": {
+          "filename": "Legend",
+          "originalName": null,
+          "path": null,
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Legend",
+      "config": {
+        "cardStyle": false,
+        "showBaseMap": false,
+        "style": {
+          "useCustom": false
+        }
+      },
+      "id": "widget_45",
+      "useMapWidgetIds": [
+        "widget_37"
+      ]
+    },
+    "widget_47": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.10.0",
+      "label": "Street View (Fixed Panel)",
+      "id": "widget_47",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_23"
+        }
+      }
+    },
+    "widget_48": {
+      "uri": "widgets/google-street-view/",
+      "version": "1.9.0",
+      "label": "Google Street View Up",
+      "config": {},
+      "id": "widget_48",
+      "useMapWidgetIds": [
+        "widget_37"
+      ]
+    },
+    "widget_55": {
+      "uri": "widgets/common/controller/",
+      "version": "1.10.0",
+      "label": "Widget Controller (bottom right)",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": true,
+          "size": {
+            "widget_26": {
+              "width": 319,
+              "height": 584
+            },
+            "widget_29": {
+              "width": 360,
+              "height": 657
+            },
+            "widget_30": {
+              "width": 380,
+              "height": 556
+            },
+            "widget_33": {
+              "width": 1259,
+              "height": 603
+            },
+            "widget_34": {
+              "width": 450,
+              "height": 150
+            },
+            "widget_60": {
+              "width": 454,
+              "height": 150
+            },
+            "widget_58": {
+              "width": 462,
+              "height": 511
+            }
+          }
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "rectangle"
+            },
+            "variant": {
+              "default": {
+                "color": "",
+                "bg": "var(--light-100)",
+                "border": {
+                  "color": "#98012e",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--info-100)",
+                "color": ""
+              },
+              "active": {
+                "bg": "var(--info-200)",
+                "color": "#080808",
+                "bold": false
+              },
+              "disabled": {
+                "color": "#8b8b8b",
+                "bg": "#e3e3e3",
+                "border": {
+                  "color": "#e3e3e3"
+                }
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_55",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_28"
+        },
+        "_openwidget": {
+          "LARGE": "layout_29"
+        }
+      },
+      "style": {
+        "background": {
+          "color": null,
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_58": {
+      "uri": "widgets/common/print/",
+      "version": "1.10.0",
+      "icon": {
+        "svg": "https://localhost:3001/experience/../widgets/common/print/icon.svg",
+        "properties": {
+          "filename": "Print",
+          "originalName": null,
+          "path": null,
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Print",
+      "config": {
+        "printServiceType": "CUSTOMIZE",
+        "printTemplateType": "CUSTOMIZE",
+        "modeType": "CLASSIC",
+        "commonSetting": {
+          "scalePreserved": false,
+          "layoutOptions": {
+            "titleText": "ArcGIS Web Map"
+          },
+          "outScale": 36978595.474472,
+          "exportOptions": {
+            "dpi": 96
+          },
+          "printExtentType": "CURRENT MAP EXTENT",
+          "forceFeatureAttributes": false,
+          "wkid": 102100,
+          "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+          "enableTitle": true,
+          "enableMapPrintExtents": true,
+          "enableOutputSpatialReference": false,
+          "enableQuality": true,
+          "enableFeatureAttribution": true
+        },
+        "hasInitBorder": true,
+        "printCustomTemplate": [
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_11x17",
+            "layout": "TWM_Layout_Landscape_11x17",
+            "format": "png32",
+            "templateId": "config_custom_0",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_24x36",
+            "layout": "TWM_Layout_Landscape_24x36",
+            "format": "png32",
+            "templateId": "config_custom_1",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_36x48",
+            "layout": "TWM_Layout_Landscape_36x48",
+            "format": "png32",
+            "templateId": "config_custom_2",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_8x11",
+            "layout": "TWM_Layout_Landscape_8x11",
+            "format": "png32",
+            "templateId": "config_custom_3",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_11x17",
+            "layout": "TWM_Layout_Portrait_11x17",
+            "format": "png32",
+            "templateId": "config_custom_4",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_24x36",
+            "layout": "TWM_Layout_Portrait_24x36",
+            "format": "png32",
+            "templateId": "config_custom_5",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_36x48",
+            "layout": "TWM_Layout_Portrait_36x48",
+            "format": "png32",
+            "templateId": "config_custom_6",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_8x11",
+            "layout": "TWM_Layout_Portrait_8x11",
+            "format": "png32",
+            "templateId": "config_custom_7",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_11x17_Landscape",
+            "layout": "xPlain_11x17_Landscape",
+            "format": "png32",
+            "templateId": "config_custom_8",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_11x17_Portrait",
+            "layout": "xPlain_11x17_Portrait",
+            "format": "png32",
+            "templateId": "config_custom_9",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_8x11_Landscape",
+            "layout": "xPlain_8x11_Landscape",
+            "format": "png32",
+            "templateId": "config_custom_10",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_8x11_Portrait",
+            "layout": "xPlain_8x11_Portrait",
+            "format": "png32",
+            "templateId": "config_custom_11",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96,
+              "width": 800,
+              "height": 1100
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "png32",
+            "templateId": "config_custom_12",
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          }
+        ],
+        "useUtility": {
+          "utilityId": "utility_3"
+        },
+        "formatList": [
+          "pdf",
+          "png32",
+          "png8",
+          "jpg",
+          "gif",
+          "eps",
+          "svg",
+          "svgz"
+        ],
+        "defaultFormat": "pdf",
+        "layoutChoiceList": [
+          {
+            "label": "TWM_Layout_Landscape_11x17",
+            "layout": "TWM_Layout_Landscape_11x17",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_11x17",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Landscape_24x36",
+            "layout": "TWM_Layout_Landscape_24x36",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_24x36",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Landscape_36x48",
+            "layout": "TWM_Layout_Landscape_36x48",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_36x48",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Landscape_8x11",
+            "layout": "TWM_Layout_Landscape_8x11",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_8x11",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_11x17",
+            "layout": "TWM_Layout_Portrait_11x17",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_11x17",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_24x36",
+            "layout": "TWM_Layout_Portrait_24x36",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_24x36",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_36x48",
+            "layout": "TWM_Layout_Portrait_36x48",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_36x48",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_8x11",
+            "layout": "TWM_Layout_Portrait_8x11",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_8x11",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "xPlain_11x17_Landscape",
+            "layout": "xPlain_11x17_Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_11x17_Landscape",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "xPlain_11x17_Portrait",
+            "layout": "xPlain_11x17_Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_11x17_Portrait",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "xPlain_8x11_Landscape",
+            "layout": "xPlain_8x11_Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_8x11_Landscape",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "xPlain_8x11_Portrait",
+            "layout": "xPlain_8x11_Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_8x11_Portrait",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "PNG32",
+            "layoutTemplate": "MAP_ONLY"
+          }
+        ]
+      },
+      "id": "widget_58",
+      "style": {
+        "border": {
+          "color": "var(--light-400)",
+          "type": "solid",
+          "width": "1px"
+        }
+      },
+      "useMapWidgetIds": [
+        "widget_37"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_3"
+        }
+      ]
+    },
+    "widget_60": {
+      "uri": "widgets/arcgis/draw/",
+      "version": "1.6.0",
+      "icon": {
+        "svg": "https://localhost:3001/experience/../widgets/arcgis/draw/icon.svg",
+        "properties": {
+          "filename": "Draw",
+          "originalName": null,
+          "path": null,
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Draw",
+      "config": {
+        "isDisplayCanvasLayer": false,
+        "arrangement": "Toolbar",
+        "drawMode": "continuous",
+        "drawingTools": [
+          "point",
+          "polyline",
+          "polygon",
+          "rectangle",
+          "circle"
+        ],
+        "measurementsInfo": {
+          "enableMeasurements": false,
+          "fontsColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fontsSize": 12,
+          "haloColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "haloSize": 2
+        },
+        "measurementsUnitsInfos": [],
+        "drawingElevationMode3D": "on-the-ground"
+      },
+      "id": "widget_60",
+      "useMapWidgetIds": [
+        "widget_37"
+      ]
+    },
+    "widget_61": {
+      "uri": "widgets/common/image/",
+      "version": "1.10.0",
+      "label": "Image",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_61/1680813735498.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_61/1680813735498.jpg",
+            "fileName": "1680813735498.jpg",
+            "originalName": "Belleville Logo medium-portrait.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1680813735498",
+            "isUseCompress": false,
+            "originalWidth": 612,
+            "originalHeight": 792
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_61"
+    },
+    "widget_62": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Text",
+      "config": {
+        "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿Disclaimer</strong></p>",
+        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_62"
+    },
+    "widget_63": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Text 2",
+      "config": {
+        "text": "<p><span style=\"color: var(--dark-800);\">The information contained herein is for reference purposes only, and must not be relied upon as a substitute for a professional land survey or title search. The City of Belleville and TWM, Inc. assume no responsibility for any use of the information contained herein or any loss resulting therefrom. Users of the City of Belleville GIS site assume all risk and liability when accessing any third party site linked to this site.</span></p><p><br></p><p>All data is subject to change.</p>",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_63"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {
+    "dialog_1": {
+      "id": "dialog_1",
+      "mode": "FIXED",
+      "sizeMode": {
+        "LARGE": {
+          "position": "CENTER",
+          "width": "709px",
+          "height": "493px"
+        }
+      },
+      "interactionType": "BUTTON_INLINE",
+      "interactionStyles": {
+        "text": "",
+        "textSize": "13px",
+        "buttonText": "",
+        "buttonTextSize": "16px"
+      },
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "#ffffff",
+        "fillType": "fill",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "var(--dark-900)",
+      "layout": {
+        "LARGE": "layout_30"
+      },
+      "index": 0,
+      "isSplash": true,
+      "label": "Window"
+    }
+  },
+  "dataSources": {
+    "widget_6_output_config_0": {
+      "id": "widget_6_output_config_0",
+      "type": "FEATURE_LAYER",
+      "label": "ArcGIS World Geocoding Service",
+      "originDataSources": [],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": false,
+      "schema": {
+        "label": "ArcGIS World Geocoding Service",
+        "idField": "objectid",
+        "fields": {
+          "Default Address": {
+            "jimuName": "Default Address",
+            "alias": "Default Address",
+            "type": "STRING",
+            "name": "Default Address"
+          },
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Address or Place": {
+            "jimuName": "Address or Place",
+            "alias": "Address or Place",
+            "type": "STRING",
+            "name": "Address or Place"
+          },
+          "Address2": {
+            "jimuName": "Address2",
+            "alias": "Address2",
+            "type": "STRING",
+            "name": "Address2"
+          },
+          "Address3": {
+            "jimuName": "Address3",
+            "alias": "Address3",
+            "type": "STRING",
+            "name": "Address3"
+          },
+          "Neighborhood": {
+            "jimuName": "Neighborhood",
+            "alias": "Neighborhood",
+            "type": "STRING",
+            "name": "Neighborhood"
+          },
+          "City": {
+            "jimuName": "City",
+            "alias": "City",
+            "type": "STRING",
+            "name": "City"
+          },
+          "County": {
+            "jimuName": "County",
+            "alias": "County",
+            "type": "STRING",
+            "name": "County"
+          },
+          "State": {
+            "jimuName": "State",
+            "alias": "State",
+            "type": "STRING",
+            "name": "State"
+          },
+          "ZIP": {
+            "jimuName": "ZIP",
+            "alias": "ZIP",
+            "type": "STRING",
+            "name": "ZIP"
+          },
+          "ZIP4": {
+            "jimuName": "ZIP4",
+            "alias": "ZIP4",
+            "type": "STRING",
+            "name": "ZIP4"
+          },
+          "Country": {
+            "jimuName": "Country",
+            "alias": "Country",
+            "type": "STRING",
+            "name": "Country"
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint"
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "WEB_MAP",
+      "sourceLabel": "Belleville City Viewer for WebApp",
+      "itemId": "55306c44f94e488d97a08e8daa10366a",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
+    }
+  },
+  "messageConfigs": {
+    "messageConfig_3": {
+      "id": "messageConfig_3",
+      "widgetId": "widget_37",
+      "messageType": "EXTENT_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1678113142408",
+          "messageWidgetId": "widget_8",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": null,
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_6": {
+      "id": "messageConfig_6",
+      "widgetId": "widget_6",
+      "messageType": "DATA_RECORD_SET_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_37-zoomToFeature-1678908276616",
+          "widgetId": "widget_37",
+          "messageWidgetId": "widget_6",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "widget_6_output_config_0",
+              "mainDataSourceId": "widget_6_output_config_0",
+              "rootDataSourceId": null
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "widget_6_output_config_0",
+                "mainDataSourceId": "widget_6_output_config_0",
+                "rootDataSourceId": null
+              }
+            ]
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://geo.twm-inc.com/arcgis"
+  },
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#730000",
+      "color": "#ffffff"
+    },
+    "body": {},
+    "button": {
+      "bg": "#730000",
+      "color": "#ffffff"
+    },
+    "logo": {
+      "small": "https://geo.twm-inc.com/arcgis/sharing/rest/content/items/d11424e0028246bdad694ab475c33447/data",
+      "link": "https://twm-inc.com"
+    }
+  },
+  "originExbVersion": "1.10.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "customTheme": {
+    "colors": {
+      "primary": "#a20131",
+      "danger": "#98012e",
+      "info": "#355070",
+      "light": "#f7f9f9",
+      "secondary": "#e0d0c1",
+      "success": "#00a676"
+    },
+    "typography": {
+      "fontFamilyBase": "Microsoft YaHei",
+      "fontSizeRoot": "100%"
+    }
+  },
+  "header": {
+    "layout": {
+      "LARGE": "layout_5"
+    },
+    "height": {
+      "LARGE": "54px"
+    },
+    "backgroundColor": "var(--info)"
+  },
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": null,
+      "name": "geocode",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source": "org",
+      "orgSetting": {
+        "name": "ArcGIS World Geocoding Service",
+        "placefinding": true,
+        "batch": false
+      },
+      "taskName": "ArcGIS World Geocoding Service",
+      "index": 0
+    },
+    "utility_2": {
+      "id": "utility_2",
+      "type": null,
+      "name": "route",
+      "url": "https://geo.twm-inc.com/arcgis/sharing/servers/ce949a70c9bb4a1fadb610d6ce38d0a8/rest/services/World/Route/NAServer/Route_World",
+      "source": "org"
+    },
+    "utility_3": {
+      "id": "utility_3",
+      "type": null,
+      "name": "printTask",
+      "url": "https://geo.twm-inc.com/arcgis/rest/services/TWM_Printing_Service/GPServer/Export%20Web%20Map",
+      "source": "org",
+      "orgSetting": {
+        "templates": [
+          {
+            "label": "TWM_Layout_Landscape_NoLegend",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape_NoLegend",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "11x17_Landscape",
+            "format": "PNG32",
+            "layout": "11x17_Landscape",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "11x17_Portrait",
+            "format": "PNG32",
+            "layout": "11x17_Portrait",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "8_5x11_Landscape",
+            "format": "PNG32",
+            "layout": "8_5x11_Landscape",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "8_5x11_Portrait",
+            "format": "PNG32",
+            "layout": "8_5x11_Portrait",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Landscape",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Landscape_24x36",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape_24x36",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Landscape_36x48",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape_36x48",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Portrait",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Portrait",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Portrait_24x36",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Portrait_24x36",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Portrait_36x48",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Portrait_36x48",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "MAP_ONLY",
+            "format": "PNG32",
+            "layout": "MAP_ONLY"
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": 1680893531562
+}
