@@ -1,0 +1,16 @@
+{
+  "1680901089726": {
+    "originalName": "background.png",
+    "fileName": "1680901089726.png",
+    "size": 8809,
+    "url": "${appResourceUrl}/images/widget_8/1680901089726.png",
+    "created": 1680901089726,
+    "resourcesPrefix": "images/widget_8",
+    "referedIds": [],
+    "originId": "1680901089726",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 156,
+    "originalHeight": 156
+  }
+}
