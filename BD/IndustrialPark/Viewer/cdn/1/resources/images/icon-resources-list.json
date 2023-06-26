@@ -1,0 +1,20 @@
+{
+  "1687811391088.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1687811391088.png",
+    "properties": {
+      "filename": "1687811391088.png",
+      "originalName": "elevation_FILL0_wght400_GRAD0_opsz48.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1687811391088.png",
+      "inlineSvg": false
+    }
+  },
+  "1687811963063.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1687811963063.png",
+    "properties": {
+      "filename": "1687811963063.png",
+      "originalName": "elevation_white.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1687811963063.png",
+      "inlineSvg": false
+    }
+  }
+}
