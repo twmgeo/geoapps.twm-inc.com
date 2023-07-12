@@ -415,8 +415,11 @@
               "left": true,
               "top": true,
               "bottom": false
-            }
-          }
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         },
         "1": {
           "type": "WIDGET",
@@ -650,1342 +653,14 @@
       "config": {
         "layersConfig": [
           {
-            "id": "dataSource_4-187de8f27d2-layer-6-2",
-            "name": "2023 Pavement",
-            "useDataSource": {
-              "dataSourceId": "dataSource_4-187de8f27d2-layer-6",
-              "mainDataSourceId": "dataSource_4-187de8f27d2-layer-6",
-              "rootDataSourceId": "dataSource_4",
-              "fields": [
-                "OBJECTID_1",
-                "NAMESHORT",
-                "SHAPE_LENG",
-                "OBJECTID",
-                "F_",
-                "GIS_",
-                "Network_ID",
-                "Network_Na",
-                "Branch_Nam",
-                "Branch_Use",
-                "Name_Short",
-                "Branch_ID",
-                "Name",
-                "Section_ID",
-                "F2022_PCI_",
-                "Last_Inspe",
-                "PCI",
-                "Predicted_",
-                "Predicted1",
-                "Predicte_1",
-                "Updated_PC",
-                "Category__",
-                "From_",
-                "To_",
-                "Surface_As",
-                "Surface__o",
-                "Updated_Su",
-                "Surface_Ty",
-                "Section_Le",
-                "Section_Wi",
-                "Approximat",
-                "Rank",
-                "Constructe",
-                "Last_Major",
-                "Total_samp",
-                "Area_of_a_",
-                "F__of_samp",
-                "F__of_sa_1",
-                "Sample_Len",
-                "Sample_Spa",
-                "Sample_S_1",
-                "Slab_Lengt",
-                "Slab_Width",
-                "Total_sa_1",
-                "F__of_slab",
-                "F__of_sa_2",
-                "Total_Slab",
-                "F__of_sa_3",
-                "Sample_S_2",
-                "Sample_S_3"
-              ]
-            },
-            "allFields": [
-              {
-                "jimuName": "OBJECTID_1",
-                "name": "OBJECTID_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeOID",
-                "alias": "OBJECTID_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "NAMESHORT",
-                "name": "NAMESHORT",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "NAMESHORT",
-                "format": null
-              },
-              {
-                "jimuName": "SHAPE_LENG",
-                "name": "SHAPE_LENG",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "SHAPE_LENG",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "OBJECTID",
-                "name": "OBJECTID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "OBJECTID",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "F_",
-                "name": "F_",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F_",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "GIS_",
-                "name": "GIS_",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "GIS_",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Network_ID",
-                "name": "Network_ID",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Network_ID",
-                "format": null
-              },
-              {
-                "jimuName": "Network_Na",
-                "name": "Network_Na",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Network_Na",
-                "format": null
-              },
-              {
-                "jimuName": "Branch_Nam",
-                "name": "Branch_Nam",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Branch_Nam",
-                "format": null
-              },
-              {
-                "jimuName": "Branch_Use",
-                "name": "Branch_Use",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Branch_Use",
-                "format": null
-              },
-              {
-                "jimuName": "Name_Short",
-                "name": "Name_Short",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Name_Short",
-                "format": null
-              },
-              {
-                "jimuName": "Branch_ID",
-                "name": "Branch_ID",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Branch_ID",
-                "format": null
-              },
-              {
-                "jimuName": "Name",
-                "name": "Name",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Name",
-                "format": null
-              },
-              {
-                "jimuName": "Section_ID",
-                "name": "Section_ID",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Section_ID",
-                "format": null
-              },
-              {
-                "jimuName": "F2022_PCI_",
-                "name": "F2022_PCI_",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "F2022_PCI_",
-                "format": null
-              },
-              {
-                "jimuName": "Last_Inspe",
-                "name": "Last_Inspe",
-                "type": "DATE",
-                "esriType": "esriFieldTypeDate",
-                "alias": "Last_Inspe",
-                "format": null
-              },
-              {
-                "jimuName": "PCI",
-                "name": "PCI",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "PCI",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Predicted_",
-                "name": "Predicted_",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Predicted_",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Predicted1",
-                "name": "Predicted1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Predicted1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Predicte_1",
-                "name": "Predicte_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Predicte_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Updated_PC",
-                "name": "Updated_PC",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Updated_PC",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Category__",
-                "name": "Category__",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Category__",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "From_",
-                "name": "From_",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "From_",
-                "format": null
-              },
-              {
-                "jimuName": "To_",
-                "name": "To_",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "To",
-                "format": null
-              },
-              {
-                "jimuName": "Surface_As",
-                "name": "Surface_As",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Surface_As",
-                "format": null
-              },
-              {
-                "jimuName": "Surface__o",
-                "name": "Surface__o",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Surface__o",
-                "format": null
-              },
-              {
-                "jimuName": "Updated_Su",
-                "name": "Updated_Su",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Updated_Su",
-                "format": null
-              },
-              {
-                "jimuName": "Surface_Ty",
-                "name": "Surface_Ty",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Surface_Ty",
-                "format": null
-              },
-              {
-                "jimuName": "Section_Le",
-                "name": "Section_Le",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Section_Le",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Section_Wi",
-                "name": "Section_Wi",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Section_Wi",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Approximat",
-                "name": "Approximat",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Approximat",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Rank",
-                "name": "Rank",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Rank",
-                "format": null
-              },
-              {
-                "jimuName": "Constructe",
-                "name": "Constructe",
-                "type": "DATE",
-                "esriType": "esriFieldTypeDate",
-                "alias": "Constructe",
-                "format": null
-              },
-              {
-                "jimuName": "Last_Major",
-                "name": "Last_Major",
-                "type": "DATE",
-                "esriType": "esriFieldTypeDate",
-                "alias": "Last_Major",
-                "format": null
-              },
-              {
-                "jimuName": "Total_samp",
-                "name": "Total_samp",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Total_samp",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Area_of_a_",
-                "name": "Area_of_a_",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Area_of_a_",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "F__of_samp",
-                "name": "F__of_samp",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F__of_samp",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "F__of_sa_1",
-                "name": "F__of_sa_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F__of_sa_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Sample_Len",
-                "name": "Sample_Len",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Sample_Len",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Sample_Spa",
-                "name": "Sample_Spa",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Sample_Spa",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Sample_S_1",
-                "name": "Sample_S_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Sample_S_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Slab_Lengt",
-                "name": "Slab_Lengt",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Slab_Lengt",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Slab_Width",
-                "name": "Slab_Width",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Slab_Width",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Total_sa_1",
-                "name": "Total_sa_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Total_sa_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "F__of_slab",
-                "name": "F__of_slab",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F__of_slab",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "F__of_sa_2",
-                "name": "F__of_sa_2",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F__of_sa_2",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Total_Slab",
-                "name": "Total_Slab",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Total_Slab",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "F__of_sa_3",
-                "name": "F__of_sa_3",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F__of_sa_3",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Sample_S_2",
-                "name": "Sample_S_2",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Sample_S_2",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Sample_S_3",
-                "name": "Sample_S_3",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Sample_S_3",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Joint_Leng",
-                "name": "Joint_Leng",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Joint_Leng",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "StdDev_",
-                "name": "StdDev_",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "StdDev_",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Error",
-                "name": "Error",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Error",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "AvgWdth_GI",
-                "name": "AvgWdth_GI",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AvgWdth_GI",
-                "format": null
-              },
-              {
-                "jimuName": "FID_",
-                "name": "FID_",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "FID_",
-                "format": null
-              },
-              {
-                "jimuName": "Name_Sho_1",
-                "name": "Name_Sho_1",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Name_Sho_1",
-                "format": null
-              },
-              {
-                "jimuName": "F__",
-                "name": "F__",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "F__",
-                "format": null
-              },
-              {
-                "jimuName": "SHAPE_LE_1",
-                "name": "SHAPE_LE_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "SHAPE_LE_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "entered_to",
-                "name": "entered_to",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "entered_to",
-                "format": null
-              },
-              {
-                "jimuName": "Shape_Le_2",
-                "name": "Shape_Le_2",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Shape_Le_2",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Shape_Ar_1",
-                "name": "Shape_Ar_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Shape_Ar_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Shape__Area",
-                "name": "Shape__Area",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Shape.STArea()",
-                "format": null
-              },
-              {
-                "jimuName": "Shape__Length",
-                "name": "Shape__Length",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Shape.STLength()",
-                "format": null
-              }
-            ],
-            "tableFields": [
-              {
-                "jimuName": "OBJECTID_1",
-                "name": "OBJECTID_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeOID",
-                "alias": "OBJECTID_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": false,
-                "editable": false,
-                "visible": false
-              },
-              {
-                "jimuName": "NAMESHORT",
-                "name": "NAMESHORT",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "NAMESHORT",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "SHAPE_LENG",
-                "name": "SHAPE_LENG",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "SHAPE_LENG",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "OBJECTID",
-                "name": "OBJECTID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "OBJECTID",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": false
-              },
-              {
-                "jimuName": "F_",
-                "name": "F_",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F_",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "GIS_",
-                "name": "GIS_",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "GIS_",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Network_ID",
-                "name": "Network_ID",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Network_ID",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Network_Na",
-                "name": "Network_Na",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Network_Na",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Branch_Nam",
-                "name": "Branch_Nam",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Branch_Nam",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Branch_Use",
-                "name": "Branch_Use",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Branch_Use",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Name_Short",
-                "name": "Name_Short",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Name_Short",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Branch_ID",
-                "name": "Branch_ID",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Branch_ID",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Name",
-                "name": "Name",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Name",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Section_ID",
-                "name": "Section_ID",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Section_ID",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "F2022_PCI_",
-                "name": "F2022_PCI_",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "F2022_PCI_",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Last_Inspe",
-                "name": "Last_Inspe",
-                "type": "DATE",
-                "esriType": "esriFieldTypeDate",
-                "alias": "Last_Inspe",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "PCI",
-                "name": "PCI",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "PCI",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Predicted_",
-                "name": "Predicted_",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Predicted_",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Predicted1",
-                "name": "Predicted1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Predicted1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Predicte_1",
-                "name": "Predicte_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Predicte_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Updated_PC",
-                "name": "Updated_PC",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Updated_PC",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Category__",
-                "name": "Category__",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Category__",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "From_",
-                "name": "From_",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "From_",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "To_",
-                "name": "To_",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "To",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Surface_As",
-                "name": "Surface_As",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Surface_As",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Surface__o",
-                "name": "Surface__o",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Surface__o",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Updated_Su",
-                "name": "Updated_Su",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Updated_Su",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Surface_Ty",
-                "name": "Surface_Ty",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Surface_Ty",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Section_Le",
-                "name": "Section_Le",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Section_Le",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Section_Wi",
-                "name": "Section_Wi",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Section_Wi",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Approximat",
-                "name": "Approximat",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Approximat",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Rank",
-                "name": "Rank",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Rank",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Constructe",
-                "name": "Constructe",
-                "type": "DATE",
-                "esriType": "esriFieldTypeDate",
-                "alias": "Constructe",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Last_Major",
-                "name": "Last_Major",
-                "type": "DATE",
-                "esriType": "esriFieldTypeDate",
-                "alias": "Last_Major",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Total_samp",
-                "name": "Total_samp",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Total_samp",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Area_of_a_",
-                "name": "Area_of_a_",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Area_of_a_",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "F__of_samp",
-                "name": "F__of_samp",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F__of_samp",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "F__of_sa_1",
-                "name": "F__of_sa_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F__of_sa_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Sample_Len",
-                "name": "Sample_Len",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Sample_Len",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Sample_Spa",
-                "name": "Sample_Spa",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Sample_Spa",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Sample_S_1",
-                "name": "Sample_S_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Sample_S_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Slab_Lengt",
-                "name": "Slab_Lengt",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Slab_Lengt",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Slab_Width",
-                "name": "Slab_Width",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Slab_Width",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Total_sa_1",
-                "name": "Total_sa_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Total_sa_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "F__of_slab",
-                "name": "F__of_slab",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F__of_slab",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "F__of_sa_2",
-                "name": "F__of_sa_2",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F__of_sa_2",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Total_Slab",
-                "name": "Total_Slab",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Total_Slab",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "F__of_sa_3",
-                "name": "F__of_sa_3",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "F__of_sa_3",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Sample_S_2",
-                "name": "Sample_S_2",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Sample_S_2",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Sample_S_3",
-                "name": "Sample_S_3",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Sample_S_3",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              }
-            ],
-            "enableAttachements": false,
-            "enableEdit": false,
-            "allowCsv": false,
-            "enableSearch": true,
-            "searchFields": "",
-            "enableRefresh": true,
-            "enableSelect": true,
-            "selectMode": "SINGLE"
-          },
-          {
-            "id": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da-1",
+            "id": "dataSource_3-1894bba12fe-layer-4-3",
             "name": "2022 Pavement",
             "useDataSource": {
-              "dataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-              "mainDataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
+              "dataSourceId": "dataSource_3-1894bba12fe-layer-4",
+              "mainDataSourceId": "dataSource_3-1894bba12fe-layer-4",
               "rootDataSourceId": "dataSource_3",
               "fields": [
-                "OBJECTID_1",
                 "NAMESHORT",
-                "SHAPE_LENG",
-                "OBJECTID",
                 "F_",
                 "GIS_",
                 "Network_ID",
@@ -2031,7 +706,9 @@
                 "Error",
                 "AvgWdth_GI",
                 "FID_",
-                "Name_Sho_1"
+                "Name_Sho_1",
+                "F__",
+                "entered_to"
               ]
             },
             "allFields": [
@@ -2061,8 +738,8 @@
                 "esriType": "esriFieldTypeDouble",
                 "alias": "SHAPE_LENG",
                 "format": {
-                  "digitSeparator": false,
-                  "places": 6
+                  "digitSeparator": true,
+                  "places": 2
                 }
               },
               {
@@ -2072,7 +749,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "OBJECTID",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2083,7 +760,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "F_",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2094,7 +771,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "GIS_",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2176,7 +853,10 @@
                 "type": "DATE",
                 "esriType": "esriFieldTypeDate",
                 "alias": "Last_Inspe",
-                "format": null
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
               },
               {
                 "jimuName": "PCI",
@@ -2185,7 +865,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "PCI",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2236,7 +916,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Section_Le",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2247,7 +927,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Section_Wi",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2258,7 +938,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Approximat",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2276,7 +956,10 @@
                 "type": "DATE",
                 "esriType": "esriFieldTypeDate",
                 "alias": "Constructe",
-                "format": null
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
               },
               {
                 "jimuName": "PCI_1",
@@ -2293,7 +976,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Total_samp",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2304,7 +987,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Area_of_a_",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2323,7 +1006,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "F__of_sa_1",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2334,7 +1017,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Sample_Len",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2353,7 +1036,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Sample_S_1",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2364,7 +1047,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Slab_Lengt",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2375,7 +1058,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Slab_Width",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2386,7 +1069,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Total_sa_1",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2397,7 +1080,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "F__of_slab",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2408,7 +1091,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "F__of_sa_2",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2419,7 +1102,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Total_Slab",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2430,7 +1113,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "F__of_sa_3",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2441,7 +1124,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Sample_S_2",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2452,7 +1135,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Sample_S_3",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2463,8 +1146,8 @@
                 "esriType": "esriFieldTypeDouble",
                 "alias": "Joint_Leng",
                 "format": {
-                  "digitSeparator": false,
-                  "places": 6
+                  "digitSeparator": true,
+                  "places": 2
                 }
               },
               {
@@ -2474,7 +1157,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "StdDev_",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2485,7 +1168,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Error",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 }
               },
@@ -2528,8 +1211,8 @@
                 "esriType": "esriFieldTypeDouble",
                 "alias": "SHAPE_Le_1",
                 "format": {
-                  "digitSeparator": false,
-                  "places": 6
+                  "digitSeparator": true,
+                  "places": 2
                 }
               },
               {
@@ -2539,8 +1222,8 @@
                 "esriType": "esriFieldTypeDouble",
                 "alias": "Shape_Ar_1",
                 "format": {
-                  "digitSeparator": false,
-                  "places": 6
+                  "digitSeparator": true,
+                  "places": 2
                 }
               },
               {
@@ -2558,8 +1241,8 @@
                 "esriType": "esriFieldTypeDouble",
                 "alias": "Shape.STArea()",
                 "format": {
-                  "digitSeparator": false,
-                  "places": 6
+                  "digitSeparator": true,
+                  "places": 2
                 }
               },
               {
@@ -2569,26 +1252,12 @@
                 "esriType": "esriFieldTypeDouble",
                 "alias": "Shape.STLength()",
                 "format": {
-                  "digitSeparator": false,
-                  "places": 6
+                  "digitSeparator": true,
+                  "places": 2
                 }
               }
             ],
             "tableFields": [
-              {
-                "jimuName": "OBJECTID_1",
-                "name": "OBJECTID_1",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeOID",
-                "alias": "OBJECTID_1",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": false,
-                "editable": false,
-                "visible": true
-              },
               {
                 "jimuName": "NAMESHORT",
                 "name": "NAMESHORT",
@@ -2601,41 +1270,13 @@
                 "visible": true
               },
               {
-                "jimuName": "SHAPE_LENG",
-                "name": "SHAPE_LENG",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "SHAPE_LENG",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "OBJECTID",
-                "name": "OBJECTID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "OBJECTID",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
                 "jimuName": "F_",
                 "name": "F_",
                 "type": "NUMBER",
                 "esriType": "esriFieldTypeInteger",
                 "alias": "F_",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -2649,7 +1290,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "GIS_",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -2761,7 +1402,10 @@
                 "type": "DATE",
                 "esriType": "esriFieldTypeDate",
                 "alias": "Last_Inspe",
-                "format": null,
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
                 "editAuthority": true,
                 "editable": true,
                 "visible": true
@@ -2773,7 +1417,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "PCI",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -2842,7 +1486,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Section_Le",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -2856,7 +1500,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Section_Wi",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -2870,7 +1514,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Approximat",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -2894,7 +1538,10 @@
                 "type": "DATE",
                 "esriType": "esriFieldTypeDate",
                 "alias": "Constructe",
-                "format": null,
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
                 "editAuthority": true,
                 "editable": true,
                 "visible": true
@@ -2917,7 +1564,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Total_samp",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -2931,7 +1578,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Area_of_a_",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -2956,7 +1603,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "F__of_sa_1",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -2970,7 +1617,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Sample_Len",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -2995,7 +1642,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Sample_S_1",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3009,7 +1656,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Slab_Lengt",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3023,7 +1670,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Slab_Width",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3037,7 +1684,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Total_sa_1",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3051,7 +1698,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "F__of_slab",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3065,7 +1712,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "F__of_sa_2",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3079,7 +1726,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Total_Slab",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3093,7 +1740,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "F__of_sa_3",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3107,7 +1754,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Sample_S_2",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3121,7 +1768,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Sample_S_3",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3135,8 +1782,8 @@
                 "esriType": "esriFieldTypeDouble",
                 "alias": "Joint_Leng",
                 "format": {
-                  "digitSeparator": false,
-                  "places": 6
+                  "digitSeparator": true,
+                  "places": 2
                 },
                 "editAuthority": true,
                 "editable": true,
@@ -3149,7 +1796,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "StdDev_",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3163,7 +1810,7 @@
                 "esriType": "esriFieldTypeInteger",
                 "alias": "Error",
                 "format": {
-                  "digitSeparator": false,
+                  "digitSeparator": true,
                   "places": 0
                 },
                 "editAuthority": true,
@@ -3202,6 +1849,1377 @@
                 "editAuthority": true,
                 "editable": true,
                 "visible": true
+              },
+              {
+                "jimuName": "F__",
+                "name": "F__",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "F__",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "entered_to",
+                "name": "entered_to",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "entered_to",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachements": false,
+            "enableEdit": false,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": "",
+            "enableRefresh": true,
+            "enableSelect": true,
+            "selectMode": "SINGLE"
+          },
+          {
+            "id": "dataSource_4-1894bb801c1-layer-4-4",
+            "name": "2023 Pavement",
+            "useDataSource": {
+              "dataSourceId": "dataSource_4-1894bb801c1-layer-4",
+              "mainDataSourceId": "dataSource_4-1894bb801c1-layer-4",
+              "rootDataSourceId": "dataSource_4",
+              "fields": [
+                "NAMESHORT",
+                "F_",
+                "GIS_",
+                "Network_ID",
+                "Network_Na",
+                "Branch_Nam",
+                "Branch_Use",
+                "Name_Short",
+                "Branch_ID",
+                "Name",
+                "Section_ID",
+                "F2022_PCI_",
+                "Last_Inspe",
+                "PCI",
+                "Predicted_",
+                "Predicted1",
+                "Predicte_1",
+                "Updated_PC",
+                "Category__",
+                "From_",
+                "To_",
+                "Surface_As",
+                "Surface__o",
+                "Updated_Su",
+                "Surface_Ty",
+                "Section_Le",
+                "Section_Wi",
+                "Approximat",
+                "Rank",
+                "Constructe",
+                "Last_Major",
+                "Total_samp",
+                "Area_of_a_",
+                "F__of_samp",
+                "F__of_sa_1",
+                "Sample_Len",
+                "Sample_Spa",
+                "Sample_S_1",
+                "Slab_Lengt",
+                "Slab_Width",
+                "Total_sa_1",
+                "F__of_slab",
+                "F__of_sa_2",
+                "Total_Slab",
+                "F__of_sa_3",
+                "Sample_S_2",
+                "Sample_S_3",
+                "Joint_Leng",
+                "StdDev_",
+                "Error"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "OBJECTID_1",
+                "name": "OBJECTID_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID_1",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "NAMESHORT",
+                "name": "NAMESHORT",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "NAMESHORT",
+                "format": null
+              },
+              {
+                "jimuName": "SHAPE_LENG",
+                "name": "SHAPE_LENG",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "SHAPE_LENG",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "F_",
+                "name": "F_",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F_",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "GIS_",
+                "name": "GIS_",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "GIS_",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Network_ID",
+                "name": "Network_ID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Network_ID",
+                "format": null
+              },
+              {
+                "jimuName": "Network_Na",
+                "name": "Network_Na",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Network_Na",
+                "format": null
+              },
+              {
+                "jimuName": "Branch_Nam",
+                "name": "Branch_Nam",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Branch_Nam",
+                "format": null
+              },
+              {
+                "jimuName": "Branch_Use",
+                "name": "Branch_Use",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Branch_Use",
+                "format": null
+              },
+              {
+                "jimuName": "Name_Short",
+                "name": "Name_Short",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name_Short",
+                "format": null
+              },
+              {
+                "jimuName": "Branch_ID",
+                "name": "Branch_ID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Branch_ID",
+                "format": null
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null
+              },
+              {
+                "jimuName": "Section_ID",
+                "name": "Section_ID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Section_ID",
+                "format": null
+              },
+              {
+                "jimuName": "F2022_PCI_",
+                "name": "F2022_PCI_",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "F2022_PCI_",
+                "format": null
+              },
+              {
+                "jimuName": "Last_Inspe",
+                "name": "Last_Inspe",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Last_Inspe",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "PCI",
+                "name": "PCI",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "PCI",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Predicted_",
+                "name": "Predicted_",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Predicted_PCI_20220923",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Predicted1",
+                "name": "Predicted1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Predicted_PCI_20221020",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Predicte_1",
+                "name": "Predicte_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Predicted_PCI_20230104",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Updated_PC",
+                "name": "Updated_PC",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Predicted_PCI_20230119",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Category__",
+                "name": "Category__",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Category__",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "From_",
+                "name": "From_",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "From_",
+                "format": null
+              },
+              {
+                "jimuName": "To_",
+                "name": "To_",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "To",
+                "format": null
+              },
+              {
+                "jimuName": "Surface_As",
+                "name": "Surface_As",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Surface_Assumption",
+                "format": null
+              },
+              {
+                "jimuName": "Surface__o",
+                "name": "Surface__o",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Surface__old",
+                "format": null
+              },
+              {
+                "jimuName": "Updated_Su",
+                "name": "Updated_Su",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Updated_PAVER_Surface_Type",
+                "format": null
+              },
+              {
+                "jimuName": "Surface_Ty",
+                "name": "Surface_Ty",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Surface_Type_Simplified",
+                "format": null
+              },
+              {
+                "jimuName": "Section_Le",
+                "name": "Section_Le",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Section_Le",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Section_Wi",
+                "name": "Section_Wi",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Section_Wi",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Approximat",
+                "name": "Approximat",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Approximat",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Rank",
+                "name": "Rank",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Rank",
+                "format": null
+              },
+              {
+                "jimuName": "Constructe",
+                "name": "Constructe",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Constructe",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Last_Major",
+                "name": "Last_Major",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Last_Major",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Total_samp",
+                "name": "Total_samp",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Total_samp",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Area_of_a_",
+                "name": "Area_of_a_",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Area_of_a_",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "F__of_samp",
+                "name": "F__of_samp",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F__of_samp",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "F__of_sa_1",
+                "name": "F__of_sa_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F__of_sa_1",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Sample_Len",
+                "name": "Sample_Len",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Sample_Len",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Sample_Spa",
+                "name": "Sample_Spa",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Sample_Spa",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Sample_S_1",
+                "name": "Sample_S_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Sample_S_1",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Slab_Lengt",
+                "name": "Slab_Lengt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Slab_Lengt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Slab_Width",
+                "name": "Slab_Width",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Slab_Width",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Total_sa_1",
+                "name": "Total_sa_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Total_sa_1",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "F__of_slab",
+                "name": "F__of_slab",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F__of_slab",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "F__of_sa_2",
+                "name": "F__of_sa_2",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F__of_sa_2",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Total_Slab",
+                "name": "Total_Slab",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Total_Slab",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "F__of_sa_3",
+                "name": "F__of_sa_3",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F__of_sa_3",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Sample_S_2",
+                "name": "Sample_S_2",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Sample_S_2",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Sample_S_3",
+                "name": "Sample_S_3",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Sample_S_3",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Joint_Leng",
+                "name": "Joint_Leng",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Joint_Leng",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "StdDev_",
+                "name": "StdDev_",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "StdDev_",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Error",
+                "name": "Error",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Error",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "AvgWdth_GI",
+                "name": "AvgWdth_GI",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AvgWdth_GI",
+                "format": null
+              },
+              {
+                "jimuName": "FID_",
+                "name": "FID_",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "FID_",
+                "format": null
+              },
+              {
+                "jimuName": "Name_Sho_1",
+                "name": "Name_Sho_1",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name_Sho_1",
+                "format": null
+              },
+              {
+                "jimuName": "F__",
+                "name": "F__",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "F__",
+                "format": null
+              },
+              {
+                "jimuName": "SHAPE_LE_1",
+                "name": "SHAPE_LE_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "SHAPE_LE_1",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "entered_to",
+                "name": "entered_to",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "entered_to",
+                "format": null
+              },
+              {
+                "jimuName": "Shape_Le_2",
+                "name": "Shape_Le_2",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape_Le_2",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Shape_Ar_1",
+                "name": "Shape_Ar_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape_Ar_1",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Shape__Area",
+                "name": "Shape__Area",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STArea()",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Shape__Length",
+                "name": "Shape__Length",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STLength()",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "NAMESHORT",
+                "name": "NAMESHORT",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "NAMESHORT",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "F_",
+                "name": "F_",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F_",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "GIS_",
+                "name": "GIS_",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "GIS_",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Network_ID",
+                "name": "Network_ID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Network_ID",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Network_Na",
+                "name": "Network_Na",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Network_Na",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Branch_Nam",
+                "name": "Branch_Nam",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Branch_Nam",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Branch_Use",
+                "name": "Branch_Use",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Branch_Use",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Name_Short",
+                "name": "Name_Short",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name_Short",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Branch_ID",
+                "name": "Branch_ID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Branch_ID",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Section_ID",
+                "name": "Section_ID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Section_ID",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "F2022_PCI_",
+                "name": "F2022_PCI_",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "F2022_PCI_",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Last_Inspe",
+                "name": "Last_Inspe",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Last_Inspe",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PCI",
+                "name": "PCI",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "PCI",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Predicted_",
+                "name": "Predicted_",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Predicted_PCI_20220923",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Predicted1",
+                "name": "Predicted1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Predicted_PCI_20221020",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Predicte_1",
+                "name": "Predicte_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Predicted_PCI_20230104",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Updated_PC",
+                "name": "Updated_PC",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Predicted_PCI_20230119",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Category__",
+                "name": "Category__",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Category__",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "From_",
+                "name": "From_",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "From_",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "To_",
+                "name": "To_",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "To",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Surface_As",
+                "name": "Surface_As",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Surface_Assumption",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Surface__o",
+                "name": "Surface__o",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Surface__old",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Updated_Su",
+                "name": "Updated_Su",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Updated_PAVER_Surface_Type",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Surface_Ty",
+                "name": "Surface_Ty",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Surface_Type_Simplified",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Section_Le",
+                "name": "Section_Le",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Section_Le",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Section_Wi",
+                "name": "Section_Wi",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Section_Wi",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Approximat",
+                "name": "Approximat",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Approximat",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Rank",
+                "name": "Rank",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Rank",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Constructe",
+                "name": "Constructe",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Constructe",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Last_Major",
+                "name": "Last_Major",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Last_Major",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Total_samp",
+                "name": "Total_samp",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Total_samp",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Area_of_a_",
+                "name": "Area_of_a_",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Area_of_a_",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "F__of_samp",
+                "name": "F__of_samp",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F__of_samp",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "F__of_sa_1",
+                "name": "F__of_sa_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F__of_sa_1",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Sample_Len",
+                "name": "Sample_Len",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Sample_Len",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Sample_Spa",
+                "name": "Sample_Spa",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Sample_Spa",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Sample_S_1",
+                "name": "Sample_S_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Sample_S_1",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Slab_Lengt",
+                "name": "Slab_Lengt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Slab_Lengt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Slab_Width",
+                "name": "Slab_Width",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Slab_Width",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Total_sa_1",
+                "name": "Total_sa_1",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Total_sa_1",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "F__of_slab",
+                "name": "F__of_slab",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F__of_slab",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "F__of_sa_2",
+                "name": "F__of_sa_2",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F__of_sa_2",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Total_Slab",
+                "name": "Total_Slab",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Total_Slab",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "F__of_sa_3",
+                "name": "F__of_sa_3",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "F__of_sa_3",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Sample_S_2",
+                "name": "Sample_S_2",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Sample_S_2",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Sample_S_3",
+                "name": "Sample_S_3",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Sample_S_3",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Joint_Leng",
+                "name": "Joint_Leng",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Joint_Leng",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "StdDev_",
+                "name": "StdDev_",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "StdDev_",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Error",
+                "name": "Error",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Error",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
               }
             ],
             "enableAttachements": false,
@@ -3219,14 +3237,11 @@
       "id": "widget_13",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-          "mainDataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
+          "dataSourceId": "dataSource_3-1894bba12fe-layer-4",
+          "mainDataSourceId": "dataSource_3-1894bba12fe-layer-4",
           "rootDataSourceId": "dataSource_3",
           "fields": [
-            "OBJECTID_1",
             "NAMESHORT",
-            "SHAPE_LENG",
-            "OBJECTID",
             "F_",
             "GIS_",
             "Network_ID",
@@ -3272,18 +3287,17 @@
             "Error",
             "AvgWdth_GI",
             "FID_",
-            "Name_Sho_1"
+            "Name_Sho_1",
+            "F__",
+            "entered_to"
           ]
         },
         {
-          "dataSourceId": "dataSource_4-187de8f27d2-layer-6",
-          "mainDataSourceId": "dataSource_4-187de8f27d2-layer-6",
+          "dataSourceId": "dataSource_4-1894bb801c1-layer-4",
+          "mainDataSourceId": "dataSource_4-1894bb801c1-layer-4",
           "rootDataSourceId": "dataSource_4",
           "fields": [
-            "OBJECTID_1",
             "NAMESHORT",
-            "SHAPE_LENG",
-            "OBJECTID",
             "F_",
             "GIS_",
             "Network_ID",
@@ -3329,7 +3343,10 @@
             "Total_Slab",
             "F__of_sa_3",
             "Sample_S_2",
-            "Sample_S_3"
+            "Sample_S_3",
+            "Joint_Leng",
+            "StdDev_",
+            "Error"
           ]
         }
       ]
@@ -3347,7 +3364,34 @@
           "canFullScreen": true,
           "canBaseMap": true
         },
-        "isUseCustomMapState": false
+        "isUseCustomMapState": true,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 144447.638572,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -10017817.116257252,
+              "y": 4654245.243806578
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -10033868.892197117,
+            "ymin": 4641346.495283472,
+            "xmax": -10001765.340317387,
+            "ymax": 4667143.992329684
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "initialMapDataSourceID": "dataSource_3"
       },
       "id": "widget_16",
       "layouts": {
@@ -3368,7 +3412,7 @@
       "label": "Surface type & area",
       "config": {
         "tools": {
-          "cursorEnable": false
+          "cursorEnable": true
         },
         "template": "pie",
         "webChart": {
@@ -3410,18 +3454,7 @@
               "dataLabelsOffset": 20,
               "sliceGrouping": {
                 "percentageThreshold": 0,
-                "groupName": "Other",
-                "fillSymbol": {
-                  "type": "esriSFS",
-                  "style": "esriSFSSolid",
-                  "color": "#D6D6D6",
-                  "outline": {
-                    "type": "esriSLS",
-                    "style": "esriSLSSolid",
-                    "color": "var(--light-100)",
-                    "width": 1
-                  }
-                }
+                "groupName": "Other"
               },
               "numericValueFormat": {
                 "type": "number",
@@ -3459,7 +3492,7 @@
                   "type": "esriTS",
                   "color": "var(--dark-600)",
                   "font": {
-                    "family": "Arial",
+                    "family": "Avenir Next",
                     "size": 12,
                     "style": "normal",
                     "weight": "bold",
@@ -3503,7 +3536,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DF6B35",
+                    "color": "#dbcf4e",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -3517,7 +3550,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DBCF4E",
+                    "color": "#41546d",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -3531,7 +3564,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#41546D",
+                    "color": "#8257c2",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -3621,8 +3654,8 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-          "mainDataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
+          "dataSourceId": "dataSource_3-1894bba12fe-layer-4",
+          "mainDataSourceId": "dataSource_3-1894bba12fe-layer-4",
           "rootDataSourceId": "dataSource_3",
           "fields": [
             "Surface_Ty",
@@ -3651,9 +3684,12 @@
               ],
               "outStatistics": [
                 {
-                  "statisticType": "avg",
+                  "statisticType": "percentile_cont",
                   "onStatisticField": "PCI",
-                  "outStatisticFieldName": "PCI_avg"
+                  "outStatisticFieldName": "PCI_percentile_cont",
+                  "statisticParameters": {
+                    "value": 0.5
+                  }
                 }
               ],
               "orderByFields": [
@@ -3667,7 +3703,7 @@
               "id": "PCI",
               "name": "PCI",
               "x": "Surface_Ty",
-              "y": "PCI_avg",
+              "y": "PCI_percentile_cont",
               "colorType": "singleColor",
               "stackedType": "sideBySide",
               "lineSymbol": {
@@ -3679,593 +3715,6 @@
               "dataLabels": {
                 "type": "chartText",
                 "visible": true,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-600)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "bold",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
-                }
-              },
-              "rotated": false,
-              "lineSmoothed": false,
-              "showArea": false,
-              "markerVisible": true,
-              "markerSymbol": {
-                "type": "esriSMS",
-                "style": "esriSMSCircle",
-                "color": "#5E8FD0",
-                "size": 10,
-                "outline": {
-                  "type": "esriSLS",
-                  "style": "esriSLSSolid",
-                  "color": "var(--light-900)",
-                  "width": 0
-                }
-              }
-            }
-          ],
-          "axes": [
-            {
-              "type": "chartAxis",
-              "visible": true,
-              "isLogarithmic": false,
-              "title": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-800)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "labels": {
-                "type": "chartText",
-                "visible": true,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-500)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "valueFormat": {
-                "type": "category",
-                "characterLimit": 11
-              },
-              "lineSymbol": {
-                "type": "esriSLS",
-                "style": "esriSLSSolid",
-                "color": "var(--light-800)",
-                "width": 1
-              },
-              "grid": {
-                "type": "esriSLS",
-                "style": "esriSLSDash",
-                "color": "var(--light-300)",
-                "width": 0
-              }
-            },
-            {
-              "type": "chartAxis",
-              "visible": true,
-              "isLogarithmic": false,
-              "title": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-800)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "labels": {
-                "type": "chartText",
-                "visible": true,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-500)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "valueFormat": {
-                "type": "number",
-                "intlOptions": {
-                  "style": "decimal",
-                  "useGrouping": true,
-                  "minimumFractionDigits": 0,
-                  "maximumFractionDigits": 0
-                }
-              },
-              "lineSymbol": {
-                "type": "esriSLS",
-                "style": "esriSLSSolid",
-                "color": "var(--light-800)",
-                "width": 1
-              },
-              "grid": {
-                "type": "esriSLS",
-                "style": "esriSLSDash",
-                "color": "var(--light-300)",
-                "width": 0
-              }
-            }
-          ],
-          "background": "var(--white)",
-          "title": {
-            "type": "chartText",
-            "visible": true,
-            "content": {
-              "type": "esriTS",
-              "color": "var(--black)",
-              "font": {
-                "family": "Avenir Next",
-                "size": 24,
-                "style": "normal",
-                "weight": "bold",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": "Average PCI by Surface Type"
-            }
-          },
-          "footer": {
-            "type": "chartText",
-            "visible": true,
-            "content": {
-              "type": "esriTS",
-              "color": "var(--dark-800)",
-              "font": {
-                "family": "Avenir Next",
-                "size": 14,
-                "style": "normal",
-                "weight": "normal",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": ""
-            }
-          },
-          "legend": {
-            "type": "chartLegend",
-            "visible": false,
-            "title": {
-              "type": "chartText",
-              "visible": true,
-              "content": {
-                "type": "esriTS",
-                "color": "var(--dark-800)",
-                "font": {
-                  "family": "Avenir Next",
-                  "size": 20,
-                  "style": "normal",
-                  "weight": "normal",
-                  "decoration": "none"
-                },
-                "horizontalAlignment": "center",
-                "text": ""
-              }
-            },
-            "body": {
-              "type": "esriTS",
-              "color": "var(--dark-800)",
-              "font": {
-                "family": "Avenir Next",
-                "size": 14,
-                "style": "normal",
-                "weight": "normal",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": ""
-            },
-            "position": "right"
-          }
-        }
-      },
-      "id": "widget_20",
-      "outputDataSources": [
-        "dataSource_5"
-      ],
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-          "mainDataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-          "rootDataSourceId": "dataSource_3",
-          "fields": [
-            "Surface_Ty",
-            "PCI"
-          ]
-        }
-      ]
-    },
-    "widget_21": {
-      "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.10.0",
-      "label": "Map 3",
-      "config": {
-        "toolConfig": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": false,
-          "canNavigation": true,
-          "canBaseMap": true,
-          "canFullScreen": true
-        },
-        "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_4",
-        "initialMapState": null
-      },
-      "id": "widget_21",
-      "layouts": {
-        "MapFixedLayout": {
-          "LARGE": "layout_8"
-        }
-      },
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_4",
-          "mainDataSourceId": "dataSource_4"
-        }
-      ]
-    },
-    "widget_22": {
-      "uri": "widgets/common/chart/",
-      "version": "1.10.0",
-      "label": "Surface type & area 3",
-      "config": {
-        "tools": {
-          "cursorEnable": true
-        },
-        "template": "pie",
-        "webChart": {
-          "version": "1.0.0",
-          "id": "pie",
-          "type": "chart",
-          "dataSource": {
-            "query": {
-              "groupByFieldsForStatistics": [
-                "Updated_Su"
-              ],
-              "outStatistics": [
-                {
-                  "statisticType": "sum",
-                  "onStatisticField": "Shape__Area",
-                  "outStatisticFieldName": "Shape__Area_sum"
-                }
-              ],
-              "orderByFields": [
-                "Updated_Su ASC"
-              ]
-            }
-          },
-          "series": [
-            {
-              "type": "pieSeries",
-              "colorType": "colorMatch",
-              "id": "Shape__Area",
-              "name": "Shape.STArea()",
-              "x": "Updated_Su",
-              "y": "Shape__Area_sum",
-              "innerRadius": 45,
-              "startAngle": 0,
-              "endAngle": 360,
-              "displayNumericValueOnDataLabel": false,
-              "displayPercentageOnDataLabel": true,
-              "displayNumericValueOnTooltip": true,
-              "displayPercentageOnTooltip": true,
-              "dataLabelsOffset": 20,
-              "sliceGrouping": {
-                "percentageThreshold": 0,
-                "groupName": "Other"
-              },
-              "numericValueFormat": {
-                "type": "number",
-                "intlOptions": {
-                  "style": "decimal",
-                  "useGrouping": true,
-                  "minimumFractionDigits": 0,
-                  "maximumFractionDigits": 3
-                }
-              },
-              "percentValueFormat": {
-                "type": "number",
-                "intlOptions": {
-                  "style": "decimal",
-                  "useGrouping": true,
-                  "minimumFractionDigits": 0,
-                  "maximumFractionDigits": 3
-                }
-              },
-              "fillSymbol": {
-                "type": "esriSFS",
-                "style": "esriSFSSolid",
-                "color": "#D6D6D6",
-                "outline": {
-                  "type": "esriSLS",
-                  "style": "esriSLSSolid",
-                  "color": "var(--light-100)",
-                  "width": 1
-                }
-              },
-              "dataLabels": {
-                "type": "chartText",
-                "visible": true,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-600)",
-                  "font": {
-                    "family": "Arial",
-                    "size": 12,
-                    "style": "normal",
-                    "weight": "bold",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
-                }
-              },
-              "slices": [
-                {
-                  "sliceId": " ",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#5E8FD0",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "AC",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#77B484",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "APC",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#DF6B35",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "BR",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#DBCF4E",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "OC",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#41546D",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "PCC",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#8257C2",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                }
-              ]
-            }
-          ],
-          "background": "var(--white)",
-          "title": {
-            "type": "chartText",
-            "visible": true,
-            "content": {
-              "type": "esriTS",
-              "color": "var(--black)",
-              "font": {
-                "family": "Avenir Next",
-                "size": 24,
-                "style": "normal",
-                "weight": "bold",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": "Area by Surface Type (SF)"
-            }
-          },
-          "footer": {
-            "type": "chartText",
-            "visible": true,
-            "content": {
-              "type": "esriTS",
-              "color": "var(--dark-800)",
-              "font": {
-                "family": "Avenir Next",
-                "size": 14,
-                "style": "normal",
-                "weight": "normal",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": ""
-            }
-          },
-          "legend": {
-            "type": "chartLegend",
-            "visible": false,
-            "title": {
-              "type": "chartText",
-              "visible": true,
-              "content": {
-                "type": "esriTS",
-                "color": "var(--dark-800)",
-                "font": {
-                  "family": "Avenir Next",
-                  "size": 20,
-                  "style": "normal",
-                  "weight": "normal",
-                  "decoration": "none"
-                },
-                "horizontalAlignment": "center",
-                "text": ""
-              }
-            },
-            "body": {
-              "type": "esriTS",
-              "color": "var(--dark-800)",
-              "font": {
-                "family": "Avenir Next",
-                "size": 16,
-                "style": "normal",
-                "weight": "bold",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": ""
-            },
-            "position": "right"
-          }
-        }
-      },
-      "id": "widget_22",
-      "outputDataSources": [
-        "widget_22_ouput"
-      ],
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_4-187de8f27d2-layer-6",
-          "mainDataSourceId": "dataSource_4-187de8f27d2-layer-6",
-          "rootDataSourceId": "dataSource_4",
-          "fields": [
-            "Updated_Su",
-            "Shape__Area"
-          ]
-        }
-      ]
-    },
-    "widget_23": {
-      "uri": "widgets/common/chart/",
-      "version": "1.10.0",
-      "label": "Surface type & area 4",
-      "config": {
-        "tools": {
-          "cursorEnable": true
-        },
-        "template": "line",
-        "webChart": {
-          "version": "1.0.0",
-          "id": "line",
-          "type": "chart",
-          "dataSource": {
-            "query": {
-              "groupByFieldsForStatistics": [
-                "Surface_Ty"
-              ],
-              "outStatistics": [
-                {
-                  "statisticType": "avg",
-                  "onStatisticField": "OBJECTID_1",
-                  "outStatisticFieldName": "OBJECTID_1_avg"
-                }
-              ],
-              "orderByFields": [
-                "Surface_Ty ASC"
-              ]
-            }
-          },
-          "series": [
-            {
-              "type": "lineSeries",
-              "id": "OBJECTID_1",
-              "name": "OBJECTID_1",
-              "x": "Surface_Ty",
-              "y": "OBJECTID_1_avg",
-              "colorType": "singleColor",
-              "stackedType": "sideBySide",
-              "lineSymbol": {
-                "type": "esriSLS",
-                "style": "esriSLSSolid",
-                "color": "#5E8FD0",
-                "width": 2
-              },
-              "dataLabels": {
-                "type": "chartText",
-                "visible": false,
                 "content": {
                   "type": "esriTS",
                   "color": "var(--dark-600)",
@@ -4487,18 +3936,639 @@
           }
         }
       },
+      "id": "widget_20",
+      "outputDataSources": [
+        "widget_20_ouput"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_3-1894bba12fe-layer-4",
+          "mainDataSourceId": "dataSource_3-1894bba12fe-layer-4",
+          "rootDataSourceId": "dataSource_3",
+          "fields": [
+            "Surface_Ty",
+            "PCI"
+          ]
+        }
+      ]
+    },
+    "widget_21": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.10.0",
+      "label": "Map 3",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": true,
+          "canBaseMap": true,
+          "canFullScreen": true
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_4",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 144447.638572,
+            "targetGeometry": {
+              "spatialReference": {
+                "wkid": 102100
+              },
+              "x": -10017457.87357397,
+              "y": 4654375.501908051
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "wkid": 102100
+            },
+            "xmin": -10033509.649513835,
+            "ymin": 4641476.753384945,
+            "xmax": -10001406.097634105,
+            "ymax": 4667274.250431157
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        }
+      },
+      "id": "widget_21",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_8"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4",
+          "mainDataSourceId": "dataSource_4"
+        }
+      ]
+    },
+    "widget_22": {
+      "uri": "widgets/common/chart/",
+      "version": "1.10.0",
+      "label": "Surface type & area 3",
+      "config": {
+        "tools": {
+          "cursorEnable": true
+        },
+        "template": "pie",
+        "webChart": {
+          "version": "1.0.0",
+          "id": "pie",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "Updated_Su"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "sum",
+                  "onStatisticField": "Shape__Area",
+                  "outStatisticFieldName": "Shape__Area_sum"
+                }
+              ],
+              "orderByFields": [
+                "Updated_Su ASC"
+              ]
+            }
+          },
+          "series": [
+            {
+              "type": "pieSeries",
+              "colorType": "colorMatch",
+              "id": "Shape__Area",
+              "name": "Shape.STArea()",
+              "x": "Updated_Su",
+              "y": "Shape__Area_sum",
+              "innerRadius": 45,
+              "startAngle": 0,
+              "endAngle": 360,
+              "displayNumericValueOnDataLabel": false,
+              "displayPercentageOnDataLabel": true,
+              "displayNumericValueOnTooltip": true,
+              "displayPercentageOnTooltip": true,
+              "dataLabelsOffset": 20,
+              "sliceGrouping": {
+                "percentageThreshold": 0,
+                "groupName": "Other",
+                "fillSymbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": "#D6D6D6",
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "color": "var(--light-100)",
+                    "width": 1
+                  }
+                }
+              },
+              "numericValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "percentValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6D6D6",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-100)",
+                  "width": 1
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "slices": [
+                {
+                  "sliceId": " ",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#5E8FD0",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "AC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#77B484",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "APC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DF6B35",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "BR",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DBCF4E",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "OC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#41546D",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "PCC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#8257C2",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "Area by Surface Type (SF)"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 16,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
+      "id": "widget_22",
+      "outputDataSources": [
+        "widget_22_ouput"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4-1894bb801c1-layer-4",
+          "mainDataSourceId": "dataSource_4-1894bb801c1-layer-4",
+          "rootDataSourceId": "dataSource_4",
+          "fields": [
+            "Updated_Su",
+            "Shape__Area"
+          ]
+        }
+      ]
+    },
+    "widget_23": {
+      "uri": "widgets/common/chart/",
+      "version": "1.10.0",
+      "label": "Surface type & area 4",
+      "config": {
+        "tools": {
+          "cursorEnable": true
+        },
+        "template": "line",
+        "webChart": {
+          "version": "1.0.0",
+          "id": "line",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "Updated_Su"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "avg",
+                  "onStatisticField": "Updated_PC",
+                  "outStatisticFieldName": "Updated_PC_avg"
+                }
+              ],
+              "orderByFields": [
+                "Updated_Su ASC"
+              ]
+            }
+          },
+          "series": [
+            {
+              "type": "lineSeries",
+              "id": "Updated_PC",
+              "name": "PCI",
+              "x": "Updated_Su",
+              "y": "Updated_PC_avg",
+              "colorType": "singleColor",
+              "stackedType": "sideBySide",
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "#5E8FD0",
+                "width": 2
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "lineSmoothed": false,
+              "showArea": false,
+              "markerVisible": true,
+              "markerSymbol": {
+                "type": "esriSMS",
+                "style": "esriSMSCircle",
+                "color": "#5E8FD0",
+                "size": 10,
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              }
+            }
+          ],
+          "axes": [
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "category",
+                "characterLimit": 11
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--light-300)",
+                "width": 0
+              }
+            },
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--light-300)",
+                "width": 0
+              }
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "Average PCI by Surface Type"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
       "id": "widget_23",
       "outputDataSources": [
         "widget_23_ouput"
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_4-187de8f27d2-layer-6",
-          "mainDataSourceId": "dataSource_4-187de8f27d2-layer-6",
+          "dataSourceId": "dataSource_4-1894bb801c1-layer-4",
+          "mainDataSourceId": "dataSource_4-1894bb801c1-layer-4",
           "rootDataSourceId": "dataSource_4",
           "fields": [
-            "Surface_Ty",
-            "OBJECTID_1"
+            "Updated_Su",
+            "Updated_PC"
           ]
         }
       ]
@@ -4534,8 +4604,8 @@
             },
             "name": "2022 Pavement",
             "useDataSource": {
-              "dataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-              "mainDataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
+              "dataSourceId": "dataSource_3-1894bba12fe-layer-4",
+              "mainDataSourceId": "dataSource_3-1894bba12fe-layer-4",
               "rootDataSourceId": "dataSource_3",
               "fields": [
                 "PCI"
@@ -4563,7 +4633,7 @@
                   "askForValueOptions": {
                     "label": null,
                     "display": "BLOCK",
-                    "hint": "from 0 to 100",
+                    "hint": "0 to 100",
                     "cascade": null
                   },
                   "displayLabel": null,
@@ -4581,8 +4651,8 @@
       "id": "widget_24",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-          "mainDataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
+          "dataSourceId": "dataSource_3-1894bba12fe-layer-4",
+          "mainDataSourceId": "dataSource_3-1894bba12fe-layer-4",
           "rootDataSourceId": "dataSource_3",
           "fields": [
             "PCI"
@@ -4621,8 +4691,8 @@
             },
             "name": "2022 Pavement",
             "useDataSource": {
-              "dataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-              "mainDataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
+              "dataSourceId": "dataSource_3-1894bba12fe-layer-4",
+              "mainDataSourceId": "dataSource_3-1894bba12fe-layer-4",
               "rootDataSourceId": "dataSource_3",
               "fields": [
                 "Surface_Ty"
@@ -4637,8 +4707,8 @@
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
                     "value": [
                       {
                         "value": "OC",
@@ -4651,7 +4721,7 @@
                     "label": null,
                     "display": "BLOCK",
                     "hint": "OC, BR, PCC, AC, etc.",
-                    "cascade": null
+                    "cascade": "NONE"
                   },
                   "displayLabel": null,
                   "caseSensitive": false
@@ -4668,8 +4738,8 @@
       "id": "widget_25",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-          "mainDataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
+          "dataSourceId": "dataSource_3-1894bba12fe-layer-4",
+          "mainDataSourceId": "dataSource_3-1894bba12fe-layer-4",
           "rootDataSourceId": "dataSource_3",
           "fields": [
             "Surface_Ty"
@@ -4750,11 +4820,11 @@
             },
             "name": "2023 Pavement",
             "useDataSource": {
-              "dataSourceId": "dataSource_4-187de8f27d2-layer-6",
-              "mainDataSourceId": "dataSource_4-187de8f27d2-layer-6",
+              "dataSourceId": "dataSource_4-1894bb801c1-layer-4",
+              "mainDataSourceId": "dataSource_4-1894bb801c1-layer-4",
               "rootDataSourceId": "dataSource_4",
               "fields": [
-                "PCI"
+                "Updated_PC"
               ]
             },
             "sqlExprObj": {
@@ -4762,7 +4832,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "PCI",
+                  "jimuFieldName": "Updated_PC",
                   "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -4777,7 +4847,7 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": null,
+                    "label": "PCI is less than",
                     "display": "BLOCK",
                     "hint": "0 to 100",
                     "cascade": null
@@ -4786,8 +4856,8 @@
                   "caseSensitive": false
                 }
               ],
-              "sql": "((PCI < 50))",
-              "displaySQL": "(PCI < 50)"
+              "sql": "((Updated_PC < 50))",
+              "displaySQL": "(Predicted_PCI_20230119 < 50)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -4797,11 +4867,11 @@
       "id": "widget_28",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_4-187de8f27d2-layer-6",
-          "mainDataSourceId": "dataSource_4-187de8f27d2-layer-6",
+          "dataSourceId": "dataSource_4-1894bb801c1-layer-4",
+          "mainDataSourceId": "dataSource_4-1894bb801c1-layer-4",
           "rootDataSourceId": "dataSource_4",
           "fields": [
-            "PCI"
+            "Updated_PC"
           ]
         }
       ],
@@ -4842,11 +4912,11 @@
             },
             "name": "2023 Pavement",
             "useDataSource": {
-              "dataSourceId": "dataSource_4-187de8f27d2-layer-6",
-              "mainDataSourceId": "dataSource_4-187de8f27d2-layer-6",
+              "dataSourceId": "dataSource_4-1894bb801c1-layer-4",
+              "mainDataSourceId": "dataSource_4-1894bb801c1-layer-4",
               "rootDataSourceId": "dataSource_4",
               "fields": [
-                "Surface_Ty"
+                "Updated_Su"
               ]
             },
             "sqlExprObj": {
@@ -4854,7 +4924,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Surface_Ty",
+                  "jimuFieldName": "Updated_Su",
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
@@ -4869,7 +4939,7 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": null,
+                    "label": "Surface Type is",
                     "display": "BLOCK",
                     "hint": "OC, BR, PCC, AC, etc.",
                     "cascade": null
@@ -4878,8 +4948,8 @@
                   "caseSensitive": false
                 }
               ],
-              "sql": "((LOWER(Surface_Ty) = 'oc'))",
-              "displaySQL": "(Surface_Ty = 'oc')"
+              "sql": "((LOWER(Updated_Su) = 'oc'))",
+              "displaySQL": "(Updated_PAVER_Surface_Type = 'oc')"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -4889,11 +4959,11 @@
       "id": "widget_29",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_4-187de8f27d2-layer-6",
-          "mainDataSourceId": "dataSource_4-187de8f27d2-layer-6",
+          "dataSourceId": "dataSource_4-1894bb801c1-layer-4",
+          "mainDataSourceId": "dataSource_4-1894bb801c1-layer-4",
           "rootDataSourceId": "dataSource_4",
           "fields": [
-            "Surface_Ty"
+            "Updated_Su"
           ]
         }
       ]
@@ -4938,10 +5008,9 @@
       "label": "Surface type & area statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-          "mainDataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-          "rootDataSourceId": "dataSource_3",
-          "fields": []
+          "dataSourceId": "dataSource_3-1894bba12fe-layer-4",
+          "mainDataSourceId": "dataSource_3-1894bba12fe-layer-4",
+          "rootDataSourceId": "dataSource_3"
         }
       ],
       "isOutputFromWidget": true,
@@ -4973,62 +5042,11 @@
             "esriType": "esriFieldTypeDouble",
             "alias": "Shape__Area_sum",
             "format": {
-              "digitSeparator": false,
-              "places": 6
+              "digitSeparator": true,
+              "places": 2
             },
             "originFields": [
               "Shape__Area"
-            ]
-          }
-        }
-      }
-    },
-    "dataSource_5": {
-      "id": "dataSource_5",
-      "type": "FEATURE_LAYER",
-      "label": "Surface type & area 2 statistics",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-          "mainDataSourceId": "dataSource_3-40ab1b9121ee41a9a8f9048f9b0809da",
-          "rootDataSourceId": "dataSource_3",
-          "fields": []
-        }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "objectid",
-        "fields": {
-          "objectid": {
-            "jimuName": "objectid",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "name": "objectid"
-          },
-          "Surface_Ty": {
-            "jimuName": "Surface_Ty",
-            "name": "Surface_Ty",
-            "type": "STRING",
-            "esriType": "esriFieldTypeString",
-            "alias": "Surface_Ty",
-            "format": null,
-            "originFields": [
-              "Surface_Ty"
-            ]
-          },
-          "PCI_avg": {
-            "jimuName": "PCI_avg",
-            "name": "PCI_avg",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeInteger",
-            "alias": "PCI_avg",
-            "format": {
-              "digitSeparator": false,
-              "places": 0
-            },
-            "originFields": [
-              "PCI"
             ]
           }
         }
@@ -5040,8 +5058,8 @@
       "label": "Surface type & area 3 statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_4-187de8f27d2-layer-6",
-          "mainDataSourceId": "dataSource_4-187de8f27d2-layer-6",
+          "dataSourceId": "dataSource_4-1894bb801c1-layer-4",
+          "mainDataSourceId": "dataSource_4-1894bb801c1-layer-4",
           "rootDataSourceId": "dataSource_4"
         }
       ],
@@ -5061,7 +5079,7 @@
             "name": "Updated_Su",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "Updated_Su",
+            "alias": "Updated_PAVER_Surface_Type",
             "format": null,
             "originFields": [
               "Updated_Su"
@@ -5074,8 +5092,8 @@
             "esriType": "esriFieldTypeDouble",
             "alias": "Shape__Area_sum",
             "format": {
-              "digitSeparator": false,
-              "places": 6
+              "digitSeparator": true,
+              "places": 2
             },
             "originFields": [
               "Shape__Area"
@@ -5090,9 +5108,59 @@
       "label": "Surface type & area 4 statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_4-187de8f27d2-layer-6",
-          "mainDataSourceId": "dataSource_4-187de8f27d2-layer-6",
+          "dataSourceId": "dataSource_4-1894bb801c1-layer-4",
+          "mainDataSourceId": "dataSource_4-1894bb801c1-layer-4",
           "rootDataSourceId": "dataSource_4"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Updated_Su": {
+            "jimuName": "Updated_Su",
+            "name": "Updated_Su",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Updated_PAVER_Surface_Type",
+            "format": null,
+            "originFields": [
+              "Updated_Su"
+            ]
+          },
+          "Updated_PC_avg": {
+            "jimuName": "Updated_PC_avg",
+            "name": "Updated_PC_avg",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Updated_PC_avg",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "originFields": [
+              "Updated_PC"
+            ]
+          }
+        }
+      }
+    },
+    "widget_20_ouput": {
+      "id": "widget_20_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "Surface type & area 2 statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_3-1894bba12fe-layer-4",
+          "mainDataSourceId": "dataSource_3-1894bba12fe-layer-4",
+          "rootDataSourceId": "dataSource_3"
         }
       ],
       "isOutputFromWidget": true,
@@ -5117,18 +5185,18 @@
               "Surface_Ty"
             ]
           },
-          "OBJECTID_1_avg": {
-            "jimuName": "OBJECTID_1_avg",
-            "name": "OBJECTID_1_avg",
+          "PCI_percentile_cont": {
+            "jimuName": "PCI_percentile_cont",
+            "name": "PCI_percentile_cont",
             "type": "NUMBER",
-            "esriType": "esriFieldTypeOID",
-            "alias": "OBJECTID_1_avg",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "PCI_percentile_cont",
             "format": {
-              "digitSeparator": false,
+              "digitSeparator": true,
               "places": 0
             },
             "originFields": [
-              "OBJECTID_1"
+              "PCI"
             ]
           }
         }
@@ -5181,5 +5249,5 @@
     },
     "backgroundColor": "#355070"
   },
-  "timestamp": 1686706311134
+  "timestamp": 1689195754970
 }
