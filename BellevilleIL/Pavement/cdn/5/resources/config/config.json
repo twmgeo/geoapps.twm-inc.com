@@ -3375,8 +3375,8 @@
                 "latestWkid": 3857,
                 "wkid": 102100
               },
-              "x": -10017817.116257252,
-              "y": 4654245.243806578
+              "x": -10016947.047896225,
+              "y": 4654629.817605139
             }
           },
           "extent": {
@@ -3384,10 +3384,10 @@
               "latestWkid": 3857,
               "wkid": 102100
             },
-            "xmin": -10033868.892197117,
-            "ymin": 4641346.495283472,
-            "xmax": -10001765.340317387,
-            "ymax": 4667143.992329684
+            "xmin": -10032998.82383609,
+            "ymin": 4641731.069082033,
+            "xmax": -10000895.27195636,
+            "ymax": 4667528.566128245
           },
           "rotation": 0,
           "viewType": "2d"
@@ -3976,18 +3976,18 @@
               "spatialReference": {
                 "wkid": 102100
               },
-              "x": -10017457.87357397,
-              "y": 4654375.501908051
+              "x": -10019131.16521904,
+              "y": 4653835.516104718
             }
           },
           "extent": {
             "spatialReference": {
               "wkid": 102100
             },
-            "xmin": -10033509.649513835,
-            "ymin": 4641476.753384945,
-            "xmax": -10001406.097634105,
-            "ymax": 4667274.250431157
+            "xmin": -10035182.941158906,
+            "ymin": 4640936.767581612,
+            "xmax": -10003079.389279176,
+            "ymax": 4666734.264627824
           },
           "rotation": 0,
           "viewType": "2d"
@@ -5003,7 +5003,22 @@
       "type": "WEB_MAP",
       "sourceLabel": "Belleville Pavement Management Layers 2023",
       "itemId": "89940a0e5fbb45339a1d714edd1affbb",
-      "portalUrl": "https://geo.twm-inc.com/arcgis"
+      "portalUrl": "https://geo.twm-inc.com/arcgis",
+      "childDataSourceJsons": {
+        "1894bb801c1-layer-4": {
+          "id": "dataSource_4-1894bb801c1-layer-4",
+          "sourceLabel": "2023 Pavement",
+          "type": "FEATURE_LAYER",
+          "url": "https://geo.twm-inc.com/arcgis/rest/services/Belleville_City/Belleville_Web/FeatureServer/2",
+          "geometryType": "esriGeometryPolygon",
+          "query": {
+            "id": "dataSource_4-1894bb801c1-layer-4",
+            "label": "2023 Pavement",
+            "refreshInterval": 3600
+          }
+        }
+      },
+      "isHidden": false
     },
     "widget_17_ouput": {
       "id": "widget_17_ouput",
@@ -5204,6 +5219,20 @@
           }
         }
       }
+    },
+    "dataSource_5": {
+      "id": "dataSource_5",
+      "type": "WEB_MAP",
+      "sourceLabel": "Belleville Pavement Management Layers 2023",
+      "itemId": "89940a0e5fbb45339a1d714edd1affbb",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
+    },
+    "dataSource_6": {
+      "id": "dataSource_6",
+      "type": "WEB_MAP",
+      "sourceLabel": "Belleville Pavement Management Layers 2022",
+      "itemId": "31f8fd0e38b846359a883cab6e39f1c9",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
     }
   },
   "messageConfigs": {},
@@ -5246,5 +5275,5 @@
     },
     "backgroundColor": "#355070"
   },
-  "timestamp": 1689195754970
+  "timestamp": 1689196351664
 }
