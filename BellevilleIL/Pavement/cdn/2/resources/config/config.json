@@ -58,8 +58,19 @@
               "left": true,
               "top": true,
               "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "effect": {
+              "SCROLL_IN": {
+                "type": "NONE",
+                "option": {
+                  "direction": null
+                }
+              }
             }
-          }
+          },
+          "isPending": false
         }
       },
       "order": [
@@ -224,7 +235,9 @@
         "4",
         "5",
         "6",
-        "7"
+        "7",
+        "8",
+        "9"
       ],
       "content": {
         "0": {
@@ -232,8 +245,8 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "16.3%",
-            "bottom": "67.6%",
+            "top": "12.2%",
+            "bottom": "71.7%",
             "width": "100.0%",
             "height": "16.1%"
           },
@@ -255,8 +268,8 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "40.7%",
-            "bottom": "40.5%",
+            "top": "44.6%",
+            "bottom": "36.6%",
             "width": "100.0%",
             "height": "18.8%"
           },
@@ -345,9 +358,9 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "7.9%",
-            "bottom": "84.2%",
+            "bottom": "87.7%",
             "width": "100.0%",
-            "height": "7.9%"
+            "height": "4.4%"
           },
           "widgetId": "widget_22",
           "setting": {
@@ -367,10 +380,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "32.7%",
-            "bottom": "59.4%",
+            "top": "40.2%",
+            "bottom": "55.4%",
             "width": "100.0%",
-            "height": "7.9%"
+            "height": "4.4%"
           },
           "widgetId": "widget_23",
           "setting": {
@@ -390,10 +403,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "59.9%",
+            "top": "63.4%",
             "bottom": "32.2%",
             "width": "100.0%",
-            "height": "7.9%"
+            "height": "4.4%"
           },
           "widgetId": "widget_24",
           "setting": {
@@ -402,6 +415,52 @@
               "left": true,
               "top": true,
               "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "8": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "27.3%",
+            "bottom": "68.3%",
+            "width": "100.0%",
+            "height": "4.4%"
+          },
+          "widgetId": "widget_26",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "9": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "5.9%",
+            "right": "0.0%",
+            "top": "32.8%",
+            "bottom": "60.9%",
+            "width": "94.1%",
+            "height": "6.3%"
+          },
+          "widgetId": "widget_27",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
             },
             "vCenter": false,
             "hCenter": false
@@ -523,14 +582,14 @@
         "resizable": true,
         "toggleBtn": {
           "visible": true,
-          "iconSource": 0,
+          "iconSource": 2,
           "icon": "RIGHT",
           "offsetX": -15,
           "offsetY": 0,
           "position": "CENTER",
-          "iconSize": 14,
+          "iconSize": 18,
           "width": 15,
-          "height": 60,
+          "height": 73,
           "border": {
             "type": "solid",
             "color": "#b54900",
@@ -540,7 +599,7 @@
             "normal": {
               "icon": {
                 "useTheme": false,
-                "color": "var(--black)"
+                "color": "#b54900"
               },
               "bg": {
                 "useTheme": true,
@@ -563,7 +622,8 @@
             "style": {
               "borderRadius": "92px 0 0 92px"
             }
-          }
+          },
+          "template": "default"
         },
         "defaultState": 1
       },
@@ -873,7 +933,7 @@
               "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
               "rootDataSourceId": "dataSource_2",
               "fields": [
-                "Predicte_1"
+                "Updated_PC"
               ]
             },
             "sqlExprObj": {
@@ -881,8 +941,8 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Predicte_1",
-                  "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
+                  "jimuFieldName": "Updated_PC",
+                  "operator": "NUMBER_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
                     "sourceType": "USER_INPUT",
@@ -901,7 +961,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicte_1 > ?)"
+              "displaySQL": "(Updated_PC = ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -915,7 +975,7 @@
           "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "Predicte_1"
+            "Updated_PC"
           ]
         }
       ]
@@ -955,7 +1015,7 @@
               "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
               "rootDataSourceId": "dataSource_2",
               "fields": [
-                "Predicte_1"
+                "Updated_PC"
               ]
             },
             "sqlExprObj": {
@@ -963,8 +1023,8 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Predicte_1",
-                  "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
+                  "jimuFieldName": "Updated_PC",
+                  "operator": "NUMBER_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
                     "sourceType": "UNIQUE",
@@ -983,7 +1043,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicte_1 < ?)"
+              "displaySQL": "(Updated_PC = ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -997,7 +1057,7 @@
           "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "Predicte_1"
+            "Updated_PC"
           ]
         }
       ]
@@ -1287,8 +1347,8 @@
               "outStatistics": [
                 {
                   "statisticType": "percentile_cont",
-                  "onStatisticField": "Predicte_1",
-                  "outStatisticFieldName": "Predicte_1_percentile_cont",
+                  "onStatisticField": "Updated_PC",
+                  "outStatisticFieldName": "Updated_PC_percentile_cont",
                   "statisticParameters": {
                     "value": 0.5
                   }
@@ -1302,10 +1362,10 @@
           "series": [
             {
               "type": "lineSeries",
-              "id": "Predicte_1",
-              "name": "Predicte_1",
+              "id": "Updated_PC",
+              "name": "Updated_PC",
               "x": "Surface_Ty",
-              "y": "Predicte_1_percentile_cont",
+              "y": "Updated_PC_percentile_cont",
               "colorType": "singleColor",
               "stackedType": "sideBySide",
               "lineSymbol": {
@@ -1549,7 +1609,7 @@
           "rootDataSourceId": "dataSource_2",
           "fields": [
             "Surface_Ty",
-            "Predicte_1"
+            "Updated_PC"
           ]
         }
       ],
@@ -2414,42 +2474,60 @@
       "version": "1.10.0",
       "label": "Text 5",
       "config": {
-        "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
+        "text": "<p style=\"text-align: center; line-height: 1.75;\"><strong style=\"letter-spacing: 3px; font-size: 16px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
         }
       },
-      "id": "widget_22"
+      "id": "widget_22",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill"
+        }
+      }
     },
     "widget_23": {
       "uri": "widgets/common/text/",
       "version": "1.10.0",
       "label": "Text 6",
       "config": {
-        "text": "<p style=\"line-height: 3; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; letter-spacing: 3px;\">Surface</strong></p>",
+        "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Surface</strong></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
         }
       },
-      "id": "widget_23"
+      "id": "widget_23",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill"
+        }
+      }
     },
     "widget_24": {
       "uri": "widgets/common/text/",
       "version": "1.10.0",
       "label": "Text 7",
       "config": {
-        "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Condition</strong></p>",
+        "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Condition</strong></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
         }
       },
-      "id": "widget_24"
+      "id": "widget_24",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill"
+        }
+      }
     },
     "widget_25": {
       "uri": "widgets/common/image/",
@@ -2487,6 +2565,108 @@
       },
       "id": "widget_25",
       "useDataSources": []
+    },
+    "widget_26": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Text 8",
+      "config": {
+        "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Alleys</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_26",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_27": {
+      "uri": "widgets/common/filter/",
+      "version": "1.10.0",
+      "label": "Filter 5",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "INLINE",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": true,
+        "filterItems": [
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295H15ZM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1Z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "Remove Alleys",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-18b1add099f-layer-2",
+              "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "NAMESHORT"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "NAMESHORT",
+                  "operator": "STRING_OPERATOR_DOES_NOT_START_WITH",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "TEXT_BOX",
+                    "value": [
+                      {
+                        "value": "A_",
+                        "label": "A_"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "((LOWER(NAMESHORT) NOT LIKE 'a_%'))",
+              "displaySQL": "(NAMESHORT does not start with 'a_')"
+            },
+            "autoApplyWhenWidgetOpen": false,
+            "collapseFilterExprs": false
+          }
+        ]
+      },
+      "id": "widget_27",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-18b1add099f-layer-2",
+          "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "NAMESHORT"
+          ]
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -2584,18 +2764,18 @@
               "Surface_Ty"
             ]
           },
-          "Predicte_1_percentile_cont": {
-            "jimuName": "Predicte_1_percentile_cont",
-            "name": "Predicte_1_percentile_cont",
+          "Updated_PC_percentile_cont": {
+            "jimuName": "Updated_PC_percentile_cont",
+            "name": "Updated_PC_percentile_cont",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Predicte_1_percentile_cont",
+            "alias": "Updated_PC_percentile_cont",
             "format": {
               "digitSeparator": false,
               "places": 6
             },
             "originFields": [
-              "Predicte_1"
+              "Updated_PC"
             ]
           }
         }
@@ -2636,7 +2816,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1696966267323,
+  "timestamp": 1696969050613,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
