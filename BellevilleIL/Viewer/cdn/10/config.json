@@ -497,7 +497,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/search/icon.svg",
+        "svg": "widgets/common/search/icon.svg",
         "properties": {
           "filename": "search.svg",
           "originalName": "default/search.svg",
@@ -671,7 +671,7 @@
       "uri": "widgets/common/print/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/print/icon.svg",
+        "svg": "widgets/common/print/icon.svg",
         "properties": {
           "filename": "Print",
           "originalName": null,
@@ -1503,7 +1503,7 @@
       "uri": "widgets/arcgis/draw/",
       "version": "1.6.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/draw/icon.svg",
+        "svg": "widgets/arcgis/draw/icon.svg",
         "properties": {
           "filename": "Draw",
           "originalName": null,
