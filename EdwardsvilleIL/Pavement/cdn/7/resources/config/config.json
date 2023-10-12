@@ -232,8 +232,8 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "16.3%",
-            "bottom": "67.6%",
+            "top": "15.9%",
+            "bottom": "68.0%",
             "width": "100.0%",
             "height": "16.1%"
           },
@@ -256,17 +256,17 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "40.7%",
-            "bottom": "40.5%",
+            "bottom": "40.8%",
             "width": "100.0%",
-            "height": "18.8%"
+            "height": "18.5%"
           },
           "widgetId": "widget_15",
           "setting": {
             "autoProps": {
               "right": false,
               "left": true,
-              "top": true,
-              "bottom": false
+              "top": false,
+              "bottom": true
             },
             "vCenter": false,
             "hCenter": false
@@ -367,10 +367,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "32.7%",
-            "bottom": "59.4%",
+            "top": "32.0%",
+            "bottom": "59.1%",
             "width": "100.0%",
-            "height": "7.9%"
+            "height": "8.9%"
           },
           "widgetId": "widget_23",
           "setting": {
@@ -2420,7 +2420,13 @@
           "wrap": true
         }
       },
-      "id": "widget_22"
+      "id": "widget_22",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill"
+        }
+      }
     },
     "widget_23": {
       "uri": "widgets/common/text/",
@@ -2434,7 +2440,13 @@
           "wrap": true
         }
       },
-      "id": "widget_23"
+      "id": "widget_23",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill"
+        }
+      }
     },
     "widget_24": {
       "uri": "widgets/common/text/",
@@ -2448,7 +2460,13 @@
           "wrap": true
         }
       },
-      "id": "widget_24"
+      "id": "widget_24",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill"
+        }
+      }
     },
     "widget_25": {
       "uri": "widgets/common/image/",
@@ -2635,7 +2653,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1696964509479,
+  "timestamp": 1697125126620,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
