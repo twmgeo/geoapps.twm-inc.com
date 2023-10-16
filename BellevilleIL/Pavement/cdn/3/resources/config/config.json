@@ -942,7 +942,7 @@
                 {
                   "type": "SINGLE",
                   "jimuFieldName": "Updated_PC",
-                  "operator": "NUMBER_OPERATOR_IS",
+                  "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
                   "valueOptions": {
                     "isValid": true,
                     "sourceType": "USER_INPUT",
@@ -961,7 +961,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Updated_PC = ?)"
+              "displaySQL": "(Updated_PC > ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -1027,16 +1027,16 @@
                   "operator": "NUMBER_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "UNIQUE",
-                    "inputEditor": "SIMPLE_SELECT",
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "TEXT_BOX",
                     "value": null
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "PCI is less than:",
+                    "label": "PCI is Less than:",
                     "display": "BLOCK",
                     "hint": "",
-                    "cascade": "NONE"
+                    "cascade": null
                   },
                   "displayLabel": null,
                   "caseSensitive": false
@@ -2816,7 +2816,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1696969050613,
+  "timestamp": 1697496523275,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
