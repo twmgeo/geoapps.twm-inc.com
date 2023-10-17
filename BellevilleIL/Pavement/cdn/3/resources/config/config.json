@@ -473,7 +473,8 @@
       "type": "FIXED",
       "label": "Map FixedLayout",
       "order": [
-        "0"
+        "0",
+        "1"
       ],
       "content": {
         "0": {
@@ -491,6 +492,29 @@
             "autoProps": {
               "right": false,
               "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "12.00px",
+            "right": "84.9%",
+            "top": "90.00px",
+            "bottom": "54.4%",
+            "width": "105px",
+            "height": "235px"
+          },
+          "widgetId": "widget_28",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
               "top": false,
               "bottom": true
             },
@@ -652,7 +676,8 @@
           "canScaleBar": false,
           "canSelect": false,
           "canSelectState": false,
-          "canLocate": false
+          "canLocate": false,
+          "canLayers": false
         },
         "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_2",
@@ -901,7 +926,7 @@
     "widget_16": {
       "uri": "widgets/common/filter/",
       "version": "1.10.0",
-      "label": "Filter 3",
+      "label": "PCI is greater than",
       "config": {
         "groupByLayer": false,
         "logicalOperator": "AND",
@@ -953,7 +978,7 @@
                   "askForValueOptions": {
                     "label": "PCI is greater than:",
                     "display": "BLOCK",
-                    "hint": "",
+                    "hint": "between 0 and 100",
                     "cascade": null
                   },
                   "displayLabel": null,
@@ -983,7 +1008,7 @@
     "widget_17": {
       "uri": "widgets/common/filter/",
       "version": "1.10.0",
-      "label": "Filter 4",
+      "label": "PCI is less than",
       "config": {
         "groupByLayer": false,
         "logicalOperator": "AND",
@@ -1024,7 +1049,7 @@
                 {
                   "type": "SINGLE",
                   "jimuFieldName": "Updated_PC",
-                  "operator": "NUMBER_OPERATOR_IS",
+                  "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
                   "valueOptions": {
                     "isValid": true,
                     "sourceType": "USER_INPUT",
@@ -1033,9 +1058,9 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "PCI is Less than:",
+                    "label": "PCI is less than:",
                     "display": "BLOCK",
-                    "hint": "",
+                    "hint": "between 0 and 100",
                     "cascade": null
                   },
                   "displayLabel": null,
@@ -1043,7 +1068,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Updated_PC = ?)"
+              "displaySQL": "(Updated_PC < ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -2667,6 +2692,37 @@
           ]
         }
       ]
+    },
+    "widget_28": {
+      "uri": "widgets/common/image/",
+      "version": "1.10.0",
+      "label": "PCI Legend",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_28/1697576048059.JPG",
+            "originalUrl": "${appResourceUrl}/images/widget_28/1697576048059.JPG",
+            "fileName": "1697576048059.JPG",
+            "originalName": "PM legend with title vertical.JPG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1697576048059",
+            "isUseCompress": false,
+            "originalWidth": 169,
+            "originalHeight": 392
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_28"
     }
   },
   "widgetsManifest": {},
@@ -2816,7 +2872,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1697496523275,
+  "timestamp": 1697576215781,
   "utilities": {
     "utility_1": {
       "id": "utility_1",

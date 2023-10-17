@@ -26,5 +26,33 @@
     "isUseCompress": false,
     "originalWidth": 750,
     "originalHeight": 312
+  },
+  "1697574438500": {
+    "originalName": "PM legend - Edwardsville.JPG",
+    "fileName": "1697574438500.JPG",
+    "size": 11925,
+    "url": "${appResourceUrl}/images/widget_28/1697574438500.JPG",
+    "created": 1697574438500,
+    "resourcesPrefix": "images/widget_28",
+    "referedIds": [],
+    "originId": "1697574438500",
+    "fileFormat": "image/jpeg",
+    "isUseCompress": false,
+    "originalWidth": 364,
+    "originalHeight": 72
+  },
+  "1697576048059": {
+    "originalName": "PM legend with title vertical.JPG",
+    "fileName": "1697576048059.JPG",
+    "size": 14738,
+    "url": "${appResourceUrl}/images/widget_28/1697576048059.JPG",
+    "created": 1697576048059,
+    "resourcesPrefix": "images/widget_28",
+    "referedIds": [],
+    "originId": "1697576048059",
+    "fileFormat": "image/jpeg",
+    "isUseCompress": false,
+    "originalWidth": 169,
+    "originalHeight": 392
   }
 }
