@@ -9,6 +9,15 @@
 #
 # fESRI
 #
+import os
+
+# Get the current directory (the directory where your script is located)
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Change the working directory to the current directory
+os.chdir(current_directory)
+
+# Now, the working directory is set to the directory where your script is located
 
 fileToFix = "config.json"
 
