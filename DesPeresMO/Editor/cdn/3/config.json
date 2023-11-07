@@ -455,17 +455,20 @@
               "bottom": true,
               "width": "STRETCH"
             },
-            "lockParent": false
+            "lockParent": false,
+            "vCenter": false,
+            "hCenter": false
           },
           "bbox": {
-            "left": 20,
-            "top": 20,
-            "width": "92.00%",
-            "height": "65.00%",
-            "right": 20,
-            "bottom": "30.6070%"
+            "left": "60px",
+            "top": "22px",
+            "width": "83.2%",
+            "height": "49.4%",
+            "right": "59px",
+            "bottom": "45.5%"
           },
-          "widgetId": "widget_64"
+          "widgetId": "widget_64",
+          "isPending": false
         },
         "1": {
           "type": "WIDGET",
@@ -474,8 +477,8 @@
             "autoProps": {
               "left": false,
               "right": true,
-              "bottom": true,
-              "top": false,
+              "bottom": false,
+              "top": true,
               "width": "AUTO"
             },
             "vCenter": false,
@@ -483,12 +486,12 @@
             "lockParent": false
           },
           "bbox": {
-            "left": "20.00px",
-            "top": "72%",
-            "width": 120,
-            "height": 30,
-            "right": 337,
-            "bottom": "18.7094%"
+            "left": "60px",
+            "top": "55.0%",
+            "width": "82px",
+            "height": "30px",
+            "right": "567px",
+            "bottom": "38.0%"
           },
           "widgetId": "widget_65",
           "isPending": false
@@ -500,8 +503,8 @@
             "autoProps": {
               "left": true,
               "right": false,
-              "bottom": true,
-              "top": false,
+              "bottom": false,
+              "top": true,
               "width": "STRETCH"
             },
             "vCenter": false,
@@ -511,12 +514,12 @@
             "lockLayout": false
           },
           "bbox": {
-            "left": 20,
-            "top": "81.00%",
-            "width": "91.6634%",
-            "height": "15.00%",
-            "right": 20,
-            "bottom": 0
+            "left": "60px",
+            "top": "60.0%",
+            "width": "83.2%",
+            "height": "40.0%",
+            "right": "59px",
+            "bottom": "0px"
           },
           "widgetId": "widget_66",
           "isPending": false
@@ -576,7 +579,6 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><span style=\"font-size: 20px; color: var(--light);\">Des Peres GIS | Editor<span class=\"ql-cursor\">﻿</span></span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -709,7 +711,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/search/icon.svg",
+        "svg": "widgets/common/search/icon.svg",
         "properties": {
           "filename": "search.svg",
           "originalName": "default/search.svg",
@@ -909,7 +911,7 @@
       },
       "id": "widget_40",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/bookmark/icon.svg",
+        "svg": "widgets/arcgis/bookmark/icon.svg",
         "properties": {
           "filename": "Bookmark",
           "originalName": null,
@@ -927,7 +929,7 @@
       "uri": "widgets/arcgis/map-layers/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/arcgis/map-layers/icon.svg",
+        "svg": "widgets/arcgis/map-layers/icon.svg",
         "properties": {
           "filename": "map-layers.svg",
           "originalName": "default/map-layers.svg",
@@ -952,7 +954,7 @@
       "uri": "widgets/common/table/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/table/icon.svg",
+        "svg": "widgets/common/table/icon.svg",
         "properties": {
           "filename": "table.svg",
           "originalName": "default/table.svg",
@@ -3929,7 +3931,7 @@
       "uri": "widgets/arcgis/legend/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/legend/icon.svg",
+        "svg": "widgets/arcgis/legend/icon.svg",
         "properties": {
           "filename": "Legend",
           "originalName": null,
@@ -4074,7 +4076,7 @@
       "uri": "widgets/common/print/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/print/icon.svg",
+        "svg": "widgets/common/print/icon.svg",
         "properties": {
           "filename": "Print",
           "originalName": null,
@@ -4906,7 +4908,7 @@
       "uri": "widgets/arcgis/draw/",
       "version": "1.6.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/draw/icon.svg",
+        "svg": "widgets/arcgis/draw/icon.svg",
         "properties": {
           "filename": "Draw",
           "originalName": null,
@@ -5040,7 +5042,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/controller/icon.svg",
+        "svg": "widgets/common/controller/icon.svg",
         "properties": {
           "filename": "Widget Controller",
           "originalName": null,
@@ -5061,7 +5063,7 @@
       "uri": "widgets/common/edit/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/edit/icon.svg",
+        "svg": "widgets/common/edit/icon.svg",
         "properties": {
           "filename": "Edit",
           "originalName": null,
@@ -6723,7 +6725,7 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true,
+                "editAuthority": false,
                 "subDescription": "",
                 "editable": true
               },
@@ -6873,7 +6875,7 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true,
+                "editAuthority": false,
                 "subDescription": "",
                 "editable": true
               },
@@ -6887,7 +6889,7 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true,
+                "editAuthority": false,
                 "subDescription": "",
                 "editable": true
               },
@@ -6901,7 +6903,7 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true,
+                "editAuthority": false,
                 "subDescription": "",
                 "editable": true
               },
@@ -6915,7 +6917,7 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true,
+                "editAuthority": false,
                 "subDescription": "",
                 "editable": true
               },
@@ -6929,7 +6931,7 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true,
+                "editAuthority": false,
                 "subDescription": "",
                 "editable": true
               },
@@ -6943,7 +6945,7 @@
                   "digitSeparator": true,
                   "places": 0
                 },
-                "editAuthority": true,
+                "editAuthority": false,
                 "subDescription": "",
                 "editable": true
               },
@@ -6990,6 +6992,20 @@
                 "editable": true
               },
               {
+                "jimuName": "Rating_23",
+                "name": "Rating_23",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Rating 2023",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
                 "jimuName": "deficiency_type",
                 "name": "deficiency_type",
                 "type": "STRING",
@@ -7013,23 +7029,9 @@
                 "editAuthority": false,
                 "subDescription": "",
                 "editable": false
-              },
-              {
-                "jimuName": "Rating_23",
-                "name": "Rating_23",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Rating 2023",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
               }
             ],
-            "layerHonorMode": "WEBMAP"
+            "layerHonorMode": "CUSTOM"
           },
           {
             "id": "dataSource_1-18a9a28a868-layer-27",
@@ -13941,10 +13943,24 @@
       "style": {
         "background": {
           "color": "#51262d",
-          "fillType": "fill",
+          "fillType": "center",
           "image": {
             "url": ""
           }
+        },
+        "border": {
+          "type": "solid",
+          "color": "#51262d",
+          "width": "0px"
+        },
+        "borderRadius": {
+          "number": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "unit": "px"
         }
       }
     },
@@ -13953,8 +13969,7 @@
       "version": "1.10.0",
       "label": "Text",
       "config": {
-        "text": "",
-        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark);\">Title</strong></p>",
+        "text": "<p><strong style=\"color: var(--dark); font-size: 14px;\">﻿Disclaimer</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -13968,7 +13983,6 @@
       "label": "Text 2",
       "config": {
         "text": "<p><span style=\"color: var(--dark);\">﻿</span><span style=\"color: var(--dark-800);\">This data is intended only for use by City of Des Peres staff. </span></p><p><br></p><p><span style=\"color: var(--dark-800);\">﻿The information contained herein is for reference purposes only, and must not be relied upon as a substitute for a professional land survey or title search. The City of Des Peres and TWM, Inc. assume no responsibility for any use of the information contained herein or any loss resulting therefrom. Users of the City of Des Peres GIS site assume all risk and liability when accessing any third party site linked to this site.</span></p><p><br></p><p>All data is subject to change. </p>",
-        "placeholder": "<p><span style=\"color: var(--dark);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -13987,8 +14001,8 @@
       "sizeMode": {
         "LARGE": {
           "position": "CENTER",
-          "width": "709px",
-          "height": "493px"
+          "width": "700px",
+          "height": "500px"
         }
       },
       "interactionType": "BUTTON_INLINE",
@@ -14167,7 +14181,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Des Peres MO Editor",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1699308226300.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -14340,5 +14360,5 @@
       }
     }
   },
-  "timestamp": 1699308732613
+  "timestamp": 1699377850008
 }
