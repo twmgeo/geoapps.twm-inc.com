@@ -503,20 +503,20 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": "12.00px",
-            "right": "84.9%",
-            "top": "90.00px",
-            "bottom": "54.4%",
-            "width": "105px",
-            "height": "235px"
+            "left": "15px",
+            "right": "86.6%",
+            "top": "503px",
+            "bottom": "3.6%",
+            "width": "90px",
+            "height": "200px"
           },
           "widgetId": "widget_28",
           "setting": {
             "autoProps": {
               "left": false,
               "right": true,
-              "top": false,
-              "bottom": true
+              "top": true,
+              "bottom": false
             },
             "vCenter": false,
             "hCenter": false
@@ -540,7 +540,6 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: rgb(1, 42, 132);\">Pavement Management Dashboard﻿</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -679,32 +678,9 @@
           "canLocate": false,
           "canLayers": false
         },
-        "isUseCustomMapState": true,
-        "initialMapDataSourceID": "dataSource_2",
-        "initialMapState": {
-          "viewPoint": {
-            "rotation": 0,
-            "scale": 144447.638572,
-            "targetGeometry": {
-              "spatialReference": {
-                "wkid": 102100
-              },
-              "x": -10017120.485084573,
-              "y": 4654278.873262429
-            }
-          },
-          "extent": {
-            "spatialReference": {
-              "wkid": 102100
-            },
-            "xmin": -10030821.822404671,
-            "ymin": 4641494.7802817505,
-            "xmax": -10003419.147764474,
-            "ymax": 4667062.966243107
-          },
-          "rotation": 0,
-          "viewType": "2d"
-        }
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_3",
+        "initialMapState": null
       },
       "id": "widget_12",
       "layouts": {
@@ -714,8 +690,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2",
-          "mainDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_3",
+          "mainDataSourceId": "dataSource_3"
         }
       ],
       "style": {
@@ -730,7 +706,7 @@
     "widget_13": {
       "uri": "widgets/common/filter/",
       "version": "1.10.0",
-      "label": "Filter",
+      "label": "Wards",
       "config": {
         "groupByLayer": false,
         "logicalOperator": "AND",
@@ -758,9 +734,9 @@
             },
             "name": "Wards",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-              "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+              "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+              "rootDataSourceId": "dataSource_3",
               "fields": [
                 "Id"
               ]
@@ -800,9 +776,9 @@
       "id": "widget_13",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
             "Id"
           ]
@@ -844,7 +820,7 @@
     "widget_15": {
       "uri": "widgets/common/filter/",
       "version": "1.10.0",
-      "label": "Filter 2",
+      "label": "Surface Type",
       "config": {
         "groupByLayer": false,
         "logicalOperator": "AND",
@@ -872,9 +848,9 @@
             },
             "name": "Surface Type",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-              "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+              "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+              "rootDataSourceId": "dataSource_3",
               "fields": [
                 "Surface_Ty"
               ]
@@ -896,7 +872,7 @@
                   "askForValueOptions": {
                     "label": "Surface Type is:",
                     "display": "BLOCK",
-                    "hint": "OC, BR, PCC, AC, etc.",
+                    "hint": "OC, PCC, AC, etc.",
                     "cascade": "NONE"
                   },
                   "displayLabel": null,
@@ -914,9 +890,9 @@
       "id": "widget_15",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
             "Surface_Ty"
           ]
@@ -952,13 +928,13 @@
                 "size": 14
               }
             },
-            "name": "PCI rating",
+            "name": "PCI Rating",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-              "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+              "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+              "rootDataSourceId": "dataSource_3",
               "fields": [
-                "Updated_PC"
+                "Predicte_3"
               ]
             },
             "sqlExprObj": {
@@ -966,7 +942,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Updated_PC",
+                  "jimuFieldName": "Predicte_3",
                   "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -986,7 +962,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Updated_PC > ?)"
+              "displaySQL": "(Predicte_3 > ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -996,11 +972,11 @@
       "id": "widget_16",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
-            "Updated_PC"
+            "Predicte_3"
           ]
         }
       ]
@@ -1034,13 +1010,13 @@
                 "size": 14
               }
             },
-            "name": "PCI rating",
+            "name": "PCI Rating",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-              "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+              "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+              "rootDataSourceId": "dataSource_3",
               "fields": [
-                "Updated_PC"
+                "Predicte_3"
               ]
             },
             "sqlExprObj": {
@@ -1048,7 +1024,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Updated_PC",
+                  "jimuFieldName": "Predicte_3",
                   "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -1068,7 +1044,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Updated_PC < ?)"
+              "displaySQL": "(Predicte_3 < ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -1078,11 +1054,11 @@
       "id": "widget_17",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
-            "Updated_PC"
+            "Predicte_3"
           ]
         }
       ]
@@ -1108,8 +1084,8 @@
               "outStatistics": [
                 {
                   "statisticType": "sum",
-                  "onStatisticField": "Shape__Area",
-                  "outStatisticFieldName": "Shape__Area_sum"
+                  "onStatisticField": "SHAPE_AR_1",
+                  "outStatisticFieldName": "SHAPE_AR_1_sum"
                 }
               ],
               "orderByFields": [
@@ -1121,10 +1097,10 @@
             {
               "type": "pieSeries",
               "colorType": "colorMatch",
-              "id": "Shape__Area",
-              "name": "Shape.STArea()",
+              "id": "SHAPE_AR_1",
+              "name": "SHAPE_AR_1",
               "x": "Surface_Ty",
-              "y": "Shape__Area_sum",
+              "y": "SHAPE_AR_1_sum",
               "innerRadius": 45,
               "startAngle": 0,
               "endAngle": 360,
@@ -1187,7 +1163,7 @@
                     "family": "Avenir Next",
                     "size": 12,
                     "style": "normal",
-                    "weight": "normal",
+                    "weight": "bold",
                     "decoration": "none"
                   },
                   "horizontalAlignment": "center",
@@ -1196,11 +1172,39 @@
               },
               "slices": [
                 {
+                  "sliceId": "AAC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#5E8FD0",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
                   "sliceId": "AC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
                     "color": "#77B484",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "APC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DF6B35",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1274,7 +1278,7 @@
           },
           "footer": {
             "type": "chartText",
-            "visible": true,
+            "visible": false,
             "content": {
               "type": "esriTS",
               "color": "var(--dark-800)",
@@ -1332,12 +1336,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
             "Surface_Ty",
-            "Shape__Area"
+            "SHAPE_AR_1"
           ]
         }
       ],
@@ -1357,7 +1361,7 @@
       "label": "PCI by Surface",
       "config": {
         "tools": {
-          "cursorEnable": true
+          "cursorEnable": false
         },
         "template": "line",
         "webChart": {
@@ -1372,8 +1376,8 @@
               "outStatistics": [
                 {
                   "statisticType": "percentile_cont",
-                  "onStatisticField": "Updated_PC",
-                  "outStatisticFieldName": "Updated_PC_percentile_cont",
+                  "onStatisticField": "Predicte_3",
+                  "outStatisticFieldName": "Predicte_3_percentile_cont",
                   "statisticParameters": {
                     "value": 0.5
                   }
@@ -1387,16 +1391,16 @@
           "series": [
             {
               "type": "lineSeries",
-              "id": "Updated_PC",
-              "name": "Updated_PC",
+              "id": "Predicte_3",
+              "name": "Predicte_3",
               "x": "Surface_Ty",
-              "y": "Updated_PC_percentile_cont",
+              "y": "Predicte_3_percentile_cont",
               "colorType": "singleColor",
               "stackedType": "sideBySide",
               "lineSymbol": {
                 "type": "esriSLS",
                 "style": "esriSLSSolid",
-                "color": "#77B484",
+                "color": "#5E8FD0",
                 "width": 2
               },
               "dataLabels": {
@@ -1404,10 +1408,10 @@
                 "visible": true,
                 "content": {
                   "type": "esriTS",
-                  "color": "var(--dark-600)",
+                  "color": "var(--dark)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 10,
+                    "size": 14,
                     "style": "normal",
                     "weight": "bold",
                     "decoration": "none"
@@ -1629,12 +1633,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
             "Surface_Ty",
-            "Updated_PC"
+            "Predicte_3"
           ]
         }
       ],
@@ -2478,7 +2482,6 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2500,7 +2503,6 @@
       "label": "Text 5",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.75;\"><strong style=\"letter-spacing: 3px; font-size: 16px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2520,7 +2522,6 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Surface</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2540,7 +2541,6 @@
       "label": "Text 7",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Condition</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2597,7 +2597,6 @@
       "label": "Text 8",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Alleys</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2614,7 +2613,7 @@
     "widget_27": {
       "uri": "widgets/common/filter/",
       "version": "1.10.0",
-      "label": "Filter 5",
+      "label": "Alleys",
       "config": {
         "groupByLayer": false,
         "logicalOperator": "AND",
@@ -2642,9 +2641,9 @@
             },
             "name": "Remove Alleys",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-              "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+              "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+              "rootDataSourceId": "dataSource_3",
               "fields": [
                 "NAMESHORT"
               ]
@@ -2662,8 +2661,8 @@
                     "inputEditor": "TEXT_BOX",
                     "value": [
                       {
-                        "value": "A_",
-                        "label": "A_"
+                        "value": "a_",
+                        "label": "a_"
                       }
                     ]
                   },
@@ -2684,9 +2683,9 @@
       "id": "widget_27",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
             "NAMESHORT"
           ]
@@ -2730,11 +2729,11 @@
   "sections": {},
   "dialogs": {},
   "dataSources": {
-    "dataSource_2": {
-      "id": "dataSource_2",
+    "dataSource_3": {
+      "id": "dataSource_3",
       "type": "WEB_MAP",
-      "sourceLabel": "Belleville PM Dashboard Map",
-      "itemId": "0438e56d98e94b6ebc423b3c37861961",
+      "sourceLabel": "Belleville IL PM Dashboard Map",
+      "itemId": "d3be528e235144319a1b856b01fca7ff",
       "portalUrl": "https://geo.twm-inc.com/arcgis"
     },
     "widget_18_ouput": {
@@ -2743,9 +2742,9 @@
       "label": "Area by Surface Type statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "rootDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "rootDataSourceId": "dataSource_3"
         }
       ],
       "isOutputFromWidget": true,
@@ -2770,18 +2769,18 @@
               "Surface_Ty"
             ]
           },
-          "Shape__Area_sum": {
-            "jimuName": "Shape__Area_sum",
-            "name": "Shape__Area_sum",
+          "SHAPE_AR_1_sum": {
+            "jimuName": "SHAPE_AR_1_sum",
+            "name": "SHAPE_AR_1_sum",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Shape__Area_sum",
+            "alias": "SHAPE_AR_1_sum",
             "format": {
               "digitSeparator": false,
               "places": 6
             },
             "originFields": [
-              "Shape__Area"
+              "SHAPE_AR_1"
             ]
           }
         }
@@ -2793,9 +2792,9 @@
       "label": "PCI by Surface statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "mainDataSourceId": "dataSource_2-18b1add099f-layer-2",
-          "rootDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "mainDataSourceId": "dataSource_3-128d566090c143ec966cfde167b5db53-0",
+          "rootDataSourceId": "dataSource_3"
         }
       ],
       "isOutputFromWidget": true,
@@ -2820,18 +2819,18 @@
               "Surface_Ty"
             ]
           },
-          "Updated_PC_percentile_cont": {
-            "jimuName": "Updated_PC_percentile_cont",
-            "name": "Updated_PC_percentile_cont",
+          "Predicte_3_percentile_cont": {
+            "jimuName": "Predicte_3_percentile_cont",
+            "name": "Predicte_3_percentile_cont",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Updated_PC_percentile_cont",
+            "alias": "Predicte_3_percentile_cont",
             "format": {
               "digitSeparator": false,
               "places": 6
             },
             "originFields": [
-              "Updated_PC"
+              "Predicte_3"
             ]
           }
         }
@@ -2840,7 +2839,13 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "geoapps BellevilleIL/Pavement",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1696961600732.png"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2872,7 +2877,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1697576215781,
+  "timestamp": 1699631683772,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
