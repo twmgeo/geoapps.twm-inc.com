@@ -22,10 +22,10 @@
           "type": "WIDGET",
           "bbox": {
             "left": "0.0%",
-            "right": "76.2%",
+            "right": "73.5%",
             "top": "0.0%",
             "bottom": "0.0%",
-            "width": "23.8%",
+            "width": "26.5%",
             "height": "100.0%"
           },
           "widgetId": "widget_10",
@@ -194,11 +194,11 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "0.1%",
+            "left": "4.6%",
             "right": "0.0%",
             "top": "0.0%",
             "bottom": "0.0%",
-            "width": "99.9%",
+            "width": "95.4%",
             "height": "100.0%"
           },
           "widgetId": "widget_12",
@@ -481,7 +481,6 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: rgb(1, 42, 132);\">Pavement Management Dashboard﻿</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -690,10 +689,10 @@
                 "size": 14
               }
             },
-            "name": "Wards",
+            "name": "Ward",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-              "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+              "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+              "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
               "rootDataSourceId": "dataSource_1",
               "fields": [
                 "ward"
@@ -734,8 +733,8 @@
       "id": "widget_13",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-          "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+          "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+          "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "ward"
@@ -807,8 +806,8 @@
             },
             "name": "Surface Type",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-              "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+              "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+              "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
               "rootDataSourceId": "dataSource_1",
               "fields": [
                 "F2023_Surf"
@@ -829,9 +828,9 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "Surface Type is:",
+                    "label": "Surface type is:",
                     "display": "BLOCK",
-                    "hint": "OC, PCC, AC, etc.",
+                    "hint": "OC, APC, PCC, AC, etc.",
                     "cascade": "NONE"
                   },
                   "displayLabel": null,
@@ -849,8 +848,8 @@
       "id": "widget_15",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-          "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+          "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+          "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "F2023_Surf"
@@ -889,11 +888,11 @@
             },
             "name": "PCI rating",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-              "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+              "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+              "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "Predicte_6"
+                "Predicte_9"
               ]
             },
             "sqlExprObj": {
@@ -901,7 +900,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Predicte_6",
+                  "jimuFieldName": "Predicte_9",
                   "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -921,7 +920,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicte_6 > ?)"
+              "displaySQL": "(Predicte_9 > ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -931,11 +930,11 @@
       "id": "widget_16",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-          "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+          "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+          "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Predicte_6"
+            "Predicte_9"
           ]
         }
       ]
@@ -969,13 +968,13 @@
                 "size": 14
               }
             },
-            "name": "OFallonPM_Dashboard",
+            "name": "PCI rating",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-              "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+              "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+              "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "Predicte_6"
+                "Predicte_9"
               ]
             },
             "sqlExprObj": {
@@ -983,7 +982,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Predicte_6",
+                  "jimuFieldName": "Predicte_9",
                   "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -1003,7 +1002,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicte_6 < ?)"
+              "displaySQL": "(Predicte_9 < ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -1013,11 +1012,11 @@
       "id": "widget_17",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-          "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+          "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+          "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Predicte_6"
+            "Predicte_9"
           ]
         }
       ]
@@ -1030,10 +1029,10 @@
         "tools": {
           "cursorEnable": false
         },
-        "template": "pie",
+        "template": "donut",
         "webChart": {
           "version": "1.0.0",
-          "id": "pie",
+          "id": "donut",
           "type": "chart",
           "dataSource": {
             "query": {
@@ -1067,10 +1066,21 @@
               "displayPercentageOnDataLabel": true,
               "displayNumericValueOnTooltip": true,
               "displayPercentageOnTooltip": true,
-              "dataLabelsOffset": 10,
+              "dataLabelsOffset": 15,
               "sliceGrouping": {
                 "percentageThreshold": 0,
-                "groupName": "Other"
+                "groupName": "Other",
+                "fillSymbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": "#D6D6D6",
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "color": "var(--light-100)",
+                    "width": 1
+                  }
+                }
               },
               "numericValueFormat": {
                 "type": "number",
@@ -1120,7 +1130,21 @@
               },
               "slices": [
                 {
-                  "sliceId": "AC",
+                  "sliceId": " ",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#5E8FD0",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "AAC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1134,7 +1158,35 @@
                   }
                 },
                 {
-                  "sliceId": "OC",
+                  "sliceId": "AC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DF6B35",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "APC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DBCF4E",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "GR",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1148,11 +1200,25 @@
                   }
                 },
                 {
-                  "sliceId": "PCC",
+                  "sliceId": "OC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
                     "color": "#8257C2",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "PCC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#D6558B",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1242,8 +1308,8 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-          "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+          "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+          "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "F2023_Surf",
@@ -1282,8 +1348,8 @@
               "outStatistics": [
                 {
                   "statisticType": "percentile_cont",
-                  "onStatisticField": "Predicte_6",
-                  "outStatisticFieldName": "Predicte_6_percentile_cont",
+                  "onStatisticField": "Predicte_9",
+                  "outStatisticFieldName": "Predicte_9_percentile_cont",
                   "statisticParameters": {
                     "value": 0.5
                   }
@@ -1297,16 +1363,16 @@
           "series": [
             {
               "type": "lineSeries",
-              "id": "Predicte_6",
-              "name": "Predicte_6",
+              "id": "Predicte_9",
+              "name": "Predicte_9",
               "x": "F2023_Surf",
-              "y": "Predicte_6_percentile_cont",
+              "y": "Predicte_9_percentile_cont",
               "colorType": "singleColor",
-              "stackedType": "sideBySide",
+              "stackedType": "stacked",
               "lineSymbol": {
                 "type": "esriSLS",
                 "style": "esriSLSSolid",
-                "color": "#77B484",
+                "color": "#5E8FD0",
                 "width": 2
               },
               "dataLabels": {
@@ -1319,7 +1385,7 @@
                     "family": "Avenir Next",
                     "size": 10,
                     "style": "normal",
-                    "weight": "normal",
+                    "weight": "bold",
                     "decoration": "none"
                   },
                   "horizontalAlignment": "center",
@@ -1374,13 +1440,14 @@
                   "color": "var(--dark-500)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 14,
+                    "size": 12,
                     "style": "normal",
                     "weight": "normal",
                     "decoration": "none"
                   },
                   "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
+                  "verticalAlignment": "middle",
+                  "text": ""
                 }
               },
               "valueFormat": {
@@ -1429,13 +1496,14 @@
                   "color": "var(--dark-500)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 14,
+                    "size": 12,
                     "style": "normal",
                     "weight": "normal",
                     "decoration": "none"
                   },
                   "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
+                  "verticalAlignment": "middle",
+                  "text": ""
                 }
               },
               "valueFormat": {
@@ -1481,7 +1549,7 @@
           },
           "footer": {
             "type": "chartText",
-            "visible": false,
+            "visible": true,
             "content": {
               "type": "esriTS",
               "color": "var(--dark-800)",
@@ -1539,12 +1607,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-          "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+          "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+          "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "F2023_Surf",
-            "Predicte_6"
+            "Predicte_9"
           ]
         }
       ],
@@ -2388,7 +2456,6 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2410,7 +2477,6 @@
       "label": "Text 5",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2430,7 +2496,6 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"line-height: 3; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; letter-spacing: 3px;\">Surface</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2450,7 +2515,6 @@
       "label": "Text 7",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Condition</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2551,8 +2615,8 @@
       "label": "Area by Surface Type statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-          "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+          "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+          "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
           "rootDataSourceId": "dataSource_1"
         }
       ],
@@ -2595,14 +2659,42 @@
         }
       }
     },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "WEB_MAP",
+      "sourceLabel": "O Fallon IL PM Dashboard Map",
+      "itemId": "defa577ba2994af8b2ffaa8ed1f73dc7",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "WEB_MAP",
+      "sourceLabel": "O Fallon IL PM Dashboard Map",
+      "itemId": "defa577ba2994af8b2ffaa8ed1f73dc7",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
+    },
+    "dataSource_4": {
+      "id": "dataSource_4",
+      "type": "WEB_MAP",
+      "sourceLabel": "O Fallon IL PM Dashboard Map",
+      "itemId": "defa577ba2994af8b2ffaa8ed1f73dc7",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
+    },
+    "dataSource_5": {
+      "id": "dataSource_5",
+      "type": "WEB_MAP",
+      "sourceLabel": "O Fallon IL PM Dashboard Map",
+      "itemId": "defa577ba2994af8b2ffaa8ed1f73dc7",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
+    },
     "widget_19_ouput": {
       "id": "widget_19_ouput",
       "type": "FEATURE_LAYER",
       "label": "PCI by Surface statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
-          "mainDataSourceId": "dataSource_1-2ef48f5dede843208f1981f0284eb3dd-0",
+          "dataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
+          "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
           "rootDataSourceId": "dataSource_1"
         }
       ],
@@ -2628,18 +2720,18 @@
               "F2023_Surf"
             ]
           },
-          "Predicte_6_percentile_cont": {
-            "jimuName": "Predicte_6_percentile_cont",
-            "name": "Predicte_6_percentile_cont",
+          "Predicte_9_percentile_cont": {
+            "jimuName": "Predicte_9_percentile_cont",
+            "name": "Predicte_9_percentile_cont",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Predicte_6_percentile_cont",
+            "alias": "Predicte_9_percentile_cont",
             "format": {
               "digitSeparator": false,
               "places": 6
             },
             "originFields": [
-              "Predicte_6"
+              "Predicte_9"
             ]
           }
         }
@@ -2648,7 +2740,13 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "geoapps OFallonIL/Pavement",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1698869188780.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2680,7 +2778,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1698940079575,
+  "timestamp": 1699653195206,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
