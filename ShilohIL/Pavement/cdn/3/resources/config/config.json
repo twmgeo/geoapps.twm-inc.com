@@ -481,6 +481,7 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: rgb(1, 42, 132);\">Pavement Management Dashboard﻿</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1297,7 +1298,7 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "F2023_Surf"
+                "Surface_Ty"
               ],
               "outStatistics": [
                 {
@@ -1310,7 +1311,7 @@
                 }
               ],
               "orderByFields": [
-                "F2023_Surf ASC"
+                "Surface_Ty ASC"
               ]
             }
           },
@@ -1319,7 +1320,7 @@
               "type": "lineSeries",
               "id": "Predicte_1",
               "name": "Predicte_1",
-              "x": "F2023_Surf",
+              "x": "Surface_Ty",
               "y": "Predicte_1_percentile_cont",
               "colorType": "singleColor",
               "stackedType": "stacked",
@@ -1565,7 +1566,7 @@
           "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "F2023_Surf",
+            "Surface_Ty",
             "Predicte_1"
           ]
         }
@@ -2410,6 +2411,7 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2431,6 +2433,7 @@
       "label": "Text 5",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2450,6 +2453,7 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"line-height: 3; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; letter-spacing: 3px;\">Surface</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2469,6 +2473,7 @@
       "label": "Text 7",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Condition</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2677,15 +2682,15 @@
             "type": "NUMBER",
             "name": "objectid"
           },
-          "F2023_Surf": {
-            "jimuName": "F2023_Surf",
-            "name": "F2023_Surf",
+          "Surface_Ty": {
+            "jimuName": "Surface_Ty",
+            "name": "Surface_Ty",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "F2023_Surf",
+            "alias": "Surface_Ty",
             "format": null,
             "originFields": [
-              "F2023_Surf"
+              "Surface_Ty"
             ]
           },
           "Predicte_1_percentile_cont": {
@@ -2708,13 +2713,7 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis",
-    "isWebTier": false,
-    "clientId": "",
-    "title": "geoapps ShilohIL/Pavement",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://geo.twm-inc.com/arcgis"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2746,7 +2745,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1700514470569,
+  "timestamp": 1700600629857,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
