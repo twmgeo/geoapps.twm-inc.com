@@ -481,6 +481,7 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: rgb(1, 42, 132);\">Pavement Management Dashboard﻿</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -743,7 +744,7 @@
     "widget_15": {
       "uri": "widgets/common/filter/",
       "version": "1.10.0",
-      "label": "Filter 2",
+      "label": "surface type filter",
       "config": {
         "groupByLayer": false,
         "logicalOperator": "AND",
@@ -775,7 +776,7 @@
               "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
               "rootDataSourceId": "dataSource_2",
               "fields": [
-                "F2023_Surf"
+                "Surface_Ty"
               ]
             },
             "sqlExprObj": {
@@ -783,7 +784,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "F2023_Surf",
+                  "jimuFieldName": "Surface_Ty",
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
@@ -795,7 +796,7 @@
                   "askForValueOptions": {
                     "label": "Surface type is:",
                     "display": "BLOCK",
-                    "hint": "OC, APC, PCC, AC, GR, etc.",
+                    "hint": "AC, OC, PCC, etc.",
                     "cascade": "NONE"
                   },
                   "displayLabel": null,
@@ -803,7 +804,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(F2023_Surf = ?)"
+              "displaySQL": "(Surface_Ty = ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -817,7 +818,7 @@
           "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "F2023_Surf"
+            "Surface_Ty"
           ]
         }
       ]
@@ -2410,6 +2411,7 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2431,6 +2433,7 @@
       "label": "Text 5",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2450,6 +2453,7 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"line-height: 3; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; letter-spacing: 3px;\">Surface</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2469,6 +2473,7 @@
       "label": "Text 7",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Condition</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2708,13 +2713,7 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis",
-    "isWebTier": false,
-    "clientId": "",
-    "title": "geoapps ShilohIL/Pavement",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://geo.twm-inc.com/arcgis"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2746,7 +2745,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1700600629857,
+  "timestamp": 1700601991244,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
