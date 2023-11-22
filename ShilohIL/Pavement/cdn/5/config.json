@@ -444,12 +444,12 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": "1.7%",
+            "left": "15.00px",
             "right": "51.7%",
             "top": "84.0%",
-            "bottom": "2.7%",
-            "width": "46.6%",
-            "height": "13.3%"
+            "bottom": "3.60%",
+            "width": "90.00px",
+            "height": "200.00px"
           },
           "widgetId": "widget_26",
           "setting": {
@@ -481,7 +481,6 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: rgb(1, 42, 132);\">Pavement Management Dashboard﻿</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1003,7 +1002,7 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "F2023_Surf"
+                "Surface_Ty"
               ],
               "outStatistics": [
                 {
@@ -1013,7 +1012,7 @@
                 }
               ],
               "orderByFields": [
-                "F2023_Surf ASC"
+                "Surface_Ty ASC"
               ]
             }
           },
@@ -1023,7 +1022,7 @@
               "colorType": "colorMatch",
               "id": "Total_Area",
               "name": "Total_Area",
-              "x": "F2023_Surf",
+              "x": "Surface_Ty",
               "y": "Total_Area_sum",
               "innerRadius": 45,
               "startAngle": 230,
@@ -1032,10 +1031,21 @@
               "displayPercentageOnDataLabel": true,
               "displayNumericValueOnTooltip": true,
               "displayPercentageOnTooltip": true,
-              "dataLabelsOffset": 15,
+              "dataLabelsOffset": 0,
               "sliceGrouping": {
                 "percentageThreshold": 0,
-                "groupName": "Other"
+                "groupName": "Other",
+                "fillSymbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": "#D6D6D6",
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "color": "var(--light-100)",
+                    "width": 2
+                  }
+                }
               },
               "numericValueFormat": {
                 "type": "number",
@@ -1063,7 +1073,7 @@
                   "type": "esriSLS",
                   "style": "esriSLSSolid",
                   "color": "var(--light-100)",
-                  "width": 1
+                  "width": 2
                 }
               },
               "dataLabels": {
@@ -1085,21 +1095,7 @@
               },
               "slices": [
                 {
-                  "sliceId": " ",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#5E8FD0",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "AAC",
+                  "sliceId": "AC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1108,35 +1104,7 @@
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
                       "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "AC",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#DF6B35",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "APC",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#DBCF4E",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
+                      "width": 2
                     }
                   }
                 },
@@ -1145,12 +1113,12 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#41546D",
+                    "color": "#DBCF4E",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
                       "color": "var(--light-100)",
-                      "width": 1
+                      "width": 2
                     }
                   }
                 },
@@ -1159,12 +1127,12 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#8257C2",
+                    "color": "#41546D",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
                       "color": "var(--light-100)",
-                      "width": 1
+                      "width": 2
                     }
                   }
                 },
@@ -1173,12 +1141,12 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#D6558B",
+                    "color": "#5E8FD0",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
                       "color": "var(--light-100)",
-                      "width": 1
+                      "width": 2
                     }
                   }
                 }
@@ -1267,7 +1235,7 @@
           "mainDataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "F2023_Surf",
+            "Surface_Ty",
             "Total_Area"
           ]
         }
@@ -2411,7 +2379,6 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2433,7 +2400,6 @@
       "label": "Text 5",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2453,7 +2419,6 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"line-height: 3; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; letter-spacing: 3px;\">Surface</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2473,7 +2438,6 @@
       "label": "Text 7",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Condition</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2535,16 +2499,16 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_26/1697574295540.JPG",
-            "originalUrl": "${appResourceUrl}/images/widget_26/1697574295540.JPG",
-            "fileName": "1697574295540.JPG",
-            "originalName": "PM legend - Edwardsville.JPG",
+            "url": "${appResourceUrl}/images/widget_26/1700680496127.JPG",
+            "originalUrl": "${appResourceUrl}/images/widget_26/1700680496127.JPG",
+            "fileName": "1700680496127.JPG",
+            "originalName": "PM legend with title vertical.JPG",
             "imgSourceType": "BY_UPLOAD",
             "fileFormat": "image/jpeg",
-            "originalId": "1697574295540",
+            "originalId": "1700680496127",
             "isUseCompress": false,
-            "originalWidth": 364,
-            "originalHeight": 72
+            "originalWidth": 169,
+            "originalHeight": 392
           },
           "imageDisplayQualityMode": "ORIGINAL",
           "imgSourceType": "",
@@ -2590,15 +2554,15 @@
             "type": "NUMBER",
             "name": "objectid"
           },
-          "F2023_Surf": {
-            "jimuName": "F2023_Surf",
-            "name": "F2023_Surf",
+          "Surface_Ty": {
+            "jimuName": "Surface_Ty",
+            "name": "Surface_Ty",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "F2023_Surf",
+            "alias": "Surface_Ty",
             "format": null,
             "originFields": [
-              "F2023_Surf"
+              "Surface_Ty"
             ]
           },
           "Total_Area_sum": {
@@ -2713,7 +2677,13 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "geoapps ShilohIL/Pavement",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
   "sharedThemeVariables": {
     "header": {
@@ -2745,7 +2715,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1700601991244,
+  "timestamp": 1700680550002,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
