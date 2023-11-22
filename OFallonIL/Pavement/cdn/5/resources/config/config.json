@@ -224,7 +224,9 @@
         "4",
         "5",
         "6",
-        "7"
+        "7",
+        "8",
+        "9"
       ],
       "content": {
         "0": {
@@ -232,10 +234,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "15.9%",
+            "top": "12.20%",
             "bottom": "69.4%",
             "width": "100.0%",
-            "height": "14.7%"
+            "height": "16.10%"
           },
           "widgetId": "widget_13",
           "setting": {
@@ -255,18 +257,18 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "38.3%",
-            "bottom": "44.4%",
+            "top": "42.3%",
+            "bottom": "36.60%",
             "width": "100.0%",
-            "height": "17.3%"
+            "height": "18.80%"
           },
           "widgetId": "widget_15",
           "setting": {
             "autoProps": {
               "right": false,
               "left": true,
-              "top": false,
-              "bottom": true
+              "top": true,
+              "bottom": false
             },
             "vCenter": false,
             "hCenter": false
@@ -279,9 +281,9 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "63.7%",
-            "bottom": "18.5%",
+            "bottom": "16.40%",
             "width": "100.0%",
-            "height": "17.8%"
+            "height": "15.80%"
           },
           "widgetId": "widget_16",
           "setting": {
@@ -304,7 +306,7 @@
             "top": "81.4%",
             "bottom": "0.0%",
             "width": "100.0%",
-            "height": "18.6%"
+            "height": "16.40%"
           },
           "widgetId": "widget_17",
           "setting": {
@@ -347,7 +349,7 @@
             "top": "7.9%",
             "bottom": "84.1%",
             "width": "100.0%",
-            "height": "8.0%"
+            "height": "4.40%"
           },
           "widgetId": "widget_22",
           "setting": {
@@ -367,10 +369,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "30.6%",
-            "bottom": "61.6%",
+            "top": "40.20%",
+            "bottom": "54.0%",
             "width": "100.0%",
-            "height": "7.8%"
+            "height": "4.4%"
           },
           "widgetId": "widget_23",
           "setting": {
@@ -391,9 +393,9 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "55.7%",
-            "bottom": "36.4%",
+            "bottom": "32.20%",
             "width": "100.0%",
-            "height": "7.9%"
+            "height": "4.40%"
           },
           "widgetId": "widget_24",
           "setting": {
@@ -402,6 +404,52 @@
               "left": true,
               "top": true,
               "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "8": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "27.30%",
+            "bottom": "64.6%",
+            "width": "100.0%",
+            "height": "4.40%"
+          },
+          "widgetId": "widget_27",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "9": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "32.8%",
+            "bottom": "59.7%",
+            "width": "94.10%",
+            "height": "6.30%"
+          },
+          "widgetId": "widget_28",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
             },
             "vCenter": false,
             "hCenter": false
@@ -444,12 +492,12 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": "1.7%",
-            "right": "51.7%",
-            "top": "84.0%",
-            "bottom": "2.7%",
-            "width": "46.6%",
-            "height": "13.3%"
+            "left": "15.00px",
+            "right": "61.3%",
+            "top": "87.4%",
+            "bottom": "3.60%",
+            "width": "90.00px",
+            "height": "200.00px"
           },
           "widgetId": "widget_26",
           "setting": {
@@ -481,6 +529,7 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(1, 42, 132); font-size: 26px;\">Pavement Management Dashboard﻿</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1037,7 +1086,7 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "F2023_Surf"
+                "Surface_Ty"
               ],
               "outStatistics": [
                 {
@@ -1047,7 +1096,7 @@
                 }
               ],
               "orderByFields": [
-                "F2023_Surf ASC"
+                "Surface_Ty ASC"
               ]
             }
           },
@@ -1057,7 +1106,7 @@
               "colorType": "colorMatch",
               "id": "Total_Area",
               "name": "Total_Area",
-              "x": "F2023_Surf",
+              "x": "Surface_Ty",
               "y": "Total_Area_sum",
               "innerRadius": 45,
               "startAngle": 320,
@@ -1066,7 +1115,7 @@
               "displayPercentageOnDataLabel": true,
               "displayNumericValueOnTooltip": true,
               "displayPercentageOnTooltip": true,
-              "dataLabelsOffset": 15,
+              "dataLabelsOffset": 0,
               "sliceGrouping": {
                 "percentageThreshold": 0,
                 "groupName": "Other",
@@ -1078,7 +1127,7 @@
                     "type": "esriSLS",
                     "style": "esriSLSSolid",
                     "color": "var(--light-100)",
-                    "width": 1
+                    "width": 2
                   }
                 }
               },
@@ -1108,7 +1157,7 @@
                   "type": "esriSLS",
                   "style": "esriSLSSolid",
                   "color": "var(--light-100)",
-                  "width": 1
+                  "width": 2
                 }
               },
               "dataLabels": {
@@ -1130,7 +1179,7 @@
               },
               "slices": [
                 {
-                  "sliceId": " ",
+                  "sliceId": "AAC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1139,21 +1188,7 @@
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
                       "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "AAC",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#77B484",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
+                      "width": 2
                     }
                   }
                 },
@@ -1162,12 +1197,12 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DF6B35",
+                    "color": "#77B484",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
                       "color": "var(--light-100)",
-                      "width": 1
+                      "width": 2
                     }
                   }
                 },
@@ -1176,12 +1211,12 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DBCF4E",
+                    "color": "#DF6B35",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
                       "color": "var(--light-100)",
-                      "width": 1
+                      "width": 2
                     }
                   }
                 },
@@ -1190,12 +1225,12 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#41546D",
+                    "color": "#DBCF4E",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
                       "color": "var(--light-100)",
-                      "width": 1
+                      "width": 2
                     }
                   }
                 },
@@ -1204,12 +1239,12 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#8257C2",
+                    "color": "#41546D",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
                       "color": "var(--light-100)",
-                      "width": 1
+                      "width": 2
                     }
                   }
                 },
@@ -1218,12 +1253,12 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#D6558B",
+                    "color": "#8257C2",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
                       "color": "var(--light-100)",
-                      "width": 1
+                      "width": 2
                     }
                   }
                 }
@@ -1312,7 +1347,7 @@
           "mainDataSourceId": "dataSource_1-18bbb209c03-layer-3-0",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "F2023_Surf",
+            "Surface_Ty",
             "Total_Area"
           ]
         }
@@ -1372,7 +1407,7 @@
               "lineSymbol": {
                 "type": "esriSLS",
                 "style": "esriSLSSolid",
-                "color": "#5E8FD0",
+                "color": "#77B484",
                 "width": 2
               },
               "dataLabels": {
@@ -1383,7 +1418,7 @@
                   "color": "var(--dark-600)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 10,
+                    "size": 12,
                     "style": "normal",
                     "weight": "bold",
                     "decoration": "none"
@@ -2456,6 +2491,7 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2476,7 +2512,8 @@
       "version": "1.10.0",
       "label": "Text 5",
       "config": {
-        "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
+        "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Wards</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2495,7 +2532,8 @@
       "version": "1.10.0",
       "label": "Text 6",
       "config": {
-        "text": "<p style=\"line-height: 3; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; letter-spacing: 3px;\">Surface</strong></p>",
+        "text": "<p style=\"text-align: center; line-height: 1.75;\"><strong style=\"letter-spacing: 3px; font-size: 16px; font-family: &quot;Avenir Next&quot;;\">Surface</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2514,7 +2552,8 @@
       "version": "1.10.0",
       "label": "Text 7",
       "config": {
-        "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Condition</strong></p>",
+        "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Condition</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2576,16 +2615,16 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_26/1697574295540.JPG",
-            "originalUrl": "${appResourceUrl}/images/widget_26/1697574295540.JPG",
-            "fileName": "1697574295540.JPG",
-            "originalName": "PM legend - Edwardsville.JPG",
+            "url": "${appResourceUrl}/images/widget_26/1700667099155.JPG",
+            "originalUrl": "${appResourceUrl}/images/widget_26/1700667099155.JPG",
+            "fileName": "1700667099155.JPG",
+            "originalName": "PM legend with title vertical.JPG",
             "imgSourceType": "BY_UPLOAD",
             "fileFormat": "image/jpeg",
-            "originalId": "1697574295540",
+            "originalId": "1700667099155",
             "isUseCompress": false,
-            "originalWidth": 364,
-            "originalHeight": 72
+            "originalWidth": 169,
+            "originalHeight": 392
           },
           "imageDisplayQualityMode": "ORIGINAL",
           "imgSourceType": "",
@@ -2595,6 +2634,116 @@
         "styleConfig": {}
       },
       "id": "widget_26"
+    },
+    "widget_27": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Text 8",
+      "config": {
+        "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Alleys</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_27",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_28": {
+      "uri": "widgets/common/filter/",
+      "version": "1.10.0",
+      "label": "Alley Filter",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": false,
+        "filterItems": [
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295H15ZM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1Z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "Remove Alleys",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-18bbb209c03-layer-3-0",
+              "mainDataSourceId": "dataSource_2-18bbb209c03-layer-3-0",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "NAME_SHORT"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "NAME_SHORT",
+                  "operator": "STRING_OPERATOR_DOES_NOT_START_WITH",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "TEXT_BOX",
+                    "value": [
+                      {
+                        "value": "A_",
+                        "label": "A_"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "((LOWER(NAME_SHORT) NOT LIKE 'a_%'))",
+              "displaySQL": "(NAME_SHORT does not start with 'a_')"
+            },
+            "autoApplyWhenWidgetOpen": false,
+            "collapseFilterExprs": false
+          }
+        ]
+      },
+      "id": "widget_28",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-18bbb209c03-layer-3-0",
+          "mainDataSourceId": "dataSource_2-18bbb209c03-layer-3-0",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "NAME_SHORT"
+          ]
+        }
+      ],
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      }
     }
   },
   "widgetsManifest": {},
@@ -2631,15 +2780,15 @@
             "type": "NUMBER",
             "name": "objectid"
           },
-          "F2023_Surf": {
-            "jimuName": "F2023_Surf",
-            "name": "F2023_Surf",
+          "Surface_Ty": {
+            "jimuName": "Surface_Ty",
+            "name": "Surface_Ty",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "F2023_Surf",
+            "alias": "Surface_Ty",
             "format": null,
             "originFields": [
-              "F2023_Surf"
+              "Surface_Ty"
             ]
           },
           "Total_Area_sum": {
@@ -2740,13 +2889,7 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis",
-    "isWebTier": false,
-    "clientId": "",
-    "title": "geoapps OFallonIL/Pavement",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1698869188780.JPG"
+    "portalUrl": "https://geo.twm-inc.com/arcgis"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2778,7 +2921,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1699653772538,
+  "timestamp": 1700667124896,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
