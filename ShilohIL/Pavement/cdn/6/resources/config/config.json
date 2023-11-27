@@ -772,9 +772,9 @@
             },
             "name": "Surface Type",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-              "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+              "mainDataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+              "rootDataSourceId": "dataSource_1",
               "fields": [
                 "Surface_Ty"
               ]
@@ -794,9 +794,9 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "Surface type is:",
+                    "label": "Surface Type:",
                     "display": "BLOCK",
-                    "hint": "AC, OC, PCC, etc.",
+                    "hint": "AC, GR, OC, PCC, etc.",
                     "cascade": "NONE"
                   },
                   "displayLabel": null,
@@ -814,9 +814,9 @@
       "id": "widget_15",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-          "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+          "mainDataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+          "rootDataSourceId": "dataSource_1",
           "fields": [
             "Surface_Ty"
           ]
@@ -854,9 +854,9 @@
             },
             "name": "PCI",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-              "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+              "mainDataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+              "rootDataSourceId": "dataSource_1",
               "fields": [
                 "Predicte_1"
               ]
@@ -867,7 +867,7 @@
                 {
                   "type": "SINGLE",
                   "jimuFieldName": "Predicte_1",
-                  "operator": "NUMBER_OPERATOR_IS",
+                  "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
                   "valueOptions": {
                     "isValid": true,
                     "sourceType": "USER_INPUT",
@@ -886,7 +886,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicte_1 = ?)"
+              "displaySQL": "(Predicte_1 > ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -896,9 +896,9 @@
       "id": "widget_16",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-          "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+          "mainDataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+          "rootDataSourceId": "dataSource_1",
           "fields": [
             "Predicte_1"
           ]
@@ -936,9 +936,9 @@
             },
             "name": "PCI",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-              "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+              "mainDataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+              "rootDataSourceId": "dataSource_1",
               "fields": [
                 "Predicte_1"
               ]
@@ -949,7 +949,7 @@
                 {
                   "type": "SINGLE",
                   "jimuFieldName": "Predicte_1",
-                  "operator": "NUMBER_OPERATOR_IS",
+                  "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
                   "valueOptions": {
                     "isValid": true,
                     "sourceType": "USER_INPUT",
@@ -968,7 +968,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicte_1 = ?)"
+              "displaySQL": "(Predicte_1 < ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -978,9 +978,9 @@
       "id": "widget_17",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-          "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+          "mainDataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+          "rootDataSourceId": "dataSource_1",
           "fields": [
             "Predicte_1"
           ]
@@ -1026,8 +1026,8 @@
               "x": "Surface_Ty",
               "y": "Total_Area_sum",
               "innerRadius": 45,
-              "startAngle": 230,
-              "endAngle": 590,
+              "startAngle": 170,
+              "endAngle": 530,
               "displayNumericValueOnDataLabel": false,
               "displayPercentageOnDataLabel": true,
               "displayNumericValueOnTooltip": true,
@@ -1257,7 +1257,7 @@
       "label": "PCI by Surface",
       "config": {
         "tools": {
-          "cursorEnable": false
+          "cursorEnable": true
         },
         "template": "line",
         "webChart": {
@@ -1307,7 +1307,7 @@
                   "color": "var(--dark-600)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 10,
+                    "size": 11,
                     "style": "normal",
                     "weight": "bold",
                     "decoration": "none"
@@ -1364,14 +1364,13 @@
                   "color": "var(--dark-500)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 12,
+                    "size": 14,
                     "style": "normal",
                     "weight": "normal",
                     "decoration": "none"
                   },
                   "horizontalAlignment": "center",
-                  "verticalAlignment": "middle",
-                  "text": ""
+                  "verticalAlignment": "middle"
                 }
               },
               "valueFormat": {
@@ -1420,14 +1419,13 @@
                   "color": "var(--dark-500)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 12,
+                    "size": 14,
                     "style": "normal",
                     "weight": "normal",
                     "decoration": "none"
                   },
                   "horizontalAlignment": "center",
-                  "verticalAlignment": "middle",
-                  "text": ""
+                  "verticalAlignment": "middle"
                 }
               },
               "valueFormat": {
@@ -1473,7 +1471,7 @@
           },
           "footer": {
             "type": "chartText",
-            "visible": false,
+            "visible": true,
             "content": {
               "type": "esriTS",
               "color": "var(--dark-800)",
@@ -1531,9 +1529,9 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-          "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+          "mainDataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+          "rootDataSourceId": "dataSource_1",
           "fields": [
             "Surface_Ty",
             "Predicte_1"
@@ -2587,57 +2585,15 @@
         }
       }
     },
-    "dataSource_2": {
-      "id": "dataSource_2",
-      "type": "WEB_MAP",
-      "sourceLabel": "Shiloh IL PM Dashboard Map",
-      "itemId": "e154955ae02b42359f71ee29e3d40e75",
-      "portalUrl": "https://geo.twm-inc.com/arcgis"
-    },
-    "dataSource_3": {
-      "id": "dataSource_3",
-      "type": "WEB_MAP",
-      "sourceLabel": "Shiloh IL PM Dashboard Map",
-      "itemId": "e154955ae02b42359f71ee29e3d40e75",
-      "portalUrl": "https://geo.twm-inc.com/arcgis"
-    },
-    "dataSource_4": {
-      "id": "dataSource_4",
-      "type": "WEB_MAP",
-      "sourceLabel": "Shiloh IL PM Dashboard Map",
-      "itemId": "e154955ae02b42359f71ee29e3d40e75",
-      "portalUrl": "https://geo.twm-inc.com/arcgis"
-    },
-    "dataSource_5": {
-      "id": "dataSource_5",
-      "type": "WEB_MAP",
-      "sourceLabel": "Shiloh IL PM Dashboard Map",
-      "itemId": "e154955ae02b42359f71ee29e3d40e75",
-      "portalUrl": "https://geo.twm-inc.com/arcgis"
-    },
-    "dataSource_6": {
-      "id": "dataSource_6",
-      "type": "WEB_MAP",
-      "sourceLabel": "Shiloh IL PM Dashboard Map",
-      "itemId": "e154955ae02b42359f71ee29e3d40e75",
-      "portalUrl": "https://geo.twm-inc.com/arcgis"
-    },
-    "dataSource_7": {
-      "id": "dataSource_7",
-      "type": "WEB_MAP",
-      "sourceLabel": "Shiloh IL PM Dashboard Map",
-      "itemId": "e154955ae02b42359f71ee29e3d40e75",
-      "portalUrl": "https://geo.twm-inc.com/arcgis"
-    },
     "widget_19_ouput": {
       "id": "widget_19_ouput",
       "type": "FEATURE_LAYER",
       "label": "PCI by Surface statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-          "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
-          "rootDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+          "mainDataSourceId": "dataSource_1-18bee7abb3a-layer-3-1",
+          "rootDataSourceId": "dataSource_1"
         }
       ],
       "isOutputFromWidget": true,
@@ -2680,7 +2636,38 @@
       }
     }
   },
-  "messageConfigs": {},
+  "messageConfigs": {
+    "messageConfig_1": {
+      "id": "messageConfig_1",
+      "widgetId": "widget_15",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_12-zoomToFeature-1701092680215",
+          "widgetId": "widget_12",
+          "messageWidgetId": "widget_15",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
+              "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
+              "rootDataSourceId": "dataSource_2"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
+                "mainDataSourceId": "dataSource_2-18bee7abb3a-layer-3-1",
+                "rootDataSourceId": "dataSource_2"
+              }
+            ]
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    }
+  },
   "attributes": {
     "portalUrl": "https://geo.twm-inc.com/arcgis"
   },
@@ -2714,7 +2701,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1700680550002,
+  "timestamp": 1701094257000,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
