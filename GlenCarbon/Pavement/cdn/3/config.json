@@ -590,7 +590,7 @@
           "canSearch": true,
           "canNavigation": false,
           "canBaseMap": true,
-          "canMeasure": false,
+          "canMeasure": true,
           "canScaleBar": false,
           "canSelect": false,
           "canSelectState": false,
@@ -1804,7 +1804,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1701443887489,
+  "timestamp": 1701444149267,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
