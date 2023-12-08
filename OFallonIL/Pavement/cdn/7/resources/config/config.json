@@ -532,6 +532,7 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(1, 42, 132); font-size: 26px;\">Pavement Management Dashboard﻿</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1092,9 +1093,12 @@
               ],
               "outStatistics": [
                 {
-                  "statisticType": "sum",
-                  "onStatisticField": "Pavement__Total_Area_SF_",
-                  "outStatisticFieldName": "Pavement__Total_Area_SF__sum"
+                  "statisticType": "percentile_cont",
+                  "onStatisticField": "Pavement__Predicted_PCI",
+                  "outStatisticFieldName": "Pavement__Predicted_PCI_percentile_cont",
+                  "statisticParameters": {
+                    "value": 0.5
+                  }
                 }
               ],
               "orderByFields": [
@@ -1106,20 +1110,20 @@
             {
               "type": "pieSeries",
               "colorType": "colorMatch",
-              "id": "Pavement__Total_Area_SF_",
-              "name": "Total_Area(SF)",
+              "id": "Pavement__Predicted_PCI",
+              "name": "Predicted PCI",
               "x": "Pavement__Surface_Type",
-              "y": "Pavement__Total_Area_SF__sum",
+              "y": "Pavement__Predicted_PCI_percentile_cont",
               "innerRadius": 45,
-              "startAngle": 0,
-              "endAngle": 360,
+              "startAngle": 33,
+              "endAngle": 393,
               "displayNumericValueOnDataLabel": false,
               "displayPercentageOnDataLabel": true,
               "displayNumericValueOnTooltip": true,
               "displayPercentageOnTooltip": true,
-              "dataLabelsOffset": 1,
+              "dataLabelsOffset": 0,
               "sliceGrouping": {
-                "percentageThreshold": 0,
+                "percentageThreshold": 1,
                 "groupName": "Other",
                 "fillSymbol": {
                   "type": "esriSFS",
@@ -1170,7 +1174,7 @@
                   "color": "var(--dark-600)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 12,
+                    "size": 11,
                     "style": "normal",
                     "weight": "bold",
                     "decoration": "none"
@@ -1307,7 +1311,7 @@
               "horizontalAlignment": "center",
               "text": ""
             },
-            "position": "right"
+            "position": "bottom"
           }
         }
       },
@@ -1322,7 +1326,7 @@
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "Pavement__Surface_Type",
-            "Pavement__Total_Area_SF_"
+            "Pavement__Predicted_PCI"
           ]
         }
       ],
@@ -2463,6 +2467,7 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2484,6 +2489,7 @@
       "label": "Text 5",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Wards</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2503,6 +2509,7 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.75;\"><strong style=\"letter-spacing: 3px; font-size: 16px; font-family: &quot;Avenir Next&quot;;\">Surface</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2522,6 +2529,7 @@
       "label": "Text 7",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Condition</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2609,6 +2617,7 @@
       "label": "Text 8",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Alleys</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2745,56 +2754,6 @@
       "itemId": "690acb2ce89440949332967ffff1e7db",
       "portalUrl": "https://geo.twm-inc.com/arcgis"
     },
-    "widget_18_ouput": {
-      "id": "widget_18_ouput",
-      "type": "FEATURE_LAYER",
-      "label": "Area by Surface Type statistics",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_1-375bd2c64c584662b13956339cfa7427-0",
-          "mainDataSourceId": "dataSource_1-375bd2c64c584662b13956339cfa7427-0",
-          "rootDataSourceId": "dataSource_1"
-        }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "objectid",
-        "fields": {
-          "objectid": {
-            "jimuName": "objectid",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "name": "objectid"
-          },
-          "Pavement__Surface_Type": {
-            "jimuName": "Pavement__Surface_Type",
-            "name": "Pavement__Surface_Type",
-            "type": "STRING",
-            "esriType": "esriFieldTypeString",
-            "alias": "Surface Type",
-            "format": null,
-            "originFields": [
-              "Pavement__Surface_Type"
-            ]
-          },
-          "Pavement__Total_Area_SF__sum": {
-            "jimuName": "Pavement__Total_Area_SF__sum",
-            "name": "Pavement__Total_Area_SF__sum",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeDouble",
-            "alias": "Pavement__Total_Area_SF__sum",
-            "format": {
-              "digitSeparator": false,
-              "places": 6
-            },
-            "originFields": [
-              "Pavement__Total_Area_SF_"
-            ]
-          }
-        }
-      }
-    },
     "widget_19_ouput": {
       "id": "widget_19_ouput",
       "type": "FEATURE_LAYER",
@@ -2844,17 +2803,61 @@
           }
         }
       }
+    },
+    "widget_18_ouput": {
+      "id": "widget_18_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "Area by Surface Type statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-375bd2c64c584662b13956339cfa7427-0",
+          "mainDataSourceId": "dataSource_1-375bd2c64c584662b13956339cfa7427-0",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Pavement__Surface_Type": {
+            "jimuName": "Pavement__Surface_Type",
+            "name": "Pavement__Surface_Type",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Surface Type",
+            "format": null,
+            "originFields": [
+              "Pavement__Surface_Type"
+            ]
+          },
+          "Pavement__Predicted_PCI_percentile_cont": {
+            "jimuName": "Pavement__Predicted_PCI_percentile_cont",
+            "name": "Pavement__Predicted_PCI_percentile_cont",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Pavement__Predicted_PCI_percentile_cont",
+            "format": {
+              "digitSeparator": false,
+              "places": 6
+            },
+            "originFields": [
+              "Pavement__Predicted_PCI"
+            ]
+          }
+        }
+      }
     }
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis",
-    "isWebTier": false,
-    "clientId": "",
-    "title": "geoapps OFallonIL/Pavement",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1698869188780.JPG"
+    "portalUrl": "https://geo.twm-inc.com/arcgis"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2886,7 +2889,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1702069817803,
+  "timestamp": 1702070428628,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
