@@ -101,20 +101,20 @@
         "2": {
           "type": "WIDGET",
           "bbox": {
-            "left": "56.3%",
-            "right": "0.0%",
-            "top": "-10.00%",
-            "bottom": "-0.0%",
-            "width": "43.7%",
-            "height": "111.1%"
+            "left": "47.2%",
+            "right": "0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "40.6%",
+            "height": "100.0%"
           },
           "widgetId": "widget_54",
           "setting": {
             "autoProps": {
               "right": false,
               "left": true,
-              "top": false,
-              "bottom": true,
+              "top": true,
+              "bottom": false,
               "width": "STRETCH",
               "height": "AUTO"
             },
@@ -333,7 +333,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_60",
+          "widgetId": "widget_61",
           "bbox": {
             "left": 0,
             "top": 0,
@@ -359,7 +359,9 @@
               "right": false,
               "top": true,
               "bottom": false
-            }
+            },
+            "vCenter": false,
+            "hCenter": false
           },
           "bbox": {
             "left": "0.0%",
@@ -369,7 +371,8 @@
             "width": "100.0%",
             "height": "100.0%"
           },
-          "widgetId": "widget_37"
+          "widgetId": "widget_37",
+          "isPending": false
         }
       },
       "order": [
@@ -14716,7 +14719,18 @@
         "datasourceConfig": [
           {
             "configId": "config_0",
-            "icon": null,
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Zm-1.27 4.936a6.5 6.5 0 1 1 .707-.707l4.136 4.137a.5.5 0 1 1-.707.707l-4.137-4.137Z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "filename": "search",
+                "originalName": "outlined/editor/search.svg",
+                "path": [
+                  "general",
+                  "search"
+                ],
+                "inlineSvg": true
+              }
+            },
             "label": "ArcGIS World Geocoding Service",
             "hint": "",
             "useUtility": {
@@ -14806,7 +14820,8 @@
           }
         ],
         "isUseCurrentLoation": true,
-        "isShowRecentSearches": true
+        "isShowRecentSearches": true,
+        "isAutoSelectFirstResult": true
       },
       "id": "widget_63",
       "useDataSources": [],
@@ -14820,7 +14835,7 @@
       ],
       "style": {
         "background": {
-          "color": "var(--success)",
+          "color": "#037336",
           "fillType": "fill"
         },
         "borderRadius": null,
@@ -30212,6 +30227,111 @@
           "useDataSources": []
         }
       ]
+    },
+    "messageConfig_5": {
+      "id": "messageConfig_5",
+      "widgetId": "widget_63",
+      "messageType": "DATA_RECORD_SET_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_37-zoomToFeature-1702309931740",
+          "widgetId": "widget_37",
+          "messageWidgetId": "widget_63",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "widget_63_output_config_0",
+              "mainDataSourceId": "widget_63_output_config_0",
+              "rootDataSourceId": null
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "widget_63_output_config_0",
+                "mainDataSourceId": "widget_63_output_config_0",
+                "rootDataSourceId": null
+              }
+            ],
+            "isUseCustomZoomToOption": true,
+            "zoomToOption": {
+              "scale": 500
+            }
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        },
+        {
+          "actionId": "widget_37-showOnMap-1702310184221",
+          "widgetId": "widget_37",
+          "messageWidgetId": "widget_63",
+          "actionName": "showOnMap",
+          "description": null,
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
     }
   },
   "attributes": {
@@ -30388,7 +30508,7 @@
       }
     }
   },
-  "timestamp": 1702057781444,
+  "timestamp": 1702311263935,
   "id": "33",
   "success": true
 }
