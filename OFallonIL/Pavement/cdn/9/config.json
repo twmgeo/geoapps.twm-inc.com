@@ -804,7 +804,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://cityofedwardsville.com/",
+            "value": "https://www.ofallon.org/",
             "expression": null
           },
           "scale": "Fit",
@@ -1092,12 +1092,9 @@
               ],
               "outStatistics": [
                 {
-                  "statisticType": "percentile_cont",
-                  "onStatisticField": "Pavement__Predicted_PCI",
-                  "outStatisticFieldName": "Pavement__Predicted_PCI_percentile_cont",
-                  "statisticParameters": {
-                    "value": 0.5
-                  }
+                  "statisticType": "sum",
+                  "onStatisticField": "Pavement__Total_Area_SF_",
+                  "outStatisticFieldName": "Pavement__Total_Area_SF__sum"
                 }
               ],
               "orderByFields": [
@@ -1109,20 +1106,20 @@
             {
               "type": "pieSeries",
               "colorType": "colorMatch",
-              "id": "Pavement__Predicted_PCI",
-              "name": "Predicted PCI",
+              "id": "Pavement__Total_Area_SF_",
+              "name": "Total_Area(SF)",
               "x": "Pavement__Surface_Type",
-              "y": "Pavement__Predicted_PCI_percentile_cont",
+              "y": "Pavement__Total_Area_SF__sum",
               "innerRadius": 45,
-              "startAngle": 33,
-              "endAngle": 393,
+              "startAngle": 115,
+              "endAngle": 475,
               "displayNumericValueOnDataLabel": false,
               "displayPercentageOnDataLabel": true,
               "displayNumericValueOnTooltip": true,
               "displayPercentageOnTooltip": true,
-              "dataLabelsOffset": 0,
+              "dataLabelsOffset": 5,
               "sliceGrouping": {
-                "percentageThreshold": 1,
+                "percentageThreshold": 0,
                 "groupName": "Other",
                 "fillSymbol": {
                   "type": "esriSFS",
@@ -1188,7 +1185,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#5E8FD0",
+                    "color": "#77B484",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1202,7 +1199,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#77B484",
+                    "color": "#DF6B35",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1216,7 +1213,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DF6B35",
+                    "color": "#41546D",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1230,7 +1227,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DBCF4E",
+                    "color": "#8257C2",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1325,7 +1322,7 @@
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "Pavement__Surface_Type",
-            "Pavement__Predicted_PCI"
+            "Pavement__Total_Area_SF_"
           ]
         }
       ],
@@ -2831,18 +2828,18 @@
               "Pavement__Surface_Type"
             ]
           },
-          "Pavement__Predicted_PCI_percentile_cont": {
-            "jimuName": "Pavement__Predicted_PCI_percentile_cont",
-            "name": "Pavement__Predicted_PCI_percentile_cont",
+          "Pavement__Total_Area_SF__sum": {
+            "jimuName": "Pavement__Total_Area_SF__sum",
+            "name": "Pavement__Total_Area_SF__sum",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Pavement__Predicted_PCI_percentile_cont",
+            "alias": "Pavement__Total_Area_SF__sum",
             "format": {
               "digitSeparator": false,
               "places": 6
             },
             "originFields": [
-              "Pavement__Predicted_PCI"
+              "Pavement__Total_Area_SF_"
             ]
           }
         }
@@ -2889,7 +2886,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1702070428628,
+  "timestamp": 1702307717031,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
