@@ -324,7 +324,7 @@
             "width": "360px",
             "height": "460px"
           },
-          "widgetId": "widget_62"
+          "widgetId": "widget_66"
         }
       }
     },
@@ -333,7 +333,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_61",
+          "widgetId": "widget_66",
           "bbox": {
             "left": 0,
             "top": 0,
@@ -453,7 +453,6 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><span style=\"color: var(--light); font-size: 20px;\">Belleville GIS | Editor</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -570,6 +569,10 @@
             "widget_56": {
               "width": 300,
               "height": 203
+            },
+            "widget_66": {
+              "width": 295,
+              "height": 381
             }
           }
         },
@@ -13882,827 +13885,6 @@
           "mainDataSourceId": "dataSource_1-Belleville_SanitarySewer_2841",
           "rootDataSourceId": "dataSource_1",
           "useFieldsInPopupInfo": true
-        }
-      ]
-    },
-    "widget_62": {
-      "uri": "widgets/common/print/",
-      "version": "1.10.0",
-      "label": "Print",
-      "config": {
-        "printServiceType": "CUSTOMIZE",
-        "printTemplateType": "CUSTOMIZE",
-        "modeType": "CLASSIC",
-        "commonSetting": {
-          "scalePreserved": false,
-          "layoutOptions": {
-            "titleText": "Belleville Web Map"
-          },
-          "outScale": 36978595.474472,
-          "exportOptions": {
-            "dpi": 96
-          },
-          "printExtentType": "CURRENT MAP EXTENT",
-          "forceFeatureAttributes": false,
-          "wkid": 102100,
-          "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-          "enableTitle": true,
-          "enableMapPrintExtents": true,
-          "enableOutputSpatialReference": false,
-          "enableQuality": true,
-          "enableFeatureAttribution": true
-        },
-        "hasInitBorder": true,
-        "printCustomTemplate": [
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "TWM_Layout_Landscape_11x17",
-            "layout": "TWM_Layout_Landscape_11x17",
-            "format": "png32",
-            "templateId": "config_custom_0",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "TWM_Layout_Landscape_24x36",
-            "layout": "TWM_Layout_Landscape_24x36",
-            "format": "png32",
-            "templateId": "config_custom_1",
-            "hasAuthorText": true,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "TWM_Layout_Landscape_36x48",
-            "layout": "TWM_Layout_Landscape_36x48",
-            "format": "png32",
-            "templateId": "config_custom_2",
-            "hasAuthorText": true,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "TWM_Layout_Landscape_8x11",
-            "layout": "TWM_Layout_Landscape_8x11",
-            "format": "png32",
-            "templateId": "config_custom_3",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "TWM_Layout_Portrait_11x17",
-            "layout": "TWM_Layout_Portrait_11x17",
-            "format": "png32",
-            "templateId": "config_custom_4",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "TWM_Layout_Portrait_24x36",
-            "layout": "TWM_Layout_Portrait_24x36",
-            "format": "png32",
-            "templateId": "config_custom_5",
-            "hasAuthorText": true,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "TWM_Layout_Portrait_36x48",
-            "layout": "TWM_Layout_Portrait_36x48",
-            "format": "png32",
-            "templateId": "config_custom_6",
-            "hasAuthorText": true,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "TWM_Layout_Portrait_8x11",
-            "layout": "TWM_Layout_Portrait_8x11",
-            "format": "png32",
-            "templateId": "config_custom_7",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "xPlain_11x17_Landscape",
-            "layout": "xPlain_11x17_Landscape",
-            "format": "png32",
-            "templateId": "config_custom_8",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": false,
-            "hasTitleText": false,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "xPlain_11x17_Portrait",
-            "layout": "xPlain_11x17_Portrait",
-            "format": "png32",
-            "templateId": "config_custom_9",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": false,
-            "hasTitleText": false,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "xPlain_8x11_Landscape",
-            "layout": "xPlain_8x11_Landscape",
-            "format": "png32",
-            "templateId": "config_custom_10",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": false,
-            "hasTitleText": false,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "legend": false,
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "xPlain_8x11_Portrait",
-            "layout": "xPlain_8x11_Portrait",
-            "format": "png32",
-            "templateId": "config_custom_11",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": false,
-            "hasTitleText": false,
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          },
-          {
-            "scalePreserved": false,
-            "outScale": 36978595.474472,
-            "layoutOptions": {
-              "titleText": "ArcGIS Web Map",
-              "scalebarUnit": "Miles",
-              "legendLayers": [],
-              "customTextElements": [],
-              "elementOverrides": {}
-            },
-            "exportOptions": {
-              "dpi": 96,
-              "width": 800,
-              "height": 1100
-            },
-            "printExtentType": "CURRENT MAP EXTENT",
-            "attributionVisible": false,
-            "forceFeatureAttributes": true,
-            "wkid": 102100,
-            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "enableTitle": true,
-            "legendEnabled": true,
-            "enableMapPrintExtents": true,
-            "enableOutputSpatialReference": true,
-            "enableQuality": true,
-            "enableFeatureAttribution": true,
-            "enableMapSize": true,
-            "overrideCommonSetting": false,
-            "enableAuthor": true,
-            "enableCopyright": true,
-            "enableLegend": true,
-            "enableScalebarUnit": true,
-            "enableCustomTextElements": true,
-            "label": "MAP_ONLY",
-            "layout": "MAP_ONLY",
-            "format": "png32",
-            "templateId": "config_custom_12",
-            "selectedFormatList": [
-              "png32"
-            ],
-            "customTextElementEnableList": [],
-            "enableNorthArrow": false
-          }
-        ],
-        "useUtility": {
-          "utilityId": "utility_3"
-        },
-        "formatList": [
-          "pdf",
-          "png32",
-          "png8",
-          "jpg",
-          "gif",
-          "eps",
-          "svg",
-          "svgz"
-        ],
-        "defaultFormat": "pdf",
-        "layoutChoiceList": [
-          {
-            "label": "TWM_Layout_Landscape_11x17",
-            "layout": "TWM_Layout_Landscape_11x17",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "TWM_Layout_Landscape_11x17",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true
-          },
-          {
-            "label": "TWM_Layout_Landscape_24x36",
-            "layout": "TWM_Layout_Landscape_24x36",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "TWM_Layout_Landscape_24x36",
-            "hasAuthorText": true,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true
-          },
-          {
-            "label": "TWM_Layout_Landscape_36x48",
-            "layout": "TWM_Layout_Landscape_36x48",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "TWM_Layout_Landscape_36x48",
-            "hasAuthorText": true,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true
-          },
-          {
-            "label": "TWM_Layout_Landscape_8x11",
-            "layout": "TWM_Layout_Landscape_8x11",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "TWM_Layout_Landscape_8x11",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true
-          },
-          {
-            "label": "TWM_Layout_Portrait_11x17",
-            "layout": "TWM_Layout_Portrait_11x17",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "TWM_Layout_Portrait_11x17",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true
-          },
-          {
-            "label": "TWM_Layout_Portrait_24x36",
-            "layout": "TWM_Layout_Portrait_24x36",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "TWM_Layout_Portrait_24x36",
-            "hasAuthorText": true,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true
-          },
-          {
-            "label": "TWM_Layout_Portrait_36x48",
-            "layout": "TWM_Layout_Portrait_36x48",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "TWM_Layout_Portrait_36x48",
-            "hasAuthorText": true,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true
-          },
-          {
-            "label": "TWM_Layout_Portrait_8x11",
-            "layout": "TWM_Layout_Portrait_8x11",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "TWM_Layout_Portrait_8x11",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": true,
-            "hasTitleText": true
-          },
-          {
-            "label": "xPlain_11x17_Landscape",
-            "layout": "xPlain_11x17_Landscape",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "xPlain_11x17_Landscape",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": false,
-            "hasTitleText": false
-          },
-          {
-            "label": "xPlain_11x17_Portrait",
-            "layout": "xPlain_11x17_Portrait",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "xPlain_11x17_Portrait",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": false,
-            "hasTitleText": false
-          },
-          {
-            "label": "xPlain_8x11_Landscape",
-            "layout": "xPlain_8x11_Landscape",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "xPlain_8x11_Landscape",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": false,
-            "hasTitleText": false
-          },
-          {
-            "label": "xPlain_8x11_Portrait",
-            "layout": "xPlain_8x11_Portrait",
-            "format": "PNG32",
-            "layoutOptions": {
-              "legend": false
-            },
-            "layoutTemplate": "xPlain_8x11_Portrait",
-            "hasAuthorText": false,
-            "hasCopyrightText": false,
-            "hasLegend": false,
-            "hasTitleText": false
-          },
-          {
-            "label": "MAP_ONLY",
-            "layout": "MAP_ONLY",
-            "format": "PNG32",
-            "layoutTemplate": "MAP_ONLY"
-          }
-        ]
-      },
-      "id": "widget_62",
-      "style": {
-        "border": {
-          "color": "var(--light-400)",
-          "type": "solid",
-          "width": "1px"
-        }
-      },
-      "useMapWidgetIds": [
-        "widget_37"
-      ],
-      "useUtilities": [
-        {
-          "utilityId": "utility_3"
         }
       ]
     },
@@ -29948,6 +29130,827 @@
           ]
         }
       ]
+    },
+    "widget_66": {
+      "uri": "widgets/common/print/",
+      "version": "1.10.0",
+      "label": "Print",
+      "config": {
+        "printServiceType": "CUSTOMIZE",
+        "printTemplateType": "CUSTOMIZE",
+        "modeType": "CLASSIC",
+        "commonSetting": {
+          "scalePreserved": false,
+          "layoutOptions": {
+            "titleText": "Belleville Web Map"
+          },
+          "outScale": 36978595.474472,
+          "exportOptions": {
+            "dpi": 96
+          },
+          "printExtentType": "CURRENT MAP EXTENT",
+          "forceFeatureAttributes": false,
+          "wkid": 102100,
+          "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+          "enableTitle": true,
+          "enableMapPrintExtents": true,
+          "enableOutputSpatialReference": false,
+          "enableQuality": true,
+          "enableFeatureAttribution": true
+        },
+        "hasInitBorder": true,
+        "printCustomTemplate": [
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "Belleville Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": false,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": false,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": false,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_11x17",
+            "layout": "TWM_Layout_Landscape_11x17",
+            "format": "pdf",
+            "templateId": "config_custom_0",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_24x36",
+            "layout": "TWM_Layout_Landscape_24x36",
+            "format": "pdf",
+            "templateId": "config_custom_1",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_36x48",
+            "layout": "TWM_Layout_Landscape_36x48",
+            "format": "pdf",
+            "templateId": "config_custom_2",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_8x11",
+            "layout": "TWM_Layout_Landscape_8x11",
+            "format": "pdf",
+            "templateId": "config_custom_3",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_11x17",
+            "layout": "TWM_Layout_Portrait_11x17",
+            "format": "pdf",
+            "templateId": "config_custom_4",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_24x36",
+            "layout": "TWM_Layout_Portrait_24x36",
+            "format": "pdf",
+            "templateId": "config_custom_5",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_36x48",
+            "layout": "TWM_Layout_Portrait_36x48",
+            "format": "pdf",
+            "templateId": "config_custom_6",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_8x11",
+            "layout": "TWM_Layout_Portrait_8x11",
+            "format": "pdf",
+            "templateId": "config_custom_7",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_11x17_Landscape",
+            "layout": "xPlain_11x17_Landscape",
+            "format": "pdf",
+            "templateId": "config_custom_8",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_11x17_Portrait",
+            "layout": "xPlain_11x17_Portrait",
+            "format": "pdf",
+            "templateId": "config_custom_9",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_8x11_Landscape",
+            "layout": "xPlain_8x11_Landscape",
+            "format": "pdf",
+            "templateId": "config_custom_10",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_8x11_Portrait",
+            "layout": "xPlain_8x11_Portrait",
+            "format": "pdf",
+            "templateId": "config_custom_11",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96,
+              "width": 800,
+              "height": 1100
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "pdf",
+            "templateId": "config_custom_12",
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          }
+        ],
+        "useUtility": {
+          "utilityId": "utility_3"
+        },
+        "formatList": [
+          "pdf",
+          "png32",
+          "png8",
+          "jpg",
+          "gif",
+          "eps",
+          "svg",
+          "svgz"
+        ],
+        "defaultFormat": "pdf",
+        "layoutChoiceList": [
+          {
+            "label": "TWM_Layout_Landscape_11x17",
+            "layout": "TWM_Layout_Landscape_11x17",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_11x17",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Landscape_24x36",
+            "layout": "TWM_Layout_Landscape_24x36",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_24x36",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Landscape_36x48",
+            "layout": "TWM_Layout_Landscape_36x48",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_36x48",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Landscape_8x11",
+            "layout": "TWM_Layout_Landscape_8x11",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_8x11",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_11x17",
+            "layout": "TWM_Layout_Portrait_11x17",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_11x17",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_24x36",
+            "layout": "TWM_Layout_Portrait_24x36",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_24x36",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_36x48",
+            "layout": "TWM_Layout_Portrait_36x48",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_36x48",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_8x11",
+            "layout": "TWM_Layout_Portrait_8x11",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_8x11",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "xPlain_11x17_Landscape",
+            "layout": "xPlain_11x17_Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_11x17_Landscape",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "xPlain_11x17_Portrait",
+            "layout": "xPlain_11x17_Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_11x17_Portrait",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "xPlain_8x11_Landscape",
+            "layout": "xPlain_8x11_Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_8x11_Landscape",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "xPlain_8x11_Portrait",
+            "layout": "xPlain_8x11_Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_8x11_Portrait",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "PNG32",
+            "layoutTemplate": "MAP_ONLY"
+          }
+        ]
+      },
+      "id": "widget_66",
+      "style": {
+        "border": {
+          "color": "var(--light-400)",
+          "type": "solid",
+          "width": "1px"
+        }
+      },
+      "useMapWidgetIds": [
+        "widget_37"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_3"
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -30335,7 +30338,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Belleville WW GIS editor",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1702058511360.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -30508,7 +30517,7 @@
       }
     }
   },
-  "timestamp": 1702311263935,
+  "timestamp": 1702414533205,
   "id": "33",
   "success": true
 }
