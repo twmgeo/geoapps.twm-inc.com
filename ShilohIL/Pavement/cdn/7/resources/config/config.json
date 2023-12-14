@@ -1169,7 +1169,7 @@
                 "decoration": "none"
               },
               "horizontalAlignment": "center",
-              "text": "Area by Surface Type"
+              "text": "Area (SF) by Surface Type"
             }
           },
           "footer": {
@@ -2701,7 +2701,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1701094257000,
+  "timestamp": 1702585845786,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
