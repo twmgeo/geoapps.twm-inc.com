@@ -1256,7 +1256,7 @@
       "label": "PCI by Surface",
       "config": {
         "tools": {
-          "cursorEnable": true
+          "cursorEnable": false
         },
         "template": "line",
         "webChart": {
@@ -2702,7 +2702,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1702585845786,
+  "timestamp": 1702588548216,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
