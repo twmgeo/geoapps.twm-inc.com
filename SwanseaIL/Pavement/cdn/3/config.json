@@ -481,7 +481,6 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: rgb(1, 42, 132);\">Pavement Management Dashboard﻿</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -659,7 +658,15 @@
           "dataSourceId": "dataSource_1",
           "mainDataSourceId": "dataSource_1"
         }
-      ]
+      ],
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": "var(--dark)",
+          "type": "solid",
+          "width": "2px"
+        }
+      }
     },
     "widget_13": {
       "uri": "widgets/common/filter/",
@@ -745,7 +752,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://cityofedwardsville.com/",
+            "value": "https://swanseail.org/",
             "expression": null
           },
           "scale": "Fit",
@@ -1037,16 +1044,13 @@
               ],
               "outStatistics": [
                 {
-                  "statisticType": "percentile_cont",
-                  "onStatisticField": "TotalArea2",
-                  "outStatisticFieldName": "TotalArea2_percentile_cont",
-                  "statisticParameters": {
-                    "value": 0.5
-                  }
+                  "statisticType": "count",
+                  "onStatisticField": "OBJECTID_1",
+                  "outStatisticFieldName": "OBJECTID_1_count"
                 }
               ],
               "orderByFields": [
-                "Surface_Ty DESC"
+                "Surface_Ty ASC"
               ]
             }
           },
@@ -1054,13 +1058,13 @@
             {
               "type": "pieSeries",
               "colorType": "colorMatch",
-              "id": "TotalArea2",
-              "name": "TotalArea2",
+              "id": "OBJECTID_1",
+              "name": "OBJECTID_1",
               "x": "Surface_Ty",
-              "y": "TotalArea2_percentile_cont",
+              "y": "OBJECTID_1_count",
               "innerRadius": 45,
-              "startAngle": 55,
-              "endAngle": 415,
+              "startAngle": 0,
+              "endAngle": 360,
               "displayNumericValueOnDataLabel": false,
               "displayPercentageOnDataLabel": true,
               "displayNumericValueOnTooltip": true,
@@ -1107,7 +1111,7 @@
                   "color": "var(--dark-600)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 11,
+                    "size": 10,
                     "style": "normal",
                     "weight": "bold",
                     "decoration": "none"
@@ -1122,7 +1126,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "var(--warning-500)",
+                    "color": "#77B484",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1136,7 +1140,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "var(--danger-200)",
+                    "color": "#DF6B35",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1150,7 +1154,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "var(--primary-400)",
+                    "color": "#41546D",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1164,7 +1168,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DF6B35",
+                    "color": "#8257C2",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1191,12 +1195,12 @@
                 "decoration": "none"
               },
               "horizontalAlignment": "center",
-              "text": "Area (SF)  by Surface Type"
+              "text": "Area (SF) by Surface Type"
             }
           },
           "footer": {
             "type": "chartText",
-            "visible": false,
+            "visible": true,
             "content": {
               "type": "esriTS",
               "color": "var(--dark-800)",
@@ -1259,7 +1263,7 @@
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "Surface_Ty",
-            "TotalArea2"
+            "OBJECTID_1"
           ]
         }
       ],
@@ -2400,7 +2404,6 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2422,7 +2425,6 @@
       "label": "Text 5",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2442,7 +2444,6 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"line-height: 3; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; letter-spacing: 3px;\">Surface</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2462,7 +2463,6 @@
       "label": "Text 7",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Condition</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2557,56 +2557,6 @@
       "itemId": "5ec182f3ce70433d883aa1902922d102",
       "portalUrl": "https://geo.twm-inc.com/arcgis"
     },
-    "widget_18_ouput": {
-      "id": "widget_18_ouput",
-      "type": "FEATURE_LAYER",
-      "label": "Area by Surface Type statistics",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-          "rootDataSourceId": "dataSource_1"
-        }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "objectid",
-        "fields": {
-          "objectid": {
-            "jimuName": "objectid",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "name": "objectid"
-          },
-          "Surface_Ty": {
-            "jimuName": "Surface_Ty",
-            "name": "Surface_Ty",
-            "type": "STRING",
-            "esriType": "esriFieldTypeString",
-            "alias": "Surface_Ty",
-            "format": null,
-            "originFields": [
-              "Surface_Ty"
-            ]
-          },
-          "TotalArea2_percentile_cont": {
-            "jimuName": "TotalArea2_percentile_cont",
-            "name": "TotalArea2_percentile_cont",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeDouble",
-            "alias": "TotalArea2_percentile_cont",
-            "format": {
-              "digitSeparator": false,
-              "places": 6
-            },
-            "originFields": [
-              "TotalArea2"
-            ]
-          }
-        }
-      }
-    },
     "widget_19_ouput": {
       "id": "widget_19_ouput",
       "type": "FEATURE_LAYER",
@@ -2656,11 +2606,67 @@
           }
         }
       }
+    },
+    "widget_18_ouput": {
+      "id": "widget_18_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "Area by Surface Type statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Surface_Ty": {
+            "jimuName": "Surface_Ty",
+            "name": "Surface_Ty",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Surface_Ty",
+            "format": null,
+            "originFields": [
+              "Surface_Ty"
+            ]
+          },
+          "OBJECTID_1_count": {
+            "jimuName": "OBJECTID_1_count",
+            "name": "OBJECTID_1_count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "OBJECTID_1_count",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID_1"
+            ]
+          }
+        }
+      }
     }
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "geoapps SwanseaIL/Pavement",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1702913936064.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2692,7 +2698,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1702913780625,
+  "timestamp": 1703089857961,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
