@@ -481,7 +481,6 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: rgb(1, 42, 132);\">Pavement Management Dashboard﻿</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -630,8 +629,8 @@
                 "latestWkid": 3857,
                 "wkid": 102100
               },
-              "x": -10017692.400178025,
-              "y": 4657403.024631975
+              "x": -10016641.465684619,
+              "y": 4657125.940404445
             }
           },
           "extent": {
@@ -639,10 +638,10 @@
               "latestWkid": 3857,
               "wkid": 102100
             },
-            "xmin": -10024151.329068113,
-            "ymin": 4651374.05402599,
-            "xmax": -10011233.471287936,
-            "ymax": 4663431.9952379605
+            "xmin": -10023367.924173705,
+            "ymin": 4650848.549456533,
+            "xmax": -10009915.007195532,
+            "ymax": 4663403.331352357
           },
           "rotation": 0,
           "viewType": "2d"
@@ -782,7 +781,7 @@
     "widget_15": {
       "uri": "widgets/common/filter/",
       "version": "1.10.0",
-      "label": "Filter 2",
+      "label": "surface type",
       "config": {
         "groupByLayer": false,
         "logicalOperator": "AND",
@@ -810,11 +809,11 @@
             },
             "name": "Surface Type",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-              "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+              "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+              "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "Surface_Ty"
+                "Pavement__Surface_Type"
               ]
             },
             "sqlExprObj": {
@@ -822,7 +821,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Surface_Ty",
+                  "jimuFieldName": "Pavement__Surface_Type",
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
@@ -834,7 +833,7 @@
                   "askForValueOptions": {
                     "label": "Surface Type is:",
                     "display": "BLOCK",
-                    "hint": "AC, OC, PCC, GR, etc.",
+                    "hint": "AC, PCC, OC, GR, etc.",
                     "cascade": "NONE"
                   },
                   "displayLabel": null,
@@ -842,7 +841,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Surface_Ty = ?)"
+              "displaySQL": "(Surface Type = ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -852,11 +851,11 @@
       "id": "widget_15",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Surface_Ty"
+            "Pavement__Surface_Type"
           ]
         }
       ]
@@ -892,11 +891,11 @@
             },
             "name": "PCI Rating",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-              "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+              "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+              "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "Predicte_3"
+                "Pavement__PCI"
               ]
             },
             "sqlExprObj": {
@@ -904,7 +903,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Predicte_3",
+                  "jimuFieldName": "Pavement__PCI",
                   "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -916,7 +915,7 @@
                   "askForValueOptions": {
                     "label": "PCI is greater than:",
                     "display": "BLOCK",
-                    "hint": "Between 0 and 100",
+                    "hint": "between 0 and 100",
                     "cascade": null
                   },
                   "displayLabel": null,
@@ -924,7 +923,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicte_3 > ?)"
+              "displaySQL": "(PCI > ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -934,11 +933,11 @@
       "id": "widget_16",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Predicte_3"
+            "Pavement__PCI"
           ]
         }
       ]
@@ -974,11 +973,11 @@
             },
             "name": "PCI Rating",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-              "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+              "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+              "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "Predicte_3"
+                "Pavement__PCI"
               ]
             },
             "sqlExprObj": {
@@ -986,8 +985,8 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Predicte_3",
-                  "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
+                  "jimuFieldName": "Pavement__PCI",
+                  "operator": "NUMBER_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
                     "sourceType": "USER_INPUT",
@@ -998,7 +997,7 @@
                   "askForValueOptions": {
                     "label": "PCI is less than:",
                     "display": "BLOCK",
-                    "hint": "Between 0 and 100",
+                    "hint": "between 0 and 100",
                     "cascade": null
                   },
                   "displayLabel": null,
@@ -1006,7 +1005,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicte_3 < ?)"
+              "displaySQL": "(PCI = ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -1016,11 +1015,11 @@
       "id": "widget_17",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Predicte_3"
+            "Pavement__PCI"
           ]
         }
       ]
@@ -1041,17 +1040,17 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "Surface_Ty"
+                "Pavement__Surface_Type"
               ],
               "outStatistics": [
                 {
-                  "statisticType": "count",
-                  "onStatisticField": "OBJECTID_1",
-                  "outStatisticFieldName": "OBJECTID_1_count"
+                  "statisticType": "sum",
+                  "onStatisticField": "Pavement__Total_Area_SF_",
+                  "outStatisticFieldName": "Pavement__Total_Area_SF__sum"
                 }
               ],
               "orderByFields": [
-                "Surface_Ty ASC"
+                "Pavement__Surface_Type ASC"
               ]
             }
           },
@@ -1059,10 +1058,10 @@
             {
               "type": "pieSeries",
               "colorType": "colorMatch",
-              "id": "OBJECTID_1",
-              "name": "OBJECTID_1",
-              "x": "Surface_Ty",
-              "y": "OBJECTID_1_count",
+              "id": "Pavement__Total_Area_SF_",
+              "name": "Total_Area(SF)",
+              "x": "Pavement__Surface_Type",
+              "y": "Pavement__Total_Area_SF__sum",
               "innerRadius": 45,
               "startAngle": 0,
               "endAngle": 360,
@@ -1112,7 +1111,7 @@
                   "color": "var(--dark-600)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 10,
+                    "size": 11,
                     "style": "normal",
                     "weight": "bold",
                     "decoration": "none"
@@ -1259,12 +1258,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Surface_Ty",
-            "OBJECTID_1"
+            "Pavement__Surface_Type",
+            "Pavement__Total_Area_SF_"
           ]
         }
       ],
@@ -1294,36 +1293,33 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "Surface_Ty"
+                "Pavement__Surface_Type"
               ],
               "outStatistics": [
                 {
-                  "statisticType": "percentile_cont",
-                  "onStatisticField": "Predicte_3",
-                  "outStatisticFieldName": "Predicte_3_percentile_cont",
-                  "statisticParameters": {
-                    "value": 0.5
-                  }
+                  "statisticType": "avg",
+                  "onStatisticField": "Pavement__PCI",
+                  "outStatisticFieldName": "Pavement__PCI_avg"
                 }
               ],
               "orderByFields": [
-                "Surface_Ty DESC"
+                "Pavement__Surface_Type ASC"
               ]
             }
           },
           "series": [
             {
               "type": "lineSeries",
-              "id": "Predicte_3",
-              "name": "Predicte_3",
-              "x": "Surface_Ty",
-              "y": "Predicte_3_percentile_cont",
+              "id": "Pavement__PCI",
+              "name": "PCI",
+              "x": "Pavement__Surface_Type",
+              "y": "Pavement__PCI_avg",
               "colorType": "singleColor",
               "stackedType": "stacked",
               "lineSymbol": {
                 "type": "esriSLS",
                 "style": "esriSLSSolid",
-                "color": "#77B484",
+                "color": "#5E8FD0",
                 "width": 2
               },
               "dataLabels": {
@@ -1334,7 +1330,7 @@
                   "color": "var(--dark-600)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 12,
+                    "size": 11,
                     "style": "normal",
                     "weight": "bold",
                     "decoration": "none"
@@ -1556,12 +1552,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Surface_Ty",
-            "Predicte_3"
+            "Pavement__Surface_Type",
+            "Pavement__PCI"
           ]
         }
       ],
@@ -2405,7 +2401,6 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2427,7 +2422,6 @@
       "label": "Text 5",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2447,7 +2441,6 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"line-height: 3; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; letter-spacing: 3px;\">Surface</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2467,7 +2460,6 @@
       "label": "Text 7",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Condition</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2562,64 +2554,14 @@
       "itemId": "5ec182f3ce70433d883aa1902922d102",
       "portalUrl": "https://geo.twm-inc.com/arcgis"
     },
-    "widget_19_ouput": {
-      "id": "widget_19_ouput",
-      "type": "FEATURE_LAYER",
-      "label": "PCI by Surface statistics",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-          "rootDataSourceId": "dataSource_1"
-        }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "objectid",
-        "fields": {
-          "objectid": {
-            "jimuName": "objectid",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "name": "objectid"
-          },
-          "Surface_Ty": {
-            "jimuName": "Surface_Ty",
-            "name": "Surface_Ty",
-            "type": "STRING",
-            "esriType": "esriFieldTypeString",
-            "alias": "Surface_Ty",
-            "format": null,
-            "originFields": [
-              "Surface_Ty"
-            ]
-          },
-          "Predicte_3_percentile_cont": {
-            "jimuName": "Predicte_3_percentile_cont",
-            "name": "Predicte_3_percentile_cont",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeDouble",
-            "alias": "Predicte_3_percentile_cont",
-            "format": {
-              "digitSeparator": false,
-              "places": 6
-            },
-            "originFields": [
-              "Predicte_3"
-            ]
-          }
-        }
-      }
-    },
     "widget_18_ouput": {
       "id": "widget_18_ouput",
       "type": "FEATURE_LAYER",
       "label": "Area by Surface Type statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
-          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-1",
+          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
           "rootDataSourceId": "dataSource_1"
         }
       ],
@@ -2634,29 +2576,75 @@
             "type": "NUMBER",
             "name": "objectid"
           },
-          "Surface_Ty": {
-            "jimuName": "Surface_Ty",
-            "name": "Surface_Ty",
+          "Pavement__Surface_Type": {
+            "jimuName": "Pavement__Surface_Type",
+            "name": "Pavement__Surface_Type",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "Surface_Ty",
+            "alias": "Surface Type",
             "format": null,
             "originFields": [
-              "Surface_Ty"
+              "Pavement__Surface_Type"
             ]
           },
-          "OBJECTID_1_count": {
-            "jimuName": "OBJECTID_1_count",
-            "name": "OBJECTID_1_count",
+          "Pavement__Total_Area_SF__sum": {
+            "jimuName": "Pavement__Total_Area_SF__sum",
+            "name": "Pavement__Total_Area_SF__sum",
             "type": "NUMBER",
-            "esriType": "esriFieldTypeOID",
-            "alias": "OBJECTID_1_count",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Pavement__Total_Area_SF__sum",
+            "format": null,
+            "originFields": [
+              "Pavement__Total_Area_SF_"
+            ]
+          }
+        }
+      }
+    },
+    "widget_19_ouput": {
+      "id": "widget_19_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "PCI by Surface statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+          "mainDataSourceId": "dataSource_1-534d4ededccd4b7c90a4e77a7612a734-4",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Pavement__Surface_Type": {
+            "jimuName": "Pavement__Surface_Type",
+            "name": "Pavement__Surface_Type",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Surface Type",
+            "format": null,
+            "originFields": [
+              "Pavement__Surface_Type"
+            ]
+          },
+          "Pavement__PCI_avg": {
+            "jimuName": "Pavement__PCI_avg",
+            "name": "Pavement__PCI_avg",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Pavement__PCI_avg",
             "format": {
-              "digitSeparator": false,
-              "places": 0
+              "places": 3
             },
             "originFields": [
-              "OBJECTID_1"
+              "Pavement__PCI"
             ]
           }
         }
@@ -2665,7 +2653,13 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "geoapps SwanseaIL/Pavement",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1702913936064.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2697,7 +2691,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1703089857961,
+  "timestamp": 1703100388213,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
