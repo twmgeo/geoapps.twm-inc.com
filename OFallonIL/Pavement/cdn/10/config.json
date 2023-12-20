@@ -1356,12 +1356,9 @@
               ],
               "outStatistics": [
                 {
-                  "statisticType": "percentile_cont",
+                  "statisticType": "avg",
                   "onStatisticField": "Pavement__Predicted_PCI",
-                  "outStatisticFieldName": "Pavement__Predicted_PCI_percentile_cont",
-                  "statisticParameters": {
-                    "value": 0.5
-                  }
+                  "outStatisticFieldName": "Pavement__Predicted_PCI_avg"
                 }
               ],
               "orderByFields": [
@@ -1375,7 +1372,7 @@
               "id": "Pavement__Predicted_PCI",
               "name": "Predicted PCI",
               "x": "Pavement__Surface_Type",
-              "y": "Pavement__Predicted_PCI_percentile_cont",
+              "y": "Pavement__Predicted_PCI_avg",
               "colorType": "singleColor",
               "stackedType": "stacked",
               "lineSymbol": {
@@ -2657,55 +2654,41 @@
               "mainDataSourceId": "dataSource_1-375bd2c64c584662b13956339cfa7427-0",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "OFallon_PM_NoJoin_NAME_SHORT"
+                "Pavement__Branch_Use"
               ]
             },
             "sqlExprObj": {
-              "logicalOperator": "OR",
+              "logicalOperator": "AND",
               "parts": [
                 {
-                  "type": "SINGLE",
-                  "jimuFieldName": "OFallon_PM_NoJoin_NAME_SHORT",
-                  "operator": "STRING_OPERATOR_DOES_NOT_START_WITH",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
-                    "value": [
-                      {
-                        "value": "A_",
-                        "label": "A_"
-                      }
-                    ]
-                  },
-                  "displayType": "NONE",
-                  "askForValueOptions": null,
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "OFallon_PM_NoJoin_NAME_SHORT",
-                  "operator": "STRING_OPERATOR_DOES_NOT_START_WITH",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
-                    "value": [
-                      {
-                        "value": "a_",
-                        "label": "a_"
-                      }
-                    ]
-                  },
-                  "displayType": "NONE",
-                  "askForValueOptions": null,
-                  "displayLabel": null,
-                  "caseSensitive": false
+                  "type": "SET",
+                  "logicalOperator": "AND",
+                  "parts": [
+                    {
+                      "type": "SINGLE",
+                      "jimuFieldName": "Pavement__Branch_Use",
+                      "operator": "STRING_OPERATOR_IS_NOT",
+                      "valueOptions": {
+                        "isValid": true,
+                        "sourceType": "UNIQUE",
+                        "inputEditor": "SIMPLE_SELECT",
+                        "value": [
+                          {
+                            "value": "Alley ",
+                            "label": "Alley "
+                          }
+                        ]
+                      },
+                      "displayType": "NONE",
+                      "askForValueOptions": null,
+                      "displayLabel": null,
+                      "caseSensitive": false
+                    }
+                  ]
                 }
               ],
-              "sql": "((LOWER(OFallon_PM_NoJoin_NAME_SHORT) NOT LIKE 'a_%') OR (LOWER(OFallon_PM_NoJoin_NAME_SHORT) NOT LIKE 'a_%'))",
-              "displaySQL": "(NAME_SHORT does not start with 'a_') or (NAME_SHORT does not start with 'a_')"
+              "sql": "(((LOWER(Pavement__Branch_Use) <> 'alley ')))",
+              "displaySQL": "( (Branch_Use ≠ 'alley ') )"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -2719,7 +2702,7 @@
           "mainDataSourceId": "dataSource_1-375bd2c64c584662b13956339cfa7427-0",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "OFallon_PM_NoJoin_NAME_SHORT"
+            "Pavement__Branch_Use"
           ]
         }
       ],
@@ -2778,12 +2761,12 @@
               "Pavement__Surface_Type"
             ]
           },
-          "Pavement__Predicted_PCI_percentile_cont": {
-            "jimuName": "Pavement__Predicted_PCI_percentile_cont",
-            "name": "Pavement__Predicted_PCI_percentile_cont",
+          "Pavement__Predicted_PCI_avg": {
+            "jimuName": "Pavement__Predicted_PCI_avg",
+            "name": "Pavement__Predicted_PCI_avg",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Pavement__Predicted_PCI_percentile_cont",
+            "alias": "Pavement__Predicted_PCI_avg",
             "format": {
               "digitSeparator": false,
               "places": 6
@@ -2854,7 +2837,7 @@
     "title": "geoapps OFallonIL/Pavement",
     "description": "",
     "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1698869188780.JPG"
+    "thumbnail": "thumbnail/thumbnail1702914877696.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2886,7 +2869,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1702307717031,
+  "timestamp": 1703103653365,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
