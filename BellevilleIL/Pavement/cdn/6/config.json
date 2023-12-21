@@ -231,7 +231,6 @@
         "0",
         "1",
         "2",
-        "3",
         "4",
         "5",
         "6",
@@ -292,34 +291,11 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "67.8%",
-            "bottom": "16.4%",
-            "width": "100.0%",
-            "height": "15.8%"
-          },
-          "widgetId": "widget_16",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          },
-          "isPending": false
-        },
-        "3": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "83.6%",
             "bottom": "0.0%",
             "width": "100.0%",
-            "height": "16.4%"
+            "height": "32.2%"
           },
-          "widgetId": "widget_17",
+          "widgetId": "widget_16",
           "setting": {
             "autoProps": {
               "right": false,
@@ -540,7 +516,6 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: rgb(1, 42, 132);\">Pavement Management Dashboard﻿</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -735,11 +710,11 @@
             },
             "name": "Wards",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-              "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+              "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+              "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "BellevillePM_NoJoin_Id"
+                "Id"
               ]
             },
             "sqlExprObj": {
@@ -747,7 +722,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "BellevillePM_NoJoin_Id",
+                  "jimuFieldName": "Id",
                   "operator": "NUMBER_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
@@ -767,7 +742,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Ward = ?)"
+              "displaySQL": "(Id = ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -777,11 +752,11 @@
       "id": "widget_13",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "BellevillePM_NoJoin_Id"
+            "Id"
           ]
         }
       ]
@@ -849,11 +824,11 @@
             },
             "name": "Surface Type",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-              "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+              "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+              "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "Pavement__Surface_Type"
+                "Surface__1"
               ]
             },
             "sqlExprObj": {
@@ -861,7 +836,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Pavement__Surface_Type",
+                  "jimuFieldName": "Surface__1",
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
@@ -873,7 +848,7 @@
                   "askForValueOptions": {
                     "label": "Surface Type is:",
                     "display": "BLOCK",
-                    "hint": "AC, BR, OC, PCC, etc.",
+                    "hint": "(AC, OC, PCC, or BR)",
                     "cascade": "NONE"
                   },
                   "displayLabel": null,
@@ -881,7 +856,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Surface Type = ?)"
+              "displaySQL": "(Surface__1 = ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -891,11 +866,11 @@
       "id": "widget_15",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Pavement__Surface_Type"
+            "Surface__1"
           ]
         }
       ]
@@ -931,11 +906,11 @@
             },
             "name": "PCI Rating",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-              "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+              "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+              "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "Pavement__PCI"
+                "PCI"
               ]
             },
             "sqlExprObj": {
@@ -943,89 +918,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Pavement__PCI",
-                  "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": "PCI is greater than:",
-                    "display": "BLOCK",
-                    "hint": "between 0 and 100",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "",
-              "displaySQL": "(PCI > ?)"
-            },
-            "autoApplyWhenWidgetOpen": false,
-            "collapseFilterExprs": false
-          }
-        ]
-      },
-      "id": "widget_16",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "Pavement__PCI"
-          ]
-        }
-      ]
-    },
-    "widget_17": {
-      "uri": "widgets/common/filter/",
-      "version": "1.10.0",
-      "label": "PCI is less than",
-      "config": {
-        "groupByLayer": false,
-        "logicalOperator": "AND",
-        "custom": false,
-        "resetAll": false,
-        "turnOffAll": false,
-        "arrangeType": "BLOCK",
-        "triggerType": "TOGGLE",
-        "omitInternalStyle": false,
-        "filterItems": [
-          {
-            "icon": {
-              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295H15ZM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1Z\" fill=\"#000\"></path></svg>",
-              "properties": {
-                "color": "",
-                "filename": "filter.svg",
-                "originalName": "filter.svg",
-                "inlineSvg": true,
-                "path": [
-                  "general",
-                  "filter"
-                ],
-                "size": 14
-              }
-            },
-            "name": "PCI Rating",
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-              "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "Pavement__PCI"
-              ]
-            },
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Pavement__PCI",
+                  "jimuFieldName": "PCI",
                   "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -1037,7 +930,27 @@
                   "askForValueOptions": {
                     "label": "PCI is less than:",
                     "display": "BLOCK",
-                    "hint": "between 0 and 100",
+                    "hint": "Between 0 and 100",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "PCI",
+                  "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "TEXT_BOX",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "PCI is greater than:",
+                    "display": "BLOCK",
+                    "hint": "Between 0 and 100",
                     "cascade": null
                   },
                   "displayLabel": null,
@@ -1045,21 +958,21 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(PCI < ?)"
+              "displaySQL": "(PCI < ?) and (PCI > ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
           }
         ]
       },
-      "id": "widget_17",
+      "id": "widget_16",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Pavement__PCI"
+            "PCI"
           ]
         }
       ]
@@ -1080,17 +993,17 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "Pavement__Surface_Type"
+                "Surface_Ty"
               ],
               "outStatistics": [
                 {
-                  "statisticType": "sum",
-                  "onStatisticField": "Pavement__Approximate_Area__sf_",
-                  "outStatisticFieldName": "Pavement__Approximate_Area__sf__sum"
+                  "statisticType": "avg",
+                  "onStatisticField": "PCI",
+                  "outStatisticFieldName": "PCI_avg"
                 }
               ],
               "orderByFields": [
-                "Pavement__Surface_Type ASC"
+                "Surface_Ty ASC"
               ]
             }
           },
@@ -1098,13 +1011,13 @@
             {
               "type": "pieSeries",
               "colorType": "colorMatch",
-              "id": "Pavement__Approximate_Area__sf_",
-              "name": "Approximate Area (sf)",
-              "x": "Pavement__Surface_Type",
-              "y": "Pavement__Approximate_Area__sf__sum",
+              "id": "PCI",
+              "name": "PCI",
+              "x": "Surface_Ty",
+              "y": "PCI_avg",
               "innerRadius": 45,
-              "startAngle": 0,
-              "endAngle": 360,
+              "startAngle": 45,
+              "endAngle": 405,
               "displayNumericValueOnDataLabel": false,
               "displayPercentageOnDataLabel": true,
               "displayNumericValueOnTooltip": true,
@@ -1162,7 +1075,21 @@
               },
               "slices": [
                 {
-                  "sliceId": "AC",
+                  "sliceId": " ",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#5E8FD0",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "AAC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1176,7 +1103,21 @@
                   }
                 },
                 {
-                  "sliceId": "BR",
+                  "sliceId": "AC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DF6B35",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "APC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1190,7 +1131,7 @@
                   }
                 },
                 {
-                  "sliceId": "OC",
+                  "sliceId": "BR",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1204,11 +1145,25 @@
                   }
                 },
                 {
-                  "sliceId": "PCC",
+                  "sliceId": "OC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
                     "color": "#8257C2",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "PCC",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#D6558B",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1298,12 +1253,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Pavement__Surface_Type",
-            "Pavement__Approximate_Area__sf_"
+            "Surface_Ty",
+            "PCI"
           ]
         }
       ],
@@ -1333,30 +1288,27 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "Pavement__Surface_Type"
+                "Surface__1"
               ],
               "outStatistics": [
                 {
-                  "statisticType": "percentile_cont",
-                  "onStatisticField": "Pavement__PCI",
-                  "outStatisticFieldName": "Pavement__PCI_percentile_cont",
-                  "statisticParameters": {
-                    "value": 0.5
-                  }
+                  "statisticType": "avg",
+                  "onStatisticField": "PCI",
+                  "outStatisticFieldName": "PCI_avg"
                 }
               ],
               "orderByFields": [
-                "Pavement__Surface_Type ASC"
+                "Surface__1 ASC"
               ]
             }
           },
           "series": [
             {
               "type": "lineSeries",
-              "id": "Pavement__PCI",
+              "id": "PCI",
               "name": "PCI",
-              "x": "Pavement__Surface_Type",
-              "y": "Pavement__PCI_percentile_cont",
+              "x": "Surface__1",
+              "y": "PCI_avg",
               "colorType": "singleColor",
               "stackedType": "stacked",
               "lineSymbol": {
@@ -1595,12 +1547,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Pavement__Surface_Type",
-            "Pavement__PCI"
+            "Surface__1",
+            "PCI"
           ]
         }
       ],
@@ -2444,7 +2396,6 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2466,7 +2417,6 @@
       "label": "Text 5",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.75;\"><strong style=\"letter-spacing: 3px; font-size: 16px; font-family: &quot;Avenir Next&quot;;\">Wards</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2486,7 +2436,6 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Surface</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2506,7 +2455,6 @@
       "label": "Text 7",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Condition</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2563,7 +2511,6 @@
       "label": "Text 8",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 16px; letter-spacing: 3px;\">Alleys</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2608,48 +2555,28 @@
             },
             "name": "Remove Alleys",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-              "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+              "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+              "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "BellevillePM_NoJoin_NAMESHORT"
+                "Branch_Use"
               ]
             },
             "sqlExprObj": {
-              "logicalOperator": "OR",
+              "logicalOperator": "AND",
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "BellevillePM_NoJoin_NAMESHORT",
-                  "operator": "STRING_OPERATOR_DOES_NOT_START_WITH",
+                  "jimuFieldName": "Branch_Use",
+                  "operator": "STRING_OPERATOR_IS_NOT",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
                     "value": [
                       {
-                        "value": "a_",
-                        "label": "a_"
-                      }
-                    ]
-                  },
-                  "displayType": "NONE",
-                  "askForValueOptions": null,
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "BellevillePM_NoJoin_NAMESHORT",
-                  "operator": "STRING_OPERATOR_DOES_NOT_START_WITH",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
-                    "value": [
-                      {
-                        "value": "A_",
-                        "label": "A_"
+                        "value": "Alley",
+                        "label": "Alley"
                       }
                     ]
                   },
@@ -2659,8 +2586,8 @@
                   "caseSensitive": false
                 }
               ],
-              "sql": "((LOWER(BellevillePM_NoJoin_NAMESHORT) NOT LIKE 'a_%') OR (LOWER(BellevillePM_NoJoin_NAMESHORT) NOT LIKE 'a_%'))",
-              "displaySQL": "(NAMESHORT does not start with 'a_') or (NAMESHORT does not start with 'a_')"
+              "sql": "((LOWER(Branch_Use) <> 'alley'))",
+              "displaySQL": "(Branch_Use ≠ 'alley')"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -2670,11 +2597,11 @@
       "id": "widget_27",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "BellevillePM_NoJoin_NAMESHORT"
+            "Branch_Use"
           ]
         }
       ]
@@ -2729,8 +2656,8 @@
       "label": "Area by Surface Type statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
           "rootDataSourceId": "dataSource_1"
         }
       ],
@@ -2745,26 +2672,29 @@
             "type": "NUMBER",
             "name": "objectid"
           },
-          "Pavement__Surface_Type": {
-            "jimuName": "Pavement__Surface_Type",
-            "name": "Pavement__Surface_Type",
+          "Surface_Ty": {
+            "jimuName": "Surface_Ty",
+            "name": "Surface_Ty",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "Surface Type",
+            "alias": "Surface_Ty",
             "format": null,
             "originFields": [
-              "Pavement__Surface_Type"
+              "Surface_Ty"
             ]
           },
-          "Pavement__Approximate_Area__sf__sum": {
-            "jimuName": "Pavement__Approximate_Area__sf__sum",
-            "name": "Pavement__Approximate_Area__sf__sum",
+          "PCI_avg": {
+            "jimuName": "PCI_avg",
+            "name": "PCI_avg",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Pavement__Approximate_Area__sf__sum",
-            "format": null,
+            "alias": "PCI_avg",
+            "format": {
+              "digitSeparator": false,
+              "places": 6
+            },
             "originFields": [
-              "Pavement__Approximate_Area__sf_"
+              "PCI"
             ]
           }
         }
@@ -2776,8 +2706,8 @@
       "label": "PCI by Surface statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
-          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-3",
+          "dataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
+          "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
           "rootDataSourceId": "dataSource_1"
         }
       ],
@@ -2792,29 +2722,29 @@
             "type": "NUMBER",
             "name": "objectid"
           },
-          "Pavement__Surface_Type": {
-            "jimuName": "Pavement__Surface_Type",
-            "name": "Pavement__Surface_Type",
+          "Surface__1": {
+            "jimuName": "Surface__1",
+            "name": "Surface__1",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "Surface Type",
+            "alias": "Surface__1",
             "format": null,
             "originFields": [
-              "Pavement__Surface_Type"
+              "Surface__1"
             ]
           },
-          "Pavement__PCI_percentile_cont": {
-            "jimuName": "Pavement__PCI_percentile_cont",
-            "name": "Pavement__PCI_percentile_cont",
+          "PCI_avg": {
+            "jimuName": "PCI_avg",
+            "name": "PCI_avg",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Pavement__PCI_percentile_cont",
+            "alias": "PCI_avg",
             "format": {
               "digitSeparator": false,
               "places": 6
             },
             "originFields": [
-              "Pavement__PCI"
+              "PCI"
             ]
           }
         }
@@ -2823,7 +2753,13 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "geoapps BellevilleIL/Pavement",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1702914746874.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2855,7 +2791,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1702674144410,
+  "timestamp": 1703177118182,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
