@@ -993,7 +993,7 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "Surface_Ty"
+                "Surface__1"
               ],
               "outStatistics": [
                 {
@@ -1003,7 +1003,7 @@
                 }
               ],
               "orderByFields": [
-                "Surface_Ty ASC"
+                "Surface__1 ASC"
               ]
             }
           },
@@ -1013,7 +1013,7 @@
               "colorType": "colorMatch",
               "id": "PCI",
               "name": "PCI",
-              "x": "Surface_Ty",
+              "x": "Surface__1",
               "y": "PCI_avg",
               "innerRadius": 45,
               "startAngle": 45,
@@ -1075,7 +1075,7 @@
               },
               "slices": [
                 {
-                  "sliceId": " ",
+                  "sliceId": "AC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1089,7 +1089,7 @@
                   }
                 },
                 {
-                  "sliceId": "AAC",
+                  "sliceId": "BR",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1103,7 +1103,7 @@
                   }
                 },
                 {
-                  "sliceId": "AC",
+                  "sliceId": "OC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1117,53 +1117,11 @@
                   }
                 },
                 {
-                  "sliceId": "APC",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#DBCF4E",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "BR",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#41546D",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
-                  "sliceId": "OC",
-                  "fillSymbol": {
-                    "type": "esriSFS",
-                    "style": "esriSFSSolid",
-                    "color": "#8257C2",
-                    "outline": {
-                      "type": "esriSLS",
-                      "style": "esriSLSSolid",
-                      "color": "var(--light-100)",
-                      "width": 1
-                    }
-                  }
-                },
-                {
                   "sliceId": "PCC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#D6558B",
+                    "color": "#DBCF4E",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1257,7 +1215,7 @@
           "mainDataSourceId": "dataSource_1-18c6f3986fa-layer-2-4",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Surface_Ty",
+            "Surface__1",
             "PCI"
           ]
         }
@@ -2672,15 +2630,15 @@
             "type": "NUMBER",
             "name": "objectid"
           },
-          "Surface_Ty": {
-            "jimuName": "Surface_Ty",
-            "name": "Surface_Ty",
+          "Surface__1": {
+            "jimuName": "Surface__1",
+            "name": "Surface__1",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "Surface_Ty",
+            "alias": "Surface__1",
             "format": null,
             "originFields": [
-              "Surface_Ty"
+              "Surface__1"
             ]
           },
           "PCI_avg": {
@@ -2791,7 +2749,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1703177118182,
+  "timestamp": 1703260971630,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
