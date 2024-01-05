@@ -219,7 +219,6 @@
       "order": [
         "1",
         "2",
-        "3",
         "4",
         "6",
         "7"
@@ -254,34 +253,11 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "43.2%",
-            "bottom": "41.0%",
+            "bottom": "26.7%",
             "width": "100.0%",
-            "height": "15.8%"
+            "height": "30.1%"
           },
           "widgetId": "widget_16",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          },
-          "isPending": false
-        },
-        "3": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "58.9%",
-            "bottom": "24.7%",
-            "width": "100.0%",
-            "height": "16.4%"
-          },
-          "widgetId": "widget_17",
           "setting": {
             "autoProps": {
               "right": false,
@@ -599,7 +575,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://cityofedwardsville.com/",
+            "value": "https://www.explorecarbondale.com/",
             "expression": null
           },
           "scale": "Fit",
@@ -672,16 +648,16 @@
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
                     "value": null
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
                     "label": "Surface Type is:",
                     "display": "BLOCK",
-                    "hint": "AC, OC, PCC, GR, or BR",
-                    "cascade": null
+                    "hint": "AC, OC, PCC, BR, or GR, etc.",
+                    "cascade": "NONE"
                   },
                   "displayLabel": null,
                   "caseSensitive": false
@@ -751,88 +727,6 @@
                 {
                   "type": "SINGLE",
                   "jimuFieldName": "Predicte_2",
-                  "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": "PCI is greater than:",
-                    "display": "BLOCK",
-                    "hint": "Between 0 and 100",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "",
-              "displaySQL": "(Predicte_2 > ?)"
-            },
-            "autoApplyWhenWidgetOpen": false,
-            "collapseFilterExprs": false
-          }
-        ]
-      },
-      "id": "widget_16",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "mainDataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "Predicte_2"
-          ]
-        }
-      ]
-    },
-    "widget_17": {
-      "uri": "widgets/common/filter/",
-      "version": "1.10.0",
-      "label": "PCI Less",
-      "config": {
-        "groupByLayer": false,
-        "logicalOperator": "AND",
-        "custom": false,
-        "resetAll": false,
-        "turnOffAll": false,
-        "arrangeType": "BLOCK",
-        "triggerType": "TOGGLE",
-        "omitInternalStyle": false,
-        "filterItems": [
-          {
-            "icon": {
-              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295H15ZM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1Z\" fill=\"#000\"></path></svg>",
-              "properties": {
-                "color": "",
-                "filename": "filter.svg",
-                "originalName": "filter.svg",
-                "inlineSvg": true,
-                "path": [
-                  "general",
-                  "filter"
-                ],
-                "size": 14
-              }
-            },
-            "name": "PCI Rating",
-            "useDataSource": {
-              "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-              "mainDataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-              "rootDataSourceId": "dataSource_2",
-              "fields": [
-                "Predicte_2"
-              ]
-            },
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Predicte_2",
                   "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -842,7 +736,27 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "PCI is less than:",
+                    "label": "PCI is less than :",
+                    "display": "BLOCK",
+                    "hint": "Between 0 and 100",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "Predicte_2",
+                  "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "TEXT_BOX",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "PCI is greater than :",
                     "display": "BLOCK",
                     "hint": "Between 0 and 100",
                     "cascade": null
@@ -852,14 +766,14 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicte_2 < ?)"
+              "displaySQL": "(Predicte_2 < ?) and (Predicte_2 > ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
           }
         ]
       },
-      "id": "widget_17",
+      "id": "widget_16",
       "useDataSources": [
         {
           "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
@@ -891,16 +805,13 @@
               ],
               "outStatistics": [
                 {
-                  "statisticType": "percentile_cont",
+                  "statisticType": "sum",
                   "onStatisticField": "Total_Area",
-                  "outStatisticFieldName": "Total_Area_percentile_cont",
-                  "statisticParameters": {
-                    "value": 0.5
-                  }
+                  "outStatisticFieldName": "Total_Area_sum"
                 }
               ],
               "orderByFields": [
-                "Surface_Ty ASC"
+                "Surface_Ty DESC"
               ]
             }
           },
@@ -911,7 +822,7 @@
               "id": "Total_Area",
               "name": "Total_Area",
               "x": "Surface_Ty",
-              "y": "Total_Area_percentile_cont",
+              "y": "Total_Area_sum",
               "innerRadius": 45,
               "startAngle": 45,
               "endAngle": 405,
@@ -972,7 +883,7 @@
               },
               "slices": [
                 {
-                  "sliceId": "AC",
+                  "sliceId": "PCC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -986,7 +897,7 @@
                   }
                 },
                 {
-                  "sliceId": "BR",
+                  "sliceId": "OC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1004,7 +915,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DF6B35",
+                    "color": "#8257C2",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1014,7 +925,7 @@
                   }
                 },
                 {
-                  "sliceId": "OC",
+                  "sliceId": "BR",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
@@ -1028,11 +939,11 @@
                   }
                 },
                 {
-                  "sliceId": "PCC",
+                  "sliceId": "AC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#41546D",
+                    "color": "#DF6B35",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1059,7 +970,7 @@
                 "decoration": "none"
               },
               "horizontalAlignment": "center",
-              "text": "Area (Sq. Ft) by Surface Type"
+              "text": "Area (SF) by Surface Type"
             }
           },
           "footer": {
@@ -2435,12 +2346,12 @@
               "Surface_Ty"
             ]
           },
-          "Total_Area_percentile_cont": {
-            "jimuName": "Total_Area_percentile_cont",
-            "name": "Total_Area_percentile_cont",
+          "Total_Area_sum": {
+            "jimuName": "Total_Area_sum",
+            "name": "Total_Area_sum",
             "type": "NUMBER",
             "esriType": "esriFieldTypeInteger",
-            "alias": "Total_Area_percentile_cont",
+            "alias": "Total_Area_sum",
             "format": {
               "digitSeparator": false,
               "places": 0
@@ -2537,7 +2448,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1703102699682,
+  "timestamp": 1704479107792,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
