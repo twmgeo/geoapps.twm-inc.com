@@ -725,10 +725,10 @@
                 "size": 14
               }
             },
-            "name": "Surface Type",
+            "name": "Surface Type :",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
-              "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
+              "dataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
+              "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
               "rootDataSourceId": "dataSource_1",
               "fields": [
                 "Surface_Ty"
@@ -751,7 +751,7 @@
                   "askForValueOptions": {
                     "label": "Surface Type is :",
                     "display": "BLOCK",
-                    "hint": "AC, OC, PCC, etc.",
+                    "hint": "AC, OC, or PCC, etc.",
                     "cascade": "NONE"
                   },
                   "displayLabel": null,
@@ -769,8 +769,8 @@
       "id": "widget_15",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
-          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
+          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "Surface_Ty"
@@ -807,13 +807,13 @@
                 "size": 14
               }
             },
-            "name": "PCI Rating:",
+            "name": "PCI Rating :",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
-              "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
+              "dataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
+              "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "PCI"
+                "PCI_Num"
               ]
             },
             "sqlExprObj": {
@@ -821,7 +821,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "PCI",
+                  "jimuFieldName": "PCI_Num",
                   "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -841,7 +841,7 @@
                 },
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "PCI",
+                  "jimuFieldName": "PCI_Num",
                   "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -861,7 +861,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(PCI < ?) and (PCI > ?)"
+              "displaySQL": "(PCI_Num < ?) and (PCI_Num > ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -871,11 +871,11 @@
       "id": "widget_16",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
-          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
+          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "PCI"
+            "PCI_Num"
           ]
         }
       ]
@@ -886,7 +886,7 @@
       "label": "Area by Surface Type",
       "config": {
         "tools": {
-          "cursorEnable": false
+          "cursorEnable": true
         },
         "template": "donut",
         "webChart": {
@@ -1100,8 +1100,8 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
-          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
+          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "Surface_Ty",
@@ -1125,7 +1125,7 @@
       "label": "PCI by Surface",
       "config": {
         "tools": {
-          "cursorEnable": false
+          "cursorEnable": true
         },
         "template": "line",
         "webChart": {
@@ -1139,26 +1139,23 @@
               ],
               "outStatistics": [
                 {
-                  "statisticType": "percentile_cont",
-                  "onStatisticField": "PCI",
-                  "outStatisticFieldName": "PCI_percentile_cont",
-                  "statisticParameters": {
-                    "value": 0.5
-                  }
+                  "statisticType": "avg",
+                  "onStatisticField": "PCI_Num",
+                  "outStatisticFieldName": "PCI_Num_avg"
                 }
               ],
               "orderByFields": [
-                "PCI_percentile_cont ASC"
+                "PCI_Num_avg ASC"
               ]
             }
           },
           "series": [
             {
               "type": "lineSeries",
-              "id": "PCI",
-              "name": "PCI",
+              "id": "PCI_Num",
+              "name": "PCI_Num",
               "x": "Surface_Ty",
-              "y": "PCI_percentile_cont",
+              "y": "PCI_Num_avg",
               "colorType": "singleColor",
               "stackedType": "stacked",
               "lineSymbol": {
@@ -1175,7 +1172,7 @@
                   "color": "var(--dark-600)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 12,
+                    "size": 11,
                     "style": "normal",
                     "weight": "bold",
                     "decoration": "none"
@@ -1397,12 +1394,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
-          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
+          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "Surface_Ty",
-            "PCI"
+            "PCI_Num"
           ]
         }
       ],
@@ -1585,8 +1582,8 @@
       "label": "Area by Surface Type statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
-          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
+          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
           "rootDataSourceId": "dataSource_1"
         }
       ],
@@ -1619,8 +1616,8 @@
             "esriType": "esriFieldTypeDouble",
             "alias": "Total_Area_sum",
             "format": {
-              "digitSeparator": false,
-              "places": 6
+              "digitSeparator": true,
+              "places": 2
             },
             "originFields": [
               "Total_Area"
@@ -1635,8 +1632,8 @@
       "label": "PCI by Surface statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
-          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-4",
+          "dataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18cda3118f1-layer-3-3",
           "rootDataSourceId": "dataSource_1"
         }
       ],
@@ -1662,18 +1659,18 @@
               "Surface_Ty"
             ]
           },
-          "PCI_percentile_cont": {
-            "jimuName": "PCI_percentile_cont",
-            "name": "PCI_percentile_cont",
+          "PCI_Num_avg": {
+            "jimuName": "PCI_Num_avg",
+            "name": "PCI_Num_avg",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "PCI_percentile_cont",
+            "alias": "PCI_Num_avg",
             "format": {
-              "digitSeparator": false,
-              "places": 6
+              "digitSeparator": true,
+              "places": 2
             },
             "originFields": [
-              "PCI"
+              "PCI_Num"
             ]
           }
         }
@@ -1714,7 +1711,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1704471909733,
+  "timestamp": 1704734991552,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
