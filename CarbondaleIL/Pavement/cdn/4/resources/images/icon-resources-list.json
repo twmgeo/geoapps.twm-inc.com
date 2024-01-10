@@ -1,0 +1,14 @@
+{
+  "filter.svg": {
+    "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295H15ZM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1Z\" fill=\"#000\"></path></svg>?token=fR_7ysKrhF7XuvDm3QqDJExWUX5l8PlDS2iNVdhf_aeB8vvaLiXv9S9IpFIaJ3JGi_ZOclSlGHAc2E2K_cKtlvtao2fcw7Ruy_ydV80A6d3xdKpvhbD-Gndh9nUZ49ObMG18fPBO39_iYY4-FhTmO_Wfd6JjAEXlxQU5S-RaTzaWiRYlrNXSoFdLfGzTVHe8JuxYmXRQ3x-a8A5cQlcWtC0udbyxhYpGf4dBcSNp63U.?token=fR_7ysKrhF7XuvDm3QqDJExWUX5l8PlDS2iNVdhf_aeB8vvaLiXv9S9IpFIaJ3JGi_ZOclSlGHAc2E2K_cKtlvtao2fcw7Ruy_ydV80A6d3xdKpvhbD-Gndh9nUZ49ObMG18fPBO39_iYY4-FhTmO_Wfd6JjAEXlxQU5S-RaTzaWiRYlrNXSoFdLfGzTVHe8JuxYmXRQ3x-a8A5cQlcWtC0udbyxhYpGf4dBcSNp63U.?token=fR_7ysKrhF7XuvDm3QqDJExWUX5l8PlDS2iNVdhf_aeB8vvaLiXv9S9IpFIaJ3JGi_ZOclSlGHAc2E2K_cKtlvtao2fcw7Ruy_ydV80A6d3xdKpvhbD-Gndh9nUZ49ObMG18fPBO39_iYY4-FhTmO_Wfd6JjAEXlxQU5S-RaTzaWiRYlrNXSoFdLfGzTVHe8JuxYmXRQ3x-a8A5cQlcWtC0udbyxhYpGf4dBcSNp63U.",
+    "properties": {
+      "filename": "filter.svg",
+      "originalName": "filter.svg",
+      "path": [
+        "general",
+        "filter"
+      ],
+      "inlineSvg": true
+    }
+  }
+}

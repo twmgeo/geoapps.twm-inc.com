@@ -409,6 +409,7 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: rgb(1, 42, 132);\">Pavement Management Dashboard﻿</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -547,7 +548,7 @@
           "canLayers": true
         },
         "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_2",
+        "initialMapDataSourceID": "dataSource_1",
         "initialMapState": null
       },
       "id": "widget_12",
@@ -558,8 +559,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2",
-          "mainDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
         }
       ]
     },
@@ -629,11 +630,11 @@
                 "size": 14
               }
             },
-            "name": "Surface Type",
+            "name": "Surface Type:",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-              "mainDataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+              "mainDataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+              "rootDataSourceId": "dataSource_1",
               "fields": [
                 "Surface_Ty"
               ]
@@ -653,9 +654,9 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "Surface Type is:",
+                    "label": "Surface Type is :",
                     "display": "BLOCK",
-                    "hint": "AC, OC, PCC, BR, or GR, etc.",
+                    "hint": "AC, OC, PCC, BR, GR, etc.",
                     "cascade": "NONE"
                   },
                   "displayLabel": null,
@@ -673,9 +674,9 @@
       "id": "widget_15",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "mainDataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "mainDataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "rootDataSourceId": "dataSource_1",
           "fields": [
             "Surface_Ty"
           ]
@@ -711,13 +712,13 @@
                 "size": 14
               }
             },
-            "name": "PCI Rating",
+            "name": "PCI Rating :",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-              "mainDataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+              "mainDataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+              "rootDataSourceId": "dataSource_1",
               "fields": [
-                "Predicte_2"
+                "PCI"
               ]
             },
             "sqlExprObj": {
@@ -725,27 +726,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Predicte_2",
-                  "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": "PCI is less than :",
-                    "display": "BLOCK",
-                    "hint": "Between 0 and 100",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                },
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Predicte_2",
+                  "jimuFieldName": "PCI",
                   "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -755,7 +736,27 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "PCI is greater than :",
+                    "label": "PCI is greater than:",
+                    "display": "BLOCK",
+                    "hint": "Between 0 and 100",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "PCI",
+                  "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "TEXT_BOX",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "PCI is less than:",
                     "display": "BLOCK",
                     "hint": "Between 0 and 100",
                     "cascade": null
@@ -765,7 +766,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicte_2 < ?) and (Predicte_2 > ?)"
+              "displaySQL": "(PCI > ?) and (PCI < ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -775,11 +776,11 @@
       "id": "widget_16",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "mainDataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "mainDataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Predicte_2"
+            "PCI"
           ]
         }
       ]
@@ -882,11 +883,11 @@
               },
               "slices": [
                 {
-                  "sliceId": "PCC",
+                  "sliceId": "AC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#5E8FD0",
+                    "color": "#DF6B35",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -896,11 +897,11 @@
                   }
                 },
                 {
-                  "sliceId": "OC",
+                  "sliceId": "BR",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#77B484",
+                    "color": "#D6558B",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -924,11 +925,11 @@
                   }
                 },
                 {
-                  "sliceId": "BR",
+                  "sliceId": "OC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DBCF4E",
+                    "color": "#5E8FD0",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -938,11 +939,11 @@
                   }
                 },
                 {
-                  "sliceId": "AC",
+                  "sliceId": "PCC",
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DF6B35",
+                    "color": "#77B484",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1032,9 +1033,9 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "mainDataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "mainDataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "rootDataSourceId": "dataSource_1",
           "fields": [
             "Surface_Ty",
             "Total_Area"
@@ -1057,7 +1058,7 @@
       "label": "PCI by Surface",
       "config": {
         "tools": {
-          "cursorEnable": false
+          "cursorEnable": true
         },
         "template": "line",
         "webChart": {
@@ -1072,8 +1073,8 @@
               "outStatistics": [
                 {
                   "statisticType": "avg",
-                  "onStatisticField": "Predicte_2",
-                  "outStatisticFieldName": "Predicte_2_avg"
+                  "onStatisticField": "PCI",
+                  "outStatisticFieldName": "PCI_avg"
                 }
               ],
               "orderByFields": [
@@ -1084,16 +1085,16 @@
           "series": [
             {
               "type": "lineSeries",
-              "id": "Predicte_2",
-              "name": "Predicte_2",
+              "id": "PCI",
+              "name": "PCI",
               "x": "Surface_Ty",
-              "y": "Predicte_2_avg",
+              "y": "PCI_avg",
               "colorType": "singleColor",
               "stackedType": "stacked",
               "lineSymbol": {
                 "type": "esriSLS",
                 "style": "esriSLSSolid",
-                "color": "#24bd6a",
+                "color": "#77B484",
                 "width": 2
               },
               "dataLabels": {
@@ -1326,12 +1327,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "mainDataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "mainDataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "rootDataSourceId": "dataSource_1",
           "fields": [
             "Surface_Ty",
-            "Predicte_2"
+            "PCI"
           ]
         }
       ],
@@ -2175,6 +2176,7 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; letter-spacing: 3px; font-size: 28px; font-family: &quot;Avenir Next&quot;;\">FILTERS</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2196,6 +2198,7 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"line-height: 3; text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; letter-spacing: 3px;\">Surface</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2215,6 +2218,7 @@
       "label": "Text 7",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 3;\"><strong style=\"letter-spacing: 3px; font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Condition</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2302,8 +2306,8 @@
   "sections": {},
   "dialogs": {},
   "dataSources": {
-    "dataSource_2": {
-      "id": "dataSource_2",
+    "dataSource_1": {
+      "id": "dataSource_1",
       "type": "WEB_MAP",
       "sourceLabel": "Carbondale PM Dashboard Map",
       "itemId": "00f57754b2594673bc3797e24a9887e2",
@@ -2315,9 +2319,9 @@
       "label": "Area by Surface Type statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "mainDataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "rootDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "mainDataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "rootDataSourceId": "dataSource_1"
         }
       ],
       "isOutputFromWidget": true,
@@ -2365,9 +2369,9 @@
       "label": "PCI by Surface statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "mainDataSourceId": "dataSource_2-8d52fb61c08e4f4a875ef9013ba5c8f6-0",
-          "rootDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "mainDataSourceId": "dataSource_1-18cf3cabbea-layer-3",
+          "rootDataSourceId": "dataSource_1"
         }
       ],
       "isOutputFromWidget": true,
@@ -2392,18 +2396,18 @@
               "Surface_Ty"
             ]
           },
-          "Predicte_2_avg": {
-            "jimuName": "Predicte_2_avg",
-            "name": "Predicte_2_avg",
+          "PCI_avg": {
+            "jimuName": "PCI_avg",
+            "name": "PCI_avg",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Predicte_2_avg",
+            "alias": "PCI_avg",
             "format": {
               "digitSeparator": false,
               "places": 6
             },
             "originFields": [
-              "Predicte_2"
+              "PCI"
             ]
           }
         }
@@ -2412,13 +2416,7 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis",
-    "isWebTier": false,
-    "clientId": "",
-    "title": "geoapps CarbondaleIL /Pavement",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1703103443168.JPG"
+    "portalUrl": "https://geo.twm-inc.com/arcgis"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2450,7 +2448,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1704479107792,
+  "timestamp": 1704898586894,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
