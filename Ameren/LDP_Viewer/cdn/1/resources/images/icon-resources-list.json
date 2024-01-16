@@ -1,0 +1,14 @@
+{
+  "filter.svg": {
+    "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295H15ZM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1Z\" fill=\"#000\"></path></svg>?token=7nK3Vd3cP5dxeUO6-Irfm6YarDhXv5FG__I7PZMLSIytsul6WT2RldKpGfPSh-s9zLMD7-Ta7mUGA8nrP0BU0OTHKos1HHV7NIK51CFb0I5hbPOO4Do1kjt51hfUBp5SBM2ynOjRV7eBc5UIsnZgdcmNZjBHKt1d64K8iax5QD1eOmmFEi4z5CrA-WX9qBi5SiuSoWI1KcbjOPeL039obCWdXrst7KXpgqqqC9ILqo8.?token=r_o2sGr_u-Byt1Sx_Pfw7w6yNsd3k5nDN1nuwjRqF7DJomlXoYTN683FvpDt-vWzGiokYaKQXIHfmh_CCxti_LR8xF7WjN44ZFN-QUZcdy_x1Ol3Glp-2YBwiUDohbT9pfJpgZmNojifjJw_rcXph8g3KsodUdTxHmoo9qf0-t5ML_znBsEJU0qPGJWRk7yE6nFjUCX6BpxzTdVCnBDNgiut45yB8HwIyUgbuOIEJj8.",
+    "properties": {
+      "filename": "filter.svg",
+      "originalName": "filter.svg",
+      "path": [
+        "general",
+        "filter"
+      ],
+      "inlineSvg": true
+    }
+  }
+}
