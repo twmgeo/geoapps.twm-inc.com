@@ -6931,6 +6931,41 @@
     "group": 7
   },
   {
+    "name": "Print",
+    "manifest": {
+      "name": "Print",
+      "label": "Print",
+      "type": "widget",
+      "version": "1.9.0",
+      "exbVersion": "1.9.0",
+      "author": "Robert Scheitlin",
+      "description": "A widget for printing",
+      "copyright": "2022",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "en"
+      ],
+      "dependency": [
+        "jimu-arcgis"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 410
+      }
+    },
+    "i18nLabel": {
+      "en": "Print"
+    },
+    "i18nDescription": {
+      "en": null
+    },
+    "uri": "widgets/Print/",
+    "icon": "widgets/Print/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "simple",
     "manifest": {
       "name": "simple",
