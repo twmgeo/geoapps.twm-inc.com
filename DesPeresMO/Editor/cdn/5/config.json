@@ -133,10 +133,10 @@
           "bbox": {
             "left": "60px",
             "width": "217px",
-            "height": "8.4%",
+            "height": "13.2%",
             "top": "0px",
             "right": "1001px",
-            "bottom": "680px"
+            "bottom": "412px"
           },
           "widgetId": "widget_39",
           "setting": {
@@ -628,7 +628,6 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><span style=\"font-size: 20px; color: var(--light);\">Des Peres GIS | Editor<span class=\"ql-cursor\">﻿</span></span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -11043,7 +11042,6 @@
       "label": "Text",
       "config": {
         "text": "<p><strong style=\"color: var(--dark); font-size: 14px;\">﻿Disclaimer</strong></p>",
-        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -11057,7 +11055,6 @@
       "label": "Text 2",
       "config": {
         "text": "<p><span style=\"color: var(--dark);\">﻿</span><span style=\"color: var(--dark-800);\">This data is intended only for use by City of Des Peres staff. </span></p><p><br></p><p><span style=\"color: var(--dark-800);\">﻿The information contained herein is for reference purposes only, and must not be relied upon as a substitute for a professional land survey or title search. The City of Des Peres and TWM, Inc. assume no responsibility for any use of the information contained herein or any loss resulting therefrom. Users of the City of Des Peres GIS site assume all risk and liability when accessing any third party site linked to this site.</span></p><p><br></p><p>All data is subject to change. </p>",
-        "placeholder": "<p><span style=\"color: var(--dark);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -16546,7 +16543,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Des Peres MO Editor",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1699308226300.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -16719,5 +16722,5 @@
       }
     }
   },
-  "timestamp": 1705525612799
+  "timestamp": 1705526259894
 }
