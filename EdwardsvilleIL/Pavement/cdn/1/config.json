@@ -220,7 +220,6 @@
         "0",
         "1",
         "2",
-        "3",
         "4",
         "5",
         "6",
@@ -279,34 +278,11 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "67.8%",
-            "bottom": "16.4%",
-            "width": "100.0%",
-            "height": "15.8%"
-          },
-          "widgetId": "widget_16",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          },
-          "isPending": false
-        },
-        "3": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "83.6%",
             "bottom": "0.0%",
             "width": "100.0%",
-            "height": "16.4%"
+            "height": "32.2%"
           },
-          "widgetId": "widget_17",
+          "widgetId": "widget_16",
           "setting": {
             "autoProps": {
               "right": false,
@@ -444,12 +420,12 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": "1.7%",
-            "right": "51.7%",
-            "top": "84.0%",
-            "bottom": "2.7%",
-            "width": "46.6%",
-            "height": "13.3%"
+            "left": "0.0%",
+            "right": "88.6%",
+            "top": "67.1%",
+            "bottom": "2.6%",
+            "width": "11.4%",
+            "height": "30.3%"
           },
           "widgetId": "widget_26",
           "setting": {
@@ -473,7 +449,7 @@
   "forBuilderAttributes": {
     "lockLayout": false
   },
-  "template": "blankfullscreen",
+  "template": "32",
   "widgets": {
     "widget_9": {
       "uri": "widgets/common/text/",
@@ -689,10 +665,10 @@
                 "size": 14
               }
             },
-            "name": "Wards",
+            "name": "Edwardsville Wards",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-              "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
+              "dataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
+              "mainDataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
               "rootDataSourceId": "dataSource_1",
               "fields": [
                 "Ward"
@@ -713,9 +689,9 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "Ward is:",
+                    "label": "Ward is :",
                     "display": "BLOCK",
-                    "hint": "",
+                    "hint": "Numbers 1 through 7",
                     "cascade": "NONE"
                   },
                   "displayLabel": null,
@@ -733,8 +709,8 @@
       "id": "widget_13",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-          "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
+          "dataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "Ward"
@@ -808,13 +784,13 @@
                 "size": 14
               }
             },
-            "name": "Surface Type",
+            "name": "Surface Type:",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-              "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
+              "dataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
+              "mainDataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "Surface_Ty"
+                "Surface__1"
               ]
             },
             "sqlExprObj": {
@@ -822,7 +798,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Surface_Ty",
+                  "jimuFieldName": "Surface__1",
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
@@ -832,9 +808,9 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "Surface Type is:",
+                    "label": "Surface Type is :",
                     "display": "BLOCK",
-                    "hint": "OC, BR, PCC, AC, etc.",
+                    "hint": "AC, OC, PCC, BR, etc.",
                     "cascade": "NONE"
                   },
                   "displayLabel": null,
@@ -842,7 +818,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Surface_Ty = ?)"
+              "displaySQL": "(Surface__1 = ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
@@ -852,11 +828,11 @@
       "id": "widget_15",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-          "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
+          "dataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Surface_Ty"
+            "Surface__1"
           ]
         }
       ]
@@ -890,13 +866,13 @@
                 "size": 14
               }
             },
-            "name": "PCI rating",
+            "name": "PCI Rating",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-              "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
+              "dataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
+              "mainDataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "Predicted1"
+                "PCI"
               ]
             },
             "sqlExprObj": {
@@ -904,89 +880,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Predicted1",
-                  "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "TEXT_BOX",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": "PCI is greater than:",
-                    "display": "BLOCK",
-                    "hint": " between 0 and 100",
-                    "cascade": null
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "",
-              "displaySQL": "(Predicted1 > ?)"
-            },
-            "autoApplyWhenWidgetOpen": false,
-            "collapseFilterExprs": false
-          }
-        ]
-      },
-      "id": "widget_16",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-          "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "Predicted1"
-          ]
-        }
-      ]
-    },
-    "widget_17": {
-      "uri": "widgets/common/filter/",
-      "version": "1.10.0",
-      "label": "PCI Less",
-      "config": {
-        "groupByLayer": false,
-        "logicalOperator": "AND",
-        "custom": false,
-        "resetAll": false,
-        "turnOffAll": false,
-        "arrangeType": "BLOCK",
-        "triggerType": "TOGGLE",
-        "omitInternalStyle": false,
-        "filterItems": [
-          {
-            "icon": {
-              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295H15ZM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1Z\" fill=\"#000\"></path></svg>",
-              "properties": {
-                "color": "",
-                "filename": "filter.svg",
-                "originalName": "filter.svg",
-                "inlineSvg": true,
-                "path": [
-                  "general",
-                  "filter"
-                ],
-                "size": 14
-              }
-            },
-            "name": "PCI rating",
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-              "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "Predicted1"
-              ]
-            },
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Predicted1",
+                  "jimuFieldName": "PCI",
                   "operator": "NUMBER_OPERATOR_IS_LESS_THAN",
                   "valueOptions": {
                     "isValid": true,
@@ -996,9 +890,29 @@
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "PCI is less than:",
+                    "label": "PCI is less than :",
                     "display": "BLOCK",
-                    "hint": "between 0 and 100",
+                    "hint": "Between 0 and 100",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "PCI",
+                  "operator": "NUMBER_OPERATOR_IS_GREATER_THAN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "TEXT_BOX",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "PCI is greater than :",
+                    "display": "BLOCK",
+                    "hint": "Between 0 and 100",
                     "cascade": null
                   },
                   "displayLabel": null,
@@ -1006,21 +920,21 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Predicted1 < ?)"
+              "displaySQL": "(PCI < ?) and (PCI > ?)"
             },
             "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
           }
         ]
       },
-      "id": "widget_17",
+      "id": "widget_16",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-          "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
+          "dataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Predicted1"
+            "PCI"
           ]
         }
       ]
@@ -1033,25 +947,25 @@
         "tools": {
           "cursorEnable": false
         },
-        "template": "pie",
+        "template": "donut",
         "webChart": {
           "version": "1.0.0",
-          "id": "pie",
+          "id": "donut",
           "type": "chart",
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "Surface_Ty"
+                "Surface__1"
               ],
               "outStatistics": [
                 {
                   "statisticType": "sum",
-                  "onStatisticField": "Shape__Area",
-                  "outStatisticFieldName": "Shape__Area_sum"
+                  "onStatisticField": "SHAPE_AR_1",
+                  "outStatisticFieldName": "SHAPE_AR_1_sum"
                 }
               ],
               "orderByFields": [
-                "Surface_Ty ASC"
+                "Surface__1 ASC"
               ]
             }
           },
@@ -1059,32 +973,21 @@
             {
               "type": "pieSeries",
               "colorType": "colorMatch",
-              "id": "Shape__Area",
-              "name": "Shape.STArea()",
-              "x": "Surface_Ty",
-              "y": "Shape__Area_sum",
+              "id": "SHAPE_AR_1",
+              "name": "SHAPE_AR_1",
+              "x": "Surface__1",
+              "y": "SHAPE_AR_1_sum",
               "innerRadius": 45,
-              "startAngle": 135,
-              "endAngle": 495,
+              "startAngle": 45,
+              "endAngle": 405,
               "displayNumericValueOnDataLabel": false,
               "displayPercentageOnDataLabel": true,
               "displayNumericValueOnTooltip": true,
               "displayPercentageOnTooltip": true,
-              "dataLabelsOffset": 20,
+              "dataLabelsOffset": 0,
               "sliceGrouping": {
                 "percentageThreshold": 0,
-                "groupName": "Other",
-                "fillSymbol": {
-                  "type": "esriSFS",
-                  "style": "esriSFSSolid",
-                  "color": "#D6D6D6",
-                  "outline": {
-                    "type": "esriSLS",
-                    "style": "esriSLSSolid",
-                    "color": "var(--light-100)",
-                    "width": 1
-                  }
-                }
+                "groupName": "Other"
               },
               "numericValueFormat": {
                 "type": "number",
@@ -1123,9 +1026,9 @@
                   "color": "var(--dark-600)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 12,
+                    "size": 11,
                     "style": "normal",
-                    "weight": "normal",
+                    "weight": "bold",
                     "decoration": "none"
                   },
                   "horizontalAlignment": "center",
@@ -1138,7 +1041,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#77B484",
+                    "color": "#5E8FD0",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1152,7 +1055,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#DBCF4E",
+                    "color": "#77B484",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1166,7 +1069,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#41546D",
+                    "color": "#DF6B35",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1180,7 +1083,7 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#8257C2",
+                    "color": "#DBCF4E",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
@@ -1203,16 +1106,16 @@
                 "family": "Avenir Next",
                 "size": 24,
                 "style": "normal",
-                "weight": "normal",
+                "weight": "bold",
                 "decoration": "none"
               },
               "horizontalAlignment": "center",
-              "text": "Area (sf) by Surface Type"
+              "text": "Area (SF) by Surface Type"
             }
           },
           "footer": {
             "type": "chartText",
-            "visible": false,
+            "visible": true,
             "content": {
               "type": "esriTS",
               "color": "var(--dark-800)",
@@ -1252,7 +1155,7 @@
               "color": "var(--dark-800)",
               "font": {
                 "family": "Avenir Next",
-                "size": 16,
+                "size": 14,
                 "style": "normal",
                 "weight": "normal",
                 "decoration": "none"
@@ -1270,12 +1173,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-          "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
+          "dataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Surface_Ty",
-            "Shape__Area"
+            "Surface__1",
+            "SHAPE_AR_1"
           ]
         }
       ],
@@ -1305,36 +1208,33 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "Surface_Ty"
+                "Surface__1"
               ],
               "outStatistics": [
                 {
-                  "statisticType": "percentile_cont",
-                  "onStatisticField": "Predicted1",
-                  "outStatisticFieldName": "Predicted1_percentile_cont",
-                  "statisticParameters": {
-                    "value": 0.5
-                  }
+                  "statisticType": "avg",
+                  "onStatisticField": "PCI",
+                  "outStatisticFieldName": "PCI_avg"
                 }
               ],
               "orderByFields": [
-                "Surface_Ty ASC"
+                "PCI_avg ASC"
               ]
             }
           },
           "series": [
             {
               "type": "lineSeries",
-              "id": "Predicted1",
-              "name": "Predicted1",
-              "x": "Surface_Ty",
-              "y": "Predicted1_percentile_cont",
+              "id": "PCI",
+              "name": "PCI",
+              "x": "Surface__1",
+              "y": "PCI_avg",
               "colorType": "singleColor",
-              "stackedType": "sideBySide",
+              "stackedType": "stacked",
               "lineSymbol": {
                 "type": "esriSLS",
                 "style": "esriSLSSolid",
-                "color": "#5E8FD0",
+                "color": "#77B484",
                 "width": 2
               },
               "dataLabels": {
@@ -1345,7 +1245,7 @@
                   "color": "var(--dark-600)",
                   "font": {
                     "family": "Avenir Next",
-                    "size": 10,
+                    "size": 11,
                     "style": "normal",
                     "weight": "bold",
                     "decoration": "none"
@@ -1500,7 +1400,7 @@
                 "family": "Avenir Next",
                 "size": 24,
                 "style": "normal",
-                "weight": "normal",
+                "weight": "bold",
                 "decoration": "none"
               },
               "horizontalAlignment": "center",
@@ -1567,12 +1467,12 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-          "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
+          "dataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Surface_Ty",
-            "Predicted1"
+            "Surface__1",
+            "PCI"
           ]
         }
       ],
@@ -2536,16 +2436,16 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_26/1697574295540.JPG",
-            "originalUrl": "${appResourceUrl}/images/widget_26/1697574295540.JPG",
-            "fileName": "1697574295540.JPG",
-            "originalName": "PM legend - Edwardsville.JPG",
+            "url": "${appResourceUrl}/images/widget_26/1706108188090.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_26/1706108188090.jpg",
+            "fileName": "1706108188090.jpg",
+            "originalName": "DashboardPCILegend.jpg",
             "imgSourceType": "BY_UPLOAD",
             "fileFormat": "image/jpeg",
-            "originalId": "1697574295540",
+            "originalId": "1706108188090",
             "isUseCompress": false,
-            "originalWidth": 364,
-            "originalHeight": 72
+            "originalWidth": 169,
+            "originalHeight": 392
           },
           "imageDisplayQualityMode": "ORIGINAL",
           "imgSourceType": "",
@@ -2575,8 +2475,8 @@
       "label": "Area by Surface Type statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-          "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
+          "dataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
           "rootDataSourceId": "dataSource_1"
         }
       ],
@@ -2591,29 +2491,29 @@
             "type": "NUMBER",
             "name": "objectid"
           },
-          "Surface_Ty": {
-            "jimuName": "Surface_Ty",
-            "name": "Surface_Ty",
+          "Surface__1": {
+            "jimuName": "Surface__1",
+            "name": "Surface__1",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "Surface_Ty",
+            "alias": "Surface__1",
             "format": null,
             "originFields": [
-              "Surface_Ty"
+              "Surface__1"
             ]
           },
-          "Shape__Area_sum": {
-            "jimuName": "Shape__Area_sum",
-            "name": "Shape__Area_sum",
+          "SHAPE_AR_1_sum": {
+            "jimuName": "SHAPE_AR_1_sum",
+            "name": "SHAPE_AR_1_sum",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Shape__Area_sum",
+            "alias": "SHAPE_AR_1_sum",
             "format": {
               "digitSeparator": false,
               "places": 6
             },
             "originFields": [
-              "Shape__Area"
+              "SHAPE_AR_1"
             ]
           }
         }
@@ -2625,8 +2525,8 @@
       "label": "PCI by Surface statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
-          "mainDataSourceId": "dataSource_1-46d97cb6f38b4193ae01a67d9f3d8930",
+          "dataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
+          "mainDataSourceId": "dataSource_1-18d3bd5e012-layer-3-3",
           "rootDataSourceId": "dataSource_1"
         }
       ],
@@ -2641,29 +2541,29 @@
             "type": "NUMBER",
             "name": "objectid"
           },
-          "Surface_Ty": {
-            "jimuName": "Surface_Ty",
-            "name": "Surface_Ty",
+          "Surface__1": {
+            "jimuName": "Surface__1",
+            "name": "Surface__1",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "Surface_Ty",
+            "alias": "Surface__1",
             "format": null,
             "originFields": [
-              "Surface_Ty"
+              "Surface__1"
             ]
           },
-          "Predicted1_percentile_cont": {
-            "jimuName": "Predicted1_percentile_cont",
-            "name": "Predicted1_percentile_cont",
+          "PCI_avg": {
+            "jimuName": "PCI_avg",
+            "name": "PCI_avg",
             "type": "NUMBER",
             "esriType": "esriFieldTypeDouble",
-            "alias": "Predicted1_percentile_cont",
+            "alias": "PCI_avg",
             "format": {
               "digitSeparator": false,
               "places": 6
             },
             "originFields": [
-              "Predicted1"
+              "PCI"
             ]
           }
         }
@@ -2675,10 +2575,10 @@
     "portalUrl": "https://geo.twm-inc.com/arcgis",
     "isWebTier": false,
     "clientId": "",
-    "title": "geoapps EdwardsvilleIL/Pavement",
+    "title": "geoapps Edwardsville/Pavement",
     "description": "",
     "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1696961581640.JPG"
+    "thumbnail": null
   },
   "sharedThemeVariables": {
     "header": {
@@ -2710,7 +2610,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1697574316211,
+  "timestamp": 1706108243466,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
@@ -2817,11 +2717,6 @@
       }
     }
   },
-  "historyLabels": {
-    "pages": {
-      "page_0": [
-        "Historic"
-      ]
-    }
-  }
+  "id": "32",
+  "success": true
 }

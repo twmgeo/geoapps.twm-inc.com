@@ -40,5 +40,19 @@
     "isUseCompress": false,
     "originalWidth": 364,
     "originalHeight": 72
+  },
+  "1706108188090": {
+    "originalName": "DashboardPCILegend.jpg",
+    "fileName": "1706108188090.jpg",
+    "size": 14738,
+    "url": "${appResourceUrl}/images/widget_26/1706108188090.jpg",
+    "created": 1706108188090,
+    "resourcesPrefix": "images/widget_26",
+    "referedIds": [],
+    "originId": "1706108188090",
+    "fileFormat": "image/jpeg",
+    "isUseCompress": false,
+    "originalWidth": 169,
+    "originalHeight": 392
   }
 }
