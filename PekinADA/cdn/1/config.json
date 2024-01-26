@@ -1,0 +1,2589 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": false,
+      "label": "Overview",
+      "header": true,
+      "bodyBackgroundColor": "var(--light-200)"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "23.2%",
+            "right": "20.1%",
+            "top": "0.0%",
+            "bottom": "32.8%",
+            "width": "56.7%",
+            "height": "67.2%"
+          },
+          "widgetId": "widget_12",
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "76.8%",
+            "top": "0.1%",
+            "bottom": "50.9%",
+            "width": "23.2%",
+            "height": "49.0%"
+          },
+          "widgetId": "widget_18",
+          "isPending": false
+        },
+        "4": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "76.8%",
+            "top": "48.9%",
+            "bottom": "0.0%",
+            "width": "23.2%",
+            "height": "51.1%"
+          },
+          "widgetId": "widget_26"
+        },
+        "5": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "23.2%",
+            "right": "20.1%",
+            "top": "67.2%",
+            "bottom": "0.1%",
+            "width": "56.7%",
+            "height": "32.7%"
+          },
+          "widgetId": "widget_27",
+          "isPending": false
+        },
+        "6": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          },
+          "bbox": {
+            "left": "79.9%",
+            "right": "0.0%",
+            "top": "0.1%",
+            "bottom": "78.9%",
+            "width": "20.1%",
+            "height": "21.0%"
+          },
+          "widgetId": "widget_30"
+        },
+        "7": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "80.0%",
+            "right": "0.0%",
+            "top": "21.1%",
+            "bottom": "0.0%",
+            "width": "20.0%",
+            "height": "78.9%"
+          },
+          "widgetId": "widget_31",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "layout_1": {
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "2",
+        "3",
+        "4"
+      ],
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "25.3%",
+            "right": "25.3%",
+            "top": "15.8%",
+            "bottom": "6.3%",
+            "width": "49.4%",
+            "height": "78.0%"
+          },
+          "widgetId": "widget_9",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "76.6%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "23.4%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_14",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "84.5%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "15.5%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_25",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      }
+    },
+    "layout_5": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "93.7%",
+            "right": "1.60%",
+            "top": "19.0%",
+            "bottom": "75.8%",
+            "width": "35.00px",
+            "height": "35.00px"
+          },
+          "widgetId": "widget_20",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    }
+  },
+  "exbVersion": "1.10.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "32",
+  "widgets": {
+    "widget_9": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Text 3",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(1, 42, 132); font-size: 26px;\">Pekin ADA Dashboard﻿ - DRAFT VERSION</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_9"
+    },
+    "widget_12": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.10.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": false,
+          "canSearch": true,
+          "canNavigation": false,
+          "canBaseMap": true,
+          "canMeasure": true,
+          "canScaleBar": false,
+          "canSelect": false,
+          "canSelectState": false,
+          "canLocate": false,
+          "canLayers": true
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 72223.819286,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -9977844.589399524,
+              "y": 4947897.080665625
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -9984571.04788861,
+            "ymin": 4941619.689717713,
+            "xmax": -9971118.130910438,
+            "ymax": 4954174.471613537
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        }
+      },
+      "id": "widget_12",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_5"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_14": {
+      "uri": "widgets/common/image/",
+      "version": "1.10.0",
+      "label": "Image",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://www.ci.pekin.il.us/",
+            "expression": null
+          },
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://www.ci.pekin.il.us/_assets_/images/logo.png",
+            "originalUrl": "https://www.ci.pekin.il.us/_assets_/images/logo.png",
+            "fileName": "logo.png",
+            "originalName": "logo.png",
+            "imgSourceType": "BY_URL"
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_14",
+      "useDataSources": []
+    },
+    "widget_18": {
+      "uri": "widgets/common/chart/",
+      "version": "1.10.0",
+      "label": "Obstructions by Type",
+      "config": {
+        "tools": {
+          "cursorEnable": false
+        },
+        "template": "pie",
+        "webChart": {
+          "version": "1.0.0",
+          "id": "pie",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "refname"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "objectid",
+                  "outStatisticFieldName": "objectid_count"
+                }
+              ],
+              "orderByFields": [
+                "refname ASC"
+              ]
+            }
+          },
+          "series": [
+            {
+              "type": "pieSeries",
+              "colorType": "colorMatch",
+              "id": "objectid",
+              "name": "OBJECTID",
+              "x": "refname",
+              "y": "objectid_count",
+              "innerRadius": 40,
+              "startAngle": 0,
+              "endAngle": 360,
+              "displayNumericValueOnDataLabel": true,
+              "displayPercentageOnDataLabel": false,
+              "displayNumericValueOnTooltip": true,
+              "displayPercentageOnTooltip": true,
+              "dataLabelsOffset": 0,
+              "sliceGrouping": {
+                "percentageThreshold": 0,
+                "groupName": "Other"
+              },
+              "numericValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "percentValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6D6D6",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-100)",
+                  "width": 1
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 11,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "slices": [
+                {
+                  "sliceId": "ERB",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#5E8FD0",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "FH",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#77B484",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "LP",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DF6B35",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "MB",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DBCF4E",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "PP",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#41546D",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "SN",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#8257C2",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "TP",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#D6558B",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "TREE",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#5E8FD0",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "TS",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#77B484",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "TS-Arm",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DF6B35",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "Obstructions by Type"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": false,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
+      "id": "widget_18",
+      "outputDataSources": [
+        "widget_18_ouput"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-d734ad8f82a2417d8f7a18480a0cc94c",
+          "mainDataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-d734ad8f82a2417d8f7a18480a0cc94c",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "refname",
+            "objectid"
+          ]
+        }
+      ],
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      },
+      "enableDataAction": false
+    },
+    "widget_20": {
+      "uri": "widgets/common/print/",
+      "version": "1.10.0",
+      "label": "Print",
+      "config": {
+        "printServiceType": "CUSTOMIZE",
+        "printTemplateType": "CUSTOMIZE",
+        "modeType": "COMPACT",
+        "commonSetting": {
+          "scalePreserved": false,
+          "layoutOptions": {
+            "titleText": "ArcGIS Web Map"
+          },
+          "outScale": 36978595.474472,
+          "exportOptions": {
+            "dpi": 96
+          },
+          "printExtentType": "CURRENT MAP EXTENT",
+          "forceFeatureAttributes": false,
+          "wkid": 102100,
+          "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+          "enableTitle": true,
+          "enableMapPrintExtents": true,
+          "enableOutputSpatialReference": false,
+          "enableQuality": true,
+          "enableFeatureAttribution": true
+        },
+        "hasInitBorder": true,
+        "printCustomTemplate": [
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_11x17",
+            "layout": "TWM_Layout_Landscape_11x17",
+            "format": "png32",
+            "templateId": "config_custom_0",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_24x36",
+            "layout": "TWM_Layout_Landscape_24x36",
+            "format": "png32",
+            "templateId": "config_custom_1",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_36x48",
+            "layout": "TWM_Layout_Landscape_36x48",
+            "format": "png32",
+            "templateId": "config_custom_2",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Landscape_8x11",
+            "layout": "TWM_Layout_Landscape_8x11",
+            "format": "png32",
+            "templateId": "config_custom_3",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_11x17",
+            "layout": "TWM_Layout_Portrait_11x17",
+            "format": "png32",
+            "templateId": "config_custom_4",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_24x36",
+            "layout": "TWM_Layout_Portrait_24x36",
+            "format": "png32",
+            "templateId": "config_custom_5",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_36x48",
+            "layout": "TWM_Layout_Portrait_36x48",
+            "format": "png32",
+            "templateId": "config_custom_6",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TWM_Layout_Portrait_8x11",
+            "layout": "TWM_Layout_Portrait_8x11",
+            "format": "png32",
+            "templateId": "config_custom_7",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_11x17_Landscape",
+            "layout": "xPlain_11x17_Landscape",
+            "format": "png32",
+            "templateId": "config_custom_8",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_11x17_Portrait",
+            "layout": "xPlain_11x17_Portrait",
+            "format": "png32",
+            "templateId": "config_custom_9",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_8x11_Landscape",
+            "layout": "xPlain_8x11_Landscape",
+            "format": "png32",
+            "templateId": "config_custom_10",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "xPlain_8x11_Portrait",
+            "layout": "xPlain_8x11_Portrait",
+            "format": "png32",
+            "templateId": "config_custom_11",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {}
+            },
+            "exportOptions": {
+              "dpi": 96,
+              "width": 800,
+              "height": 1100
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "png32",
+            "templateId": "config_custom_12",
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
+          }
+        ],
+        "useUtility": {
+          "utilityId": "utility_1"
+        },
+        "formatList": [
+          "pdf",
+          "png32",
+          "png8",
+          "jpg",
+          "gif",
+          "eps",
+          "svg",
+          "svgz"
+        ],
+        "defaultFormat": "pdf",
+        "layoutChoiceList": [
+          {
+            "label": "TWM_Layout_Landscape_11x17",
+            "layout": "TWM_Layout_Landscape_11x17",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_11x17",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Landscape_24x36",
+            "layout": "TWM_Layout_Landscape_24x36",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_24x36",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Landscape_36x48",
+            "layout": "TWM_Layout_Landscape_36x48",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_36x48",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Landscape_8x11",
+            "layout": "TWM_Layout_Landscape_8x11",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Landscape_8x11",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_11x17",
+            "layout": "TWM_Layout_Portrait_11x17",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_11x17",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_24x36",
+            "layout": "TWM_Layout_Portrait_24x36",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_24x36",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_36x48",
+            "layout": "TWM_Layout_Portrait_36x48",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_36x48",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "TWM_Layout_Portrait_8x11",
+            "layout": "TWM_Layout_Portrait_8x11",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "TWM_Layout_Portrait_8x11",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true
+          },
+          {
+            "label": "xPlain_11x17_Landscape",
+            "layout": "xPlain_11x17_Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_11x17_Landscape",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "xPlain_11x17_Portrait",
+            "layout": "xPlain_11x17_Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_11x17_Portrait",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "xPlain_8x11_Landscape",
+            "layout": "xPlain_8x11_Landscape",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_8x11_Landscape",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "xPlain_8x11_Portrait",
+            "layout": "xPlain_8x11_Portrait",
+            "format": "PNG32",
+            "layoutOptions": {
+              "legend": false
+            },
+            "layoutTemplate": "xPlain_8x11_Portrait",
+            "hasAuthorText": false,
+            "hasCopyrightText": false,
+            "hasLegend": false,
+            "hasTitleText": false
+          },
+          {
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "PNG32",
+            "layoutTemplate": "MAP_ONLY"
+          }
+        ]
+      },
+      "id": "widget_20",
+      "style": {
+        "border": {
+          "color": "var(--light-400)",
+          "type": "solid",
+          "width": "0px"
+        },
+        "boxShadow": {
+          "presetStyle": "shadow-sm"
+        }
+      },
+      "useMapWidgetIds": [
+        "widget_12"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_1"
+        }
+      ]
+    },
+    "widget_25": {
+      "uri": "widgets/common/image/",
+      "version": "1.10.0",
+      "label": "Image 2",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://www.twm-inc.com",
+            "expression": null
+          },
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_25/1696613354012.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_25/1696613354012.jpg",
+            "fileName": "1696613354012.jpg",
+            "originalName": "TWM_CMYK_white buffer Sml.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1696613354012",
+            "isUseCompress": false,
+            "originalWidth": 750,
+            "originalHeight": 312
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_25",
+      "useDataSources": []
+    },
+    "widget_26": {
+      "uri": "widgets/common/chart/",
+      "version": "1.10.0",
+      "label": "Obstructions by District",
+      "config": {
+        "tools": {
+          "cursorEnable": false
+        },
+        "template": "pie",
+        "webChart": {
+          "version": "1.0.0",
+          "id": "pie",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "district"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "objectid",
+                  "outStatisticFieldName": "objectid_count"
+                }
+              ],
+              "orderByFields": [
+                "district ASC"
+              ]
+            }
+          },
+          "series": [
+            {
+              "type": "pieSeries",
+              "colorType": "colorMatch",
+              "id": "objectid",
+              "name": "OBJECTID",
+              "x": "district",
+              "y": "objectid_count",
+              "innerRadius": 40,
+              "startAngle": 0,
+              "endAngle": 360,
+              "displayNumericValueOnDataLabel": true,
+              "displayPercentageOnDataLabel": false,
+              "displayNumericValueOnTooltip": true,
+              "displayPercentageOnTooltip": true,
+              "dataLabelsOffset": 0,
+              "sliceGrouping": {
+                "percentageThreshold": 0,
+                "groupName": "Other"
+              },
+              "numericValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "percentValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6D6D6",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-100)",
+                  "width": 1
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 11,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "slices": [
+                {
+                  "sliceId": 1,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#5E8FD0",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": 2,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#77B484",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": 3,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DF6B35",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": 4,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DBCF4E",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": 5,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#41546D",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": 6,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#8257C2",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": 7,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#D6558B",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": 8,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#5E8FD0",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": 9,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#77B484",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": 10,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DF6B35",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": 11,
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DBCF4E",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "Number of Obstructions by District"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": false,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": true,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": "District"
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "left"
+          }
+        }
+      },
+      "id": "widget_26",
+      "outputDataSources": [
+        "dataSource_2"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-d734ad8f82a2417d8f7a18480a0cc94c",
+          "mainDataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-d734ad8f82a2417d8f7a18480a0cc94c",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "district",
+            "objectid"
+          ]
+        }
+      ],
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      },
+      "enableDataAction": false
+    },
+    "widget_27": {
+      "uri": "widgets/common/chart/",
+      "version": "1.10.0",
+      "label": "Chart",
+      "config": {
+        "tools": {
+          "cursorEnable": false
+        },
+        "template": "column",
+        "webChart": {
+          "version": "1.0.0",
+          "id": "column",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "district"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "objectid",
+                  "outStatisticFieldName": "objectid_count"
+                }
+              ],
+              "orderByFields": [
+                "district ASC"
+              ]
+            }
+          },
+          "series": [
+            {
+              "type": "barSeries",
+              "id": "objectid",
+              "name": "OBJECTID",
+              "x": "district",
+              "y": "objectid_count",
+              "colorType": "singleColor",
+              "stackedType": "sideBySide",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#5E8FD0",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false
+            }
+          ],
+          "axes": [
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle",
+                  "text": "District"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "left",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "category",
+                "characterLimit": 11
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--light-300)",
+                "width": 1
+              }
+            },
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--light-300)",
+                "width": 0
+              }
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "Number of Trip Hazards by District"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": false,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
+      "id": "widget_27",
+      "outputDataSources": [
+        "widget_27_ouput"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-8f11a8ee2f174b2881af2bf5023f7085",
+          "mainDataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-8f11a8ee2f174b2881af2bf5023f7085",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "district",
+            "objectid"
+          ]
+        }
+      ]
+    },
+    "widget_30": {
+      "uri": "widgets/arcgis/bookmark/",
+      "version": "1.10.0",
+      "label": "Bookmark",
+      "config": {
+        "templateType": "LIST",
+        "isTemplateConfirm": false,
+        "isInitialed": true,
+        "bookmarks": [],
+        "initBookmark": false,
+        "runtimeAddAllow": false,
+        "autoPlayAllow": false,
+        "autoInterval": 3,
+        "autoLoopAllow": true,
+        "style": {
+          "id": "default"
+        },
+        "direction": "HORIZON",
+        "pageStyle": "PAGING",
+        "space": 10,
+        "scrollBarOpen": true,
+        "navigatorOpen": false,
+        "transition": "None",
+        "transitionDirection": "H",
+        "displayType": "SELECTED",
+        "itemHeight": 240,
+        "itemWidth": 240,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "effect": {
+            "type": "None",
+            "option": {
+              "direction": "TOP",
+              "configType": "DEFAULT"
+            }
+          },
+          "oneByOneEffect": null,
+          "previewId": null
+        }
+      },
+      "id": "widget_30"
+    },
+    "widget_31": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.10.0",
+      "label": "Legend",
+      "config": {},
+      "id": "widget_31",
+      "useMapWidgetIds": [
+        "widget_12"
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "200230 - Draft Dashboard",
+      "itemId": "7a855213e619402db6e8550aa1f65548",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
+    },
+    "widget_18_ouput": {
+      "id": "widget_18_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "Obstructions by Type statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-d734ad8f82a2417d8f7a18480a0cc94c",
+          "mainDataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-d734ad8f82a2417d8f7a18480a0cc94c",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "refname": {
+            "jimuName": "refname",
+            "name": "refname",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "RefName",
+            "format": null,
+            "originFields": [
+              "refname"
+            ]
+          },
+          "objectid_count": {
+            "jimuName": "objectid_count",
+            "name": "objectid_count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "objectid_count",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "objectid"
+            ]
+          }
+        }
+      }
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "FEATURE_LAYER",
+      "label": "Obstructions by District statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-d734ad8f82a2417d8f7a18480a0cc94c",
+          "mainDataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-d734ad8f82a2417d8f7a18480a0cc94c",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "district": {
+            "jimuName": "district",
+            "name": "district",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeSmallInteger",
+            "alias": "District",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "district"
+            ]
+          },
+          "objectid_count": {
+            "jimuName": "objectid_count",
+            "name": "objectid_count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "objectid_count",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "objectid"
+            ]
+          }
+        }
+      }
+    },
+    "widget_27_ouput": {
+      "id": "widget_27_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "Chart statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-8f11a8ee2f174b2881af2bf5023f7085",
+          "mainDataSourceId": "dataSource_1-58b494a4c2cf4ec49f361db724f1dc16-8f11a8ee2f174b2881af2bf5023f7085",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "district"
+          ]
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "district": {
+            "jimuName": "district",
+            "name": "district",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeSmallInteger",
+            "alias": "District",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "district"
+            ]
+          },
+          "objectid_count": {
+            "jimuName": "objectid_count",
+            "name": "objectid_count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "objectid_count",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "objectid"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "geoapps /Pavement Management Dashboard 1",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
+  },
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#730000",
+      "color": "#ffffff"
+    },
+    "body": {},
+    "button": {
+      "bg": "#730000",
+      "color": "#ffffff"
+    },
+    "logo": {
+      "small": "https://geo.twm-inc.com/arcgis/sharing/rest/content/items/d11424e0028246bdad694ab475c33447/data",
+      "link": "https://twm-inc.com"
+    }
+  },
+  "originExbVersion": "1.10.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "header": {
+    "layout": {
+      "LARGE": "layout_1"
+    },
+    "height": {
+      "LARGE": "64px"
+    },
+    "backgroundColor": "#ffffff"
+  },
+  "timestamp": 1706292949135,
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": null,
+      "name": "printTask",
+      "url": "https://geo.twm-inc.com/arcgis/rest/services/TWM_Printing_Service/GPServer/Export%20Web%20Map",
+      "source": "org",
+      "orgSetting": {
+        "templates": [
+          {
+            "label": "TWM_Layout_Landscape_NoLegend",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape_NoLegend",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "11x17_Landscape",
+            "format": "PNG32",
+            "layout": "11x17_Landscape",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "11x17_Portrait",
+            "format": "PNG32",
+            "layout": "11x17_Portrait",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "8_5x11_Landscape",
+            "format": "PNG32",
+            "layout": "8_5x11_Landscape",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "8_5x11_Portrait",
+            "format": "PNG32",
+            "layout": "8_5x11_Portrait",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Landscape",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Landscape_24x36",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape_24x36",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Landscape_36x48",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape_36x48",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Portrait",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Portrait",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Portrait_24x36",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Portrait_24x36",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Portrait_36x48",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Portrait_36x48",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "MAP_ONLY",
+            "format": "PNG32",
+            "layout": "MAP_ONLY"
+          }
+        ]
+      }
+    }
+  },
+  "id": "32",
+  "success": true
+}
