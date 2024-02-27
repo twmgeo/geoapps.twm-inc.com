@@ -681,7 +681,7 @@
         },
         "isUseCustomMapState": false,
         "layoutIndex": 1,
-        "initialMapDataSourceID": "dataSource_2",
+        "initialMapDataSourceID": "dataSource_1",
         "initialMapState": null
       },
       "id": "widget_37",
@@ -692,8 +692,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2",
-          "mainDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
         }
       ]
     },
@@ -5105,11 +5105,11 @@
       },
       "geometryType": "esriGeometryPoint"
     },
-    "dataSource_2": {
-      "id": "dataSource_2",
+    "dataSource_1": {
+      "id": "dataSource_1",
       "type": "WEB_MAP",
-      "sourceLabel": "Richmond Heights 24",
-      "itemId": "77a3f1c4f00e470988309e13130e4682",
+      "sourceLabel": "Richmond Heights 22 Viewer",
+      "itemId": "bb13ca794fca42019ef6069316ed40f5",
       "portalUrl": "https://geo.twm-inc.com/arcgis"
     }
   },
@@ -5347,5 +5347,5 @@
       }
     }
   },
-  "timestamp": 1708984108477
+  "timestamp": 1709052770671
 }
