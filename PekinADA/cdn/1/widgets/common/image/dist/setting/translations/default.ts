@@ -28,5 +28,5 @@ export default {
   displayQualityTooltipWithLow: 'Low',
   displayQualityTooltipWithMedium: 'Medium',
   displayQualityTooltipWithHigh: 'High',
-  displayQualityTooltipWithOriginal: 'Original',
+  displayQualityTooltipWithOriginal: 'Original'
 }

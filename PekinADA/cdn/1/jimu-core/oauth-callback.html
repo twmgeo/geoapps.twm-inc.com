@@ -20,8 +20,7 @@
             // alert error message except for clicking cancel
             alert(hash.error_description || hash.error);
           }
-          const {portal, clientId, fromUrl, isDevEdition, mountPath} = query;
-          const redirectUri = `${window.location.origin}${window.location.pathname}?clientId=${clientId}&portal=${portal}&popup=${popup}&fromUrl=${fromUrl}`
+          const {portal, clientId, isDevEdition, mountPath} = query;
           if(popup) {
             // SessionManager.signIn listens for popup window closing.
             window.close();
@@ -29,7 +28,8 @@
           } else {
             if (isDevEdition === 'true') {
               // Redirect to set-portalUrl page
-              window.location.href = `${location.protocol}//${location.host}${mountPath}page/set-portalurl`;
+              const mountPathFinal = mountPath ? mountPath : '/'
+              window.location.href = `${location.protocol}//${location.host}${mountPathFinal}page/set-portalurl`;
             } else {
               // Redirect to landing page
               window.location.href = `${location.protocol}//${location.host}/page/landing`;
@@ -100,7 +100,7 @@
             popup: popup,
           });
           writeAuthInfo(session, query, hash);
-          window.location.href = query.fromUrl;
+          window.location.href = decodeURIComponent(query.fromUrl);
         }
       }
 

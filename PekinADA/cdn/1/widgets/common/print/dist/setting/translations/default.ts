@@ -51,5 +51,24 @@ export default {
   featureAttributes: 'Feature attributes',
   includeAttributes: 'Include attributes',
   northArrow: 'North arrow',
-  includeNorthArrow: 'Include north arrow'
+  includeNorthArrow: 'Include north arrow',
+  serviceIsNotAvailable: 'Service is not available.',
+  printPreviewStyle: 'Print preview style',
+  enablePrintPreview: 'Enable print preview',
+
+  useServiceLayout: 'Use service layout',
+  useCustomLayout: 'Use layout from layout item',
+
+  useServiceReport: 'Use service report',
+  useCustomReport: 'Use report from report item',
+
+  report: 'Report',
+
+  reportRemind: 'The report can only be generated in PDF format. If you want to print the report only, please choose the MAP_ONLY layout option.',
+  reportNotConfigured: 'The report is not configured with any data.',
+
+  selectLayoutItemPlaceholder: 'Select an layout item',
+  selectReportItemPlaceholder: 'Select a report item',
+  checkingReport: 'Checking report',
+  notSupportReport: 'Report template is not supported.'
 }

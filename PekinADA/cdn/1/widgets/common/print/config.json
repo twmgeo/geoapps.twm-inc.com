@@ -20,5 +20,11 @@
    "enableOutputSpatialReference": false,
    "enableQuality": true,
    "enableFeatureAttribution": true
+ },
+ "previewBackgroundColor": "rgba(0,216,237,1)",
+ "enablePreview": true,
+ "previewOutLine": {
+    "color": "#000",
+    "size": "4px"
  }
 }

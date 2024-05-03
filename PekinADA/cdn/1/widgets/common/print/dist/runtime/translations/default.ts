@@ -35,5 +35,6 @@ export default {
   mapAttribution: 'Map attribution',
   resultEmptyMessage: 'Your printed files will appear here.',
   northArrow: 'North arrow',
-  includeNorthArrow: 'Include north arrow'
+  includeNorthArrow: 'Include north arrow',
+  resultsNumber: 'Results {number}'
 }

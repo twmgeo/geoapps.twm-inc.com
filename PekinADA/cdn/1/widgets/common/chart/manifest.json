@@ -2,12 +2,14 @@
   "name": "chart",
   "label": "Chart",
   "type": "widget",
-  "version": "1.10.0",
-  "exbVersion": "1.10.0",
+  "version": "1.14.0",
+  "exbVersion": "1.14.0",
   "author": "Esri R&D Center Beijing",
   "description": "This is the widget used in developer guide",
   "copyright": "",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "dependency": "jimu-arcgis",
+  "settingDependency": "jimu-arcgis",
   "publishMessages": [
     {
       "messageType": "DATA_RECORDS_SELECTION_CHANGE",
@@ -20,10 +22,16 @@
   },
   "properties": {
     "hasSettingPage": true,
-    "canConsumeDataAction": true
+    "canConsumeDataAction": true,
+    "coverLayoutBackground": true,
+    "notAutoLoadUsedFieldsData": true
   },
   "excludeDataActions": [
-    "arcgis-map.*"
+    "arcgis-map.*",
+    "setFilter",
+    "near-me.locate",
+    "elevation-profile.*",
+    "directions.*"
   ],
   "extensions": [],
   "translatedLocales": [
