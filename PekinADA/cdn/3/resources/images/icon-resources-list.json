@@ -1,0 +1,20 @@
+{
+  "filter.svg": {
+    "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295H15ZM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1Z\" fill=\"#000\"></path></svg>",
+    "properties": {
+      "filename": "filter.svg",
+      "originalName": "filter.svg",
+      "path": [
+        "general",
+        "filter"
+      ],
+      "inlineSvg": true
+    }
+  },
+  "undefined": {
+    "svg": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"css-1i7frhi jimu-icon\"><path d=\"M2 1a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg>?token=y-guk3JX1VfA6-4lcI9x0VEmFPopSs6IaBsqbhWGBmmqBm52pScdAMBQQSuExJz-F9VI1wa7QUYVEb5RdNPrshxa2YprIOmxHHONE13Oq4owxFTzF5ivP9qX9-H2YrlzEXwL36adMNgtZB5a_0Ov7K1e9MMacDUKN5npkk6Aa4OTGoSukJbo3gDzdLbjCmGIB2ZP2mL09i8xpN_7N41vhWFi1ZHWZIFV-0bZzRcNzzM.?token=y-guk3JX1VfA6-4lcI9x0VEmFPopSs6IaBsqbhWGBmmqBm52pScdAMBQQSuExJz-F9VI1wa7QUYVEb5RdNPrshxa2YprIOmxHHONE13Oq4owxFTzF5ivP9qX9-H2YrlzEXwL36adMNgtZB5a_0Ov7K1e9MMacDUKN5npkk6Aa4OTGoSukJbo3gDzdLbjCmGIB2ZP2mL09i8xpN_7N41vhWFi1ZHWZIFV-0bZzRcNzzM.?token=y-guk3JX1VfA6-4lcI9x0VEmFPopSs6IaBsqbhWGBmmqBm52pScdAMBQQSuExJz-F9VI1wa7QUYVEb5RdNPrshxa2YprIOmxHHONE13Oq4owxFTzF5ivP9qX9-H2YrlzEXwL36adMNgtZB5a_0Ov7K1e9MMacDUKN5npkk6Aa4OTGoSukJbo3gDzdLbjCmGIB2ZP2mL09i8xpN_7N41vhWFi1ZHWZIFV-0bZzRcNzzM.?token=y-guk3JX1VfA6-4lcI9x0VEmFPopSs6IaBsqbhWGBmmqBm52pScdAMBQQSuExJz-F9VI1wa7QUYVEb5RdNPrshxa2YprIOmxHHONE13Oq4owxFTzF5ivP9qX9-H2YrlzEXwL36adMNgtZB5a_0Ov7K1e9MMacDUKN5npkk6Aa4OTGoSukJbo3gDzdLbjCmGIB2ZP2mL09i8xpN_7N41vhWFi1ZHWZIFV-0bZzRcNzzM.?token=y-guk3JX1VfA6-4lcI9x0VEmFPopSs6IaBsqbhWGBmmqBm52pScdAMBQQSuExJz-F9VI1wa7QUYVEb5RdNPrshxa2YprIOmxHHONE13Oq4owxFTzF5ivP9qX9-H2YrlzEXwL36adMNgtZB5a_0Ov7K1e9MMacDUKN5npkk6Aa4OTGoSukJbo3gDzdLbjCmGIB2ZP2mL09i8xpN_7N41vhWFi1ZHWZIFV-0bZzRcNzzM.",
+    "properties": {
+      "inlineSvg": true
+    }
+  }
+}
