@@ -971,7 +971,6 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: rgb(1, 42, 132);\">Pekin ADA Dashboard</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -3904,7 +3903,6 @@
       "label": "Text 4",
       "config": {
         "text": "<p><exp data-uniqueid=\"18452d1e_8d6a_09da_0bee_1b90467191c1\" data-dsid=\"dataSource_3-f536e68fdf8b454f8f15e6f791afa2a6\" data-expression=\"%7B%22name%22%3A%22%7BFREQUENCY%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFREQUENCY%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-f536e68fdf8b454f8f15e6f791afa2a6-selection%22%2C%22jimuFieldName%22%3A%22FREQUENCY%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{FREQUENCY}﻿</span>﻿</exp> <exp data-uniqueid=\"d9711b11_76f6_768c_2cbb_19157a590816\" data-dsid=\"dataSource_3-f536e68fdf8b454f8f15e6f791afa2a6\" data-expression=\"%7B%22name%22%3A%22No%20Data%20Found%20or%20Selected%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFREQUENCY%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-f536e68fdf8b454f8f15e6f791afa2a6-selection%22%2C%22jimuFieldName%22%3A%22FREQUENCY%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">No Data Found or Selected</span>﻿</exp> </p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -4446,12 +4444,12 @@
                 "decoration": "none"
               },
               "horizontalAlignment": "center",
-              "text": ""
+              "text": "Trip Hazards"
             }
           },
           "footer": {
             "type": "chartText",
-            "visible": true,
+            "visible": false,
             "content": {
               "type": "esriTS",
               "color": "var(--dark-800)",
@@ -5486,7 +5484,6 @@
       "label": "Text 5",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 2.2;\"><strong style=\"color: var(--org-button-color); font-size: 75px; letter-spacing: 0px;\"><exp data-uniqueid=\"574c1f71_ee9c_0b17_4536_77541562380e\" data-dsid=\"dataSource_12-6853481beac2462795e28db7b820c039\" data-expression=\"%7B%22name%22%3A%22%7BFREQUENCY%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFREQUENCY%7D%22%2C%22dataSourceId%22%3A%22dataSource_12-6853481beac2462795e28db7b820c039%22%2C%22jimuFieldName%22%3A%22FREQUENCY%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{FREQUENCY}﻿﻿﻿</span>﻿</exp> </strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5732,7 +5729,6 @@
       "label": "Text 6",
       "config": {
         "text": "<p style=\"line-height: 1.8; text-align: center;\"><strong style=\"font-size: 22px; color: var(--org-button-color);\">Obstructions</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5745,8 +5741,7 @@
       "version": "1.14.0",
       "label": "Text 8",
       "config": {
-        "text": "<p style=\"line-height: 1.8; text-align: center;\"><strong style=\"color: var(--org-button-color); font-size: 22px; letter-spacing: 0px;\">Hazards</strong></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"letter-spacing: 0px; font-size: 22px; color: var(--org-button-color);\">Trip Hazards</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5760,7 +5755,6 @@
       "label": "Text 9",
       "config": {
         "text": "<p style=\"line-height: 2.2; text-align: center;\"><strong style=\"font-size: 75px; color: var(--org-button-color);\"><exp data-uniqueid=\"b25a9197_fe59_2781_5739_d717f0882319\" data-dsid=\"dataSource_12-c45395669d3c49498ea747cc0b0efbf1\" data-expression=\"%7B%22name%22%3A%22%7BFREQUENCY%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFREQUENCY%7D%22%2C%22dataSourceId%22%3A%22dataSource_12-c45395669d3c49498ea747cc0b0efbf1%22%2C%22jimuFieldName%22%3A%22FREQUENCY%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{FREQUENCY}﻿﻿﻿</span>﻿</exp></strong><strong style=\"font-size: 75px;\"> </strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -6024,7 +6018,6 @@
       "label": "Text 11",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.8;\"><strong style=\"letter-spacing: 0px; font-size: 22px; color: var(--org-button-color);\">Ramps</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -6038,7 +6031,6 @@
       "label": "Text 12",
       "config": {
         "text": "<p style=\"line-height: 2.2; text-align: center;\"><strong style=\"color: var(--org-button-color); font-size: 75px;\"><exp data-uniqueid=\"e1f4f04e_3cfd_b044_abb2_5f27fb9ac418\" data-dsid=\"dataSource_12-f536e68fdf8b454f8f15e6f791afa2a6\" data-expression=\"%7B%22name%22%3A%22SUM(%7BFREQUENCY%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFREQUENCY%7D%22%2C%22dataSourceId%22%3A%22dataSource_12-f536e68fdf8b454f8f15e6f791afa2a6%22%2C%22jimuFieldName%22%3A%22FREQUENCY%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿SUM({FREQUENCY})﻿﻿﻿﻿</span>﻿</exp></strong>  </p>",
-        "placeholder": "<p><strong style=\"font-size: 25px;\">Double click to edit text</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -6078,7 +6070,6 @@
       "label": "Text 13",
       "config": {
         "text": "<p style=\"line-height: 1.8; text-align: center;\"><strong style=\"color: var(--org-button-color); font-size: 22px; letter-spacing: 0px;\">Crosswalks</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -6092,7 +6083,6 @@
       "label": "Text 15",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 2.2;\"><strong style=\"font-size: 75px; color: var(--org-button-color);\">﻿<exp data-uniqueid=\"02981e91_e27c_2123_6190_f03347268199\" data-dsid=\"dataSource_12-3311116558f94a91a9e6d7aaa61ffdee\" data-expression=\"%7B%22name%22%3A%22SUM(%7BFREQUENCY%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFREQUENCY%7D%22%2C%22dataSourceId%22%3A%22dataSource_12-3311116558f94a91a9e6d7aaa61ffdee%22%2C%22jimuFieldName%22%3A%22FREQUENCY%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿SUM({FREQUENCY})﻿</span>﻿</exp> </strong></p>",
-        "placeholder": "<p style=\"text-align: center; line-height: 2.2;\"><strong style=\"font-size: 13px; color: var(--org-button-color);\">Double click to edit text</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -6132,7 +6122,6 @@
       "label": "Text 16",
       "config": {
         "text": "<p style=\"text-align: center; line-height: 1.6;\"><strong style=\"font-size: 13px;\">The filter below will highlight a plan year on the map and the indicators will update with the number of issues remedied in that year.</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -6175,7 +6164,6 @@
       "label": "Text 17",
       "config": {
         "text": "<p style=\"line-height: 2;\"><strong style=\"font-size: 18px; color: var(--org-button-color);\">Pekin ADA</strong><strong style=\"font-size: 18px;\">﻿</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -7953,7 +7941,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "200230 Pekin ADA Final",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1714583291156.png"
   },
   "sharedThemeVariables": {
     "header": {
@@ -7985,7 +7979,7 @@
     },
     "backgroundColor": "#ffffff"
   },
-  "timestamp": 1714770221659,
+  "timestamp": 1715092959915,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
@@ -8093,5 +8087,15 @@
     }
   },
   "id": "32",
-  "success": true
+  "success": true,
+  "historyLabels": {
+    "views": {
+      "view_1": [
+        "Project Overview"
+      ],
+      "view_5": [
+        "10 year plan"
+      ]
+    }
+  }
 }
