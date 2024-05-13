@@ -505,7 +505,7 @@
       "uri": "widgets/common/table/",
       "version": "1.14.0",
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/table/icon.svg",
+        "svg": "widgets/common/table/icon.svg",
         "properties": {
           "filename": "table.svg",
           "originalName": "default/table.svg",
