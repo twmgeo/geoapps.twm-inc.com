@@ -389,7 +389,6 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><span style=\"font-size: 20px; color: var(--light);\">Caseyville Township GIS | Viewer</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -884,7 +883,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/search/icon.svg",
+        "svg": "widgets/common/search/icon.svg",
         "properties": {
           "filename": "search.svg",
           "originalName": "default/search.svg",
@@ -916,7 +915,7 @@
         },
         "isUseCustomMapState": true,
         "layoutIndex": 1,
-        "initialMapDataSourceID": "dataSource_2",
+        "initialMapDataSourceID": "dataSource_3",
         "initialMapState": {
           "viewPoint": {
             "rotation": 0,
@@ -926,8 +925,8 @@
                 "latestWkid": 3857,
                 "wkid": 102100
               },
-              "x": -10016068.162948256,
-              "y": 4665076.00008432
+              "x": -10014919.05907875,
+              "y": 4665441.941949016
             }
           },
           "extent": {
@@ -935,10 +934,10 @@
               "latestWkid": 3857,
               "wkid": 102100
             },
-            "xmin": -10028298.087473867,
-            "ymin": 4657948.247196737,
-            "xmax": -10003838.238422645,
-            "ymax": 4672203.752971903
+            "xmin": -10025486.47823916,
+            "ymin": 4659288.761172068,
+            "xmax": -10004351.639918339,
+            "ymax": 4671595.1227259645
           },
           "rotation": 0,
           "viewType": "2d"
@@ -952,8 +951,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2",
-          "mainDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_3",
+          "mainDataSourceId": "dataSource_3"
         }
       ],
       "enableDataAction": false
@@ -1108,7 +1107,7 @@
       },
       "id": "widget_40",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/bookmark/icon.svg",
+        "svg": "widgets/arcgis/bookmark/icon.svg",
         "properties": {
           "filename": "Bookmark",
           "originalName": null,
@@ -1126,7 +1125,7 @@
       "uri": "widgets/arcgis/map-layers/",
       "version": "1.14.0",
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/arcgis/map-layers/icon.svg",
+        "svg": "widgets/arcgis/map-layers/icon.svg",
         "properties": {
           "filename": "map-layers.svg",
           "originalName": "default/map-layers.svg",
@@ -1152,7 +1151,7 @@
       "uri": "widgets/arcgis/legend/",
       "version": "1.14.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/legend/icon.svg",
+        "svg": "widgets/arcgis/legend/icon.svg",
         "properties": {
           "filename": "Legend",
           "originalName": null,
@@ -1295,7 +1294,7 @@
       "uri": "widgets/common/print/",
       "version": "1.14.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/print/icon.svg",
+        "svg": "widgets/common/print/icon.svg",
         "properties": {
           "filename": "Print",
           "originalName": null,
@@ -2221,7 +2220,7 @@
       "uri": "widgets/arcgis/draw/",
       "version": "1.6.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/draw/icon.svg",
+        "svg": "widgets/arcgis/draw/icon.svg",
         "properties": {
           "filename": "Draw",
           "originalName": null,
@@ -2353,7 +2352,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/controller/icon.svg",
+        "svg": "widgets/common/controller/icon.svg",
         "properties": {
           "filename": "Widget Controller",
           "originalName": null,
@@ -2463,18 +2462,11 @@
       },
       "geometryType": "esriGeometryPoint"
     },
-    "dataSource_1": {
-      "id": "dataSource_1",
+    "dataSource_3": {
+      "id": "dataSource_3",
       "type": "WEB_MAP",
-      "sourceLabel": "Caseyville Sanitary NP Fix",
-      "itemId": "f15fa64bc70d47abbf337bec8696b428",
-      "portalUrl": "https://geo.twm-inc.com/arcgis"
-    },
-    "dataSource_2": {
-      "id": "dataSource_2",
-      "type": "WEB_MAP",
-      "sourceLabel": "Caseyville Sanitary 2024",
-      "itemId": "b72bbb461968427fbb2f542ed5eccb9b",
+      "sourceLabel": "Caseyville Sanitary 2024-Viewer",
+      "itemId": "86371ae277b646dabe779e7b348b656b",
       "portalUrl": "https://geo.twm-inc.com/arcgis"
     }
   },
@@ -2533,7 +2525,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Caseyville Township Viewer",
+    "description": "2023 rebuild of existing viewer app and move to ExB.",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1685726009019.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2706,5 +2704,5 @@
       }
     }
   },
-  "timestamp": 1715371640383
+  "timestamp": 1715972728194
 }
